@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>MTG Decklist Image Generator - Lorwyn's Gloom</h1>
+
+    <div class="container">
+      <!-- Input Area -->
+      <div class="input-panel">
+        <div>
+          <div class="section-title">デッキリスト</div>
+          <textarea
+            id="deck-input"
+            placeholder="カード名　(コスト)　×1&#13;&#10;（Arenaのエクスポート形式など）"
+          ></textarea>
+        </div>
+
+        <select id="colorSelect">
+          <option value="ALL">ALL Decks</option>
+          <option value="WU">WU - Azorius</option>
+          <option value="WB">WB - Orzhov</option>
+          <option value="WR">WR - Boros</option>
+          <option value="WG">WG - Selesnya</option>
+          <option value="UB">UB - Dimir</option>
+          <option value="UR">UR - Izzet</option>
+          <option value="UG">UG - Simic</option>
+          <option value="BR">BR - Rakdos</option>
+          <option value="BG">BG - Golgari</option>
+          <option value="RG">RG - Gruul</option>
+        </select>
+
+        <button id="generate-btn" title="画像を生成">
+          <img src="mm_wk19_299_t3.jpg" alt="画像を生成" />
+        </button>
+        <div class="status-text" id="status-message"></div>
+      </div>
+
+      <!-- Output Area -->
+      <div class="output-panel">
+        <canvas id="deck-canvas"></canvas>
+        <button id="saveBtn" disabled>画像を保存</button>
+        <div style="margin-top: 15px; color: #888; font-size: 0.9rem">
+          生成された画像は右クリック（または長押し）で保存できます
+        </div>
+      </div>
+    </div>
+
+    <script src="gamedata.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
