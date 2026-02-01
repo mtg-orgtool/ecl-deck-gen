@@ -4,18 +4,18 @@ const csv = require("csv-parser");
 
 // --- 設定 ---
 const LIST_FILE = "mtg_ECL_list.txt";
-const CSV_MAP = {
-  ALL: "ECL_WRiH_0126.csv",
-  WU: "WU_0126.csv",
-  WB: "WB_0126.csv",
-  WR: "WR_0126.csv",
-  WG: "WG_0126.csv",
-  UB: "UB_0126.csv",
-  UR: "UR_0126.csv",
-  UG: "UG_0126.csv",
-  BR: "BR_0126.csv",
-  BG: "BG_0126.csv",
-  RG: "RG_0126.csv",
+const FILE_MAP = {
+  ALL: "ALL Decks0129.csv",
+  WU: "WU0129.csv",
+  WB: "WB0129.csv",
+  WR: "WR0129.csv",
+  WG: "WG0129.csv",
+  UB: "UB0129.csv",
+  UR: "UR0129.csv",
+  UG: "UG0129.csv",
+  BR: "BR0129.csv",
+  BG: "BG0129.csv",
+  RG: "RG0129.csv",
 };
 const IMAGE_DIR = "./cardlist";
 const OUTPUT_FILE = "gamedata.js";
@@ -119,7 +119,7 @@ async function build() {
   console.log("\n17landsデータの読み込み開始...");
   const tierData = {}; // { [normalizedName]: { ALL: "55%", WU: "52%", ... } }
 
-  for (const [colorKey, csvFile] of Object.entries(CSV_MAP)) {
+  for (const [colorKey, csvFile] of Object.entries(FILE_MAP)) {
     await new Promise((resolve, reject) => {
       if (!fs.existsSync(csvFile)) {
         console.warn(
@@ -211,7 +211,7 @@ async function build() {
     card.winRates = {}; // winRateも色別に保持しておく(念のため)
 
     // CSV_MAPの全キーについてデータを埋める
-    Object.keys(CSV_MAP).forEach((colorKey) => {
+    Object.keys(FILE_MAP).forEach((colorKey) => {
       const wrStr = cardTiersData[colorKey] || "-";
       card.winRates[colorKey] = wrStr;
       card.tiers[colorKey] = calculateTier(wrStr);

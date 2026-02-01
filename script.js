@@ -347,6 +347,26 @@ function parseDeck(deckText) {
       color: "C",
     };
 
+    // ★修正: 基本土地の画像ファイル名補正（WebP対応版）
+    const basicLandMap = {
+      Plains: "Plains.webp",
+      平地: "Plains.webp",
+      Island: "Island.webp",
+      島: "Island.webp",
+      Swamp: "Swamp.webp",
+      沼: "Swamp.webp",
+      Mountain: "Mountain.webp",
+      山: "Mountain.webp",
+      Forest: "Forest.webp",
+      森: "Forest.webp",
+    };
+    // nameEn または displayName が基本土地ならファイルを割り当て
+    if (basicLandMap[cardInfo.nameEn]) {
+      cardInfo.fileName = basicLandMap[cardInfo.nameEn];
+    } else if (basicLandMap[cardInfo.displayName]) {
+      cardInfo.fileName = basicLandMap[cardInfo.displayName];
+    }
+
     // コスト計算（安全化）
     if (cardInfo.cost) {
       cardInfo.cmc = getManaValue(cardInfo.cost);
