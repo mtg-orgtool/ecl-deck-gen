@@ -5,17 +5,17 @@ const csv = require("csv-parser");
 // --- 設定 ---
 const LIST_FILE = "mtg_ECL_list.txt";
 const FILE_MAP = {
-  ALL: "ALL Decks0129.csv",
-  WU: "WU0129.csv",
-  WB: "WB0129.csv",
-  WR: "WR0129.csv",
-  WG: "WG0129.csv",
-  UB: "UB0129.csv",
-  UR: "UR0129.csv",
-  UG: "UG0129.csv",
-  BR: "BR0129.csv",
-  BG: "BG0129.csv",
-  RG: "RG0129.csv",
+  ALL: "ALL Decks0220.csv",
+  WU: "WU0220.csv",
+  WB: "WB0220.csv",
+  WR: "WR0220.csv",
+  WG: "WG0220.csv",
+  UB: "UB0220.csv",
+  UR: "UR0220.csv",
+  UG: "UG0220.csv",
+  BR: "BR0220.csv",
+  BG: "BG0220.csv",
+  RG: "RG0220.csv",
 };
 const IMAGE_DIR = "./cardlist";
 const OUTPUT_FILE = "gamedata.js";
