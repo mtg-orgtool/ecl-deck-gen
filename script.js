@@ -418,7 +418,7 @@ function parseDeck(deckText) {
       console.log("抽出・クレンジング後のカード名:", `[${cleanedName}]`);
       console.log("マスターデータに存在するか:", !!foundCard);
     }
-    const isBasicLand = BASIC_LAND_NAMES.some((l) => cleanedName.includes(l));
+    const isBasicLand = BASIC_LAND_NAMES.some((l) => cleanedName === l);
 
     if (!foundCard && !isBasicLand) {
       console.warn(`見つかりません: "${cleanedName}"`);
@@ -526,20 +526,13 @@ function drawDeck(deckList) {
   const currentColCount = getColumnCount();
 
   const groupedCards = {
-    basicLands: [], // ★基本土地専用グループ
-    lands: [], // ★特殊土地グループ
+    lands: [], // ★土地グループ（基本・特殊をまとめる）
   };
 
   deckList.forEach((card) => {
-    // 先に基本土地かどうかを判定し、完全に分離する
-    const isBasic = BASIC_LAND_NAMES.some((n) => card.displayName.includes(n));
-    if (isBasic) {
-      groupedCards.basicLands.push(card);
-      return; // 基本土地の場合はここで終了し、マナコスト判定には進まない
-    }
-
+    const isBasic = BASIC_LAND_NAMES.some((n) => card.displayName === n);
     const typeStr = card.type || ""; // undefined対策
-    if (typeStr.includes("土地") || typeStr.includes("Land")) {
+    if (isBasic || typeStr.includes("土地") || typeStr.includes("Land")) {
       groupedCards.lands.push(card);
     } else {
       const cmc = card.cmc || 0;
@@ -571,38 +564,46 @@ function drawDeck(deckList) {
   };
 
   for (const key in groupedCards) {
-    if (key !== "lands" && key !== "basicLands")
+    if (key !== "lands") {
       groupedCards[key].sort(sortInGroup);
+    }
   }
 
-  // 非基本土地のソート (従来通りだが基本土地のチェックは不要に)
+  // ★土地のソート (特殊土地 -> 基本土地の順)
   groupedCards.lands.sort((a, b) => {
+    const isBasicA = BASIC_LAND_NAMES.some((n) => a.displayName === n);
+    const isBasicB = BASIC_LAND_NAMES.some((n) => b.displayName === n);
+
+    // 特殊土地を先に、基本土地を後にする
+    if (!isBasicA && isBasicB) return -1;
+    if (isBasicA && !isBasicB) return 1;
+
+    if (isBasicA && isBasicB) {
+      if (a.count !== b.count) return b.count - a.count;
+      const wubrgOrder = [
+        "Plains",
+        "平地",
+        "Island",
+        "島",
+        "Swamp",
+        "沼",
+        "Mountain",
+        "山",
+        "Forest",
+        "森",
+      ];
+      const idxA = wubrgOrder.findIndex((n) => a.displayName === n);
+      const idxB = wubrgOrder.findIndex((n) => b.displayName === n);
+      if (idxA !== -1 && idxB !== -1) return idxA - idxB;
+      if (idxA !== -1) return -1;
+      if (idxB !== -1) return 1;
+      return a.displayName.localeCompare(b.displayName);
+    }
+
+    // 特殊土地同士のソート
     const scoreA = getTierScore(a.tier);
     const scoreB = getTierScore(b.tier);
     if (scoreA !== scoreB) return scoreB - scoreA;
-    return a.displayName.localeCompare(b.displayName);
-  });
-
-  // ★追加: 基本土地のソート
-  groupedCards.basicLands.sort((a, b) => {
-    if (a.count !== b.count) return b.count - a.count;
-    const wubrgOrder = [
-      "Plains",
-      "平地",
-      "Island",
-      "島",
-      "Swamp",
-      "沼",
-      "Mountain",
-      "山",
-      "Forest",
-      "森",
-    ];
-    const idxA = wubrgOrder.findIndex((n) => a.displayName.includes(n));
-    const idxB = wubrgOrder.findIndex((n) => b.displayName.includes(n));
-    if (idxA !== -1 && idxB !== -1) return idxA - idxB;
-    if (idxA !== -1) return -1;
-    if (idxB !== -1) return 1;
     return a.displayName.localeCompare(b.displayName);
   });
 
@@ -613,8 +614,8 @@ function drawDeck(deckList) {
     .sort((a, b) => a - b)
     .map((cmc) => `cost${cmc}`);
 
-  // 描画順：マナコスト順 -> 特殊土地
-  const groupOrder = [...costKeys, "lands"];
+  // 描画順：マナコスト順 (土地は groupOrder から外し、一番下で1列に描画)
+  const groupOrder = [...costKeys];
   const groupSpacing = 20;
 
   let requiredHeight = GAP;
@@ -627,20 +628,20 @@ function drawDeck(deckList) {
     }
   });
 
-  // ★追加: 基本土地用の高さ計算
-  let maxBasicLandsWidth = 0;
-  if (groupedCards.basicLands.length > 0) {
-    const basicLandsCount = groupedCards.basicLands.length;
-    // 基本土地は1列に並べるため、必要な幅を計算
-    maxBasicLandsWidth = basicLandsCount * (CARD_W + GAP) + GAP;
+  // ★土地用の高さ計算
+  let maxLandsWidth = 0;
+  if (groupedCards.lands.length > 0) {
+    const landsCount = groupedCards.lands.length;
+    // 土地は1列に並べるため、必要な幅を計算
+    maxLandsWidth = landsCount * (CARD_W + GAP) + GAP;
     // 高さを1行分追加 (ラベル用スペースも少し考慮)
     requiredHeight += CARD_H + GAP + groupSpacing;
   }
 
-  // キャンバスの幅は、通常カードの必要幅と基本土地の必要幅の大きい方に合わせる
+  // キャンバスの幅は、通常カードの必要幅と土地の必要幅の大きい方に合わせる
   const normalColumnsWidth =
     (CARD_W + GAP) * currentColCount + GAP + COUNT_COL_WIDTH;
-  deckCanvas.width = Math.max(normalColumnsWidth, maxBasicLandsWidth);
+  deckCanvas.width = Math.max(normalColumnsWidth, maxLandsWidth);
   deckCanvas.height = Math.max(requiredHeight, 400) + HEADER_HEIGHT + PADDING;
   deckCtx.fillStyle = "#111";
   deckCtx.fillRect(0, 0, deckCanvas.width, deckCanvas.height);
@@ -691,19 +692,13 @@ function drawDeck(deckList) {
     }
   });
 
-  // ★追加: 基本土地の描画 (一番下)
-  if (groupedCards.basicLands.length > 0) {
+  // ★追加: 土地の描画 (一番下、一列に配置)
+  if (groupedCards.lands.length > 0) {
     const groupStartY = y;
     let totalCountInGroup = 0;
 
-    groupedCards.basicLands.forEach((card, i) => {
+    groupedCards.lands.forEach((card, i) => {
       totalCountInGroup += card.count;
-      const x =
-        GAP +
-        +(deckCanvas.width <= normalColumnsWidth ? COUNT_COL_WIDTH : 0) +
-        i * (CARD_W + GAP);
-      // 全体幅が広がった場合は中央寄せにするなどの工夫も可能だが、シンプルに左端から並べる
-      // COUNT_COL_WIDTH を維持するかどうかはデザイン次第。今回は通常列と左端を揃える.
       const adjustedX = GAP + COUNT_COL_WIDTH + i * (CARD_W + GAP);
       const currentY = groupStartY;
 
@@ -713,7 +708,6 @@ function drawDeck(deckList) {
         drawFallbackCard(deckCtx, adjustedX, currentY, card);
       }
       drawBadge(deckCtx, adjustedX, currentY, card.count);
-      // 基本土地にTierは通常つけないのでアイコンは省略でも可 (既存機能通りに一応呼ぶ)
       drawTierIcon(deckCtx, adjustedX, currentY, card.tier);
     });
 
@@ -748,28 +742,23 @@ function drawDeck(deckList) {
 function calculateDeckStats(groupedCards) {
   const stats = { creatures: 0, spells: 0, lands: 0 };
 
-  // 通常グループの集計
   Object.keys(groupedCards).forEach((key) => {
-    if (key === "basicLands") return; // 基本土地は後で足す
+    if (key === "lands") {
+      groupedCards[key].forEach((card) => {
+        stats.lands += card.count;
+      });
+      return;
+    }
 
     groupedCards[key].forEach((card) => {
       const type = card.type || "";
-      if (type.includes("土地") || type.includes("Land")) {
-        stats.lands += card.count;
-      } else if (type.includes("クリーチャー") || type.includes("Creature")) {
+      if (type.includes("クリーチャー") || type.includes("Creature")) {
         stats.creatures += card.count;
       } else {
         stats.spells += card.count;
       }
     });
   });
-
-  // 基本土地の集計（typeに"土地"と入っていない場合も補填するため、強制的にlandsに加算）
-  if (groupedCards.basicLands) {
-    groupedCards.basicLands.forEach((card) => {
-      stats.lands += card.count;
-    });
-  }
 
   return stats;
 }
