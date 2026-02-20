@@ -6,6 +6,8 @@
 let deckCanvas;
 let deckCtx;
 let currentDeckList = []; // デッキリスト保持用
+let isGenerating = false;
+const imageCache = {};
 const CARD_W = 200;
 const CARD_H = 280;
 const GAP = 10;
@@ -67,11 +69,25 @@ document.addEventListener("DOMContentLoaded", () => {
   const colorSelect = document.getElementById("colorSelect");
   if (colorSelect) {
     colorSelect.addEventListener("change", () => {
-      if (currentDeckList.length > 0) {
+      // 生成処理中は再描画させない
+      if (currentDeckList.length > 0 && !isGenerating) {
         drawDeck(currentDeckList);
       }
     });
   }
+
+  // ウィンドウリサイズ・画面回転時の再描画サポート
+  let resizeTimer;
+  window.addEventListener("resize", () => {
+    // 処理中のリサイズは無視する
+    if (isGenerating || currentDeckList.length === 0) return;
+
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => {
+      // 200ms後に再描画を実行（パフォーマンス最適化）
+      drawDeck(currentDeckList);
+    }, 200);
+  });
 });
 
 // --- 2. ヘルパー関数群 ---
@@ -295,14 +311,14 @@ function parseDeck(deckText) {
       namePart = namePart.replace(/\s*[\(（\{].*?[\)）\}]/g, "");
       namePart = namePart.trim();
     } else {
-      // B. アリーナ形式: 行頭の数字
-      const leadNumMatch = line.match(/^(\d+)\s+(.+)/);
+      // B. アリーナ形式: 行頭の数字 (1x や 1× のパターンも許容する。/i で大文字Xも対応)
+      const leadNumMatch = line.match(/^(\d+)[x×]?\s+(.+)/i);
       if (leadNumMatch) {
         count = parseInt(leadNumMatch[1], 10);
         namePart = leadNumMatch[2];
       } else {
-        // 旧形式互換
-        const tailNumMatch = line.match(/(.*?)\s*[x×]\s*(\d+)$/);
+        // 旧形式互換等も大文字のXに対応
+        const tailNumMatch = line.match(/(.*?)\s*[x×]\s*(\d+)$/i);
         if (tailNumMatch) {
           count = parseInt(tailNumMatch[2], 10);
           namePart = tailNumMatch[1];
@@ -312,7 +328,7 @@ function parseDeck(deckText) {
 
     // カード名の正規化
     namePart = namePart.replace(/（.*?）/g, ""); // ルビ削除
-    namePart = namePart.replace(/\s*\([A-Z0-9]{3,}\)\s+\d+$/, ""); // セット情報削除
+    namePart = namePart.replace(/\s*\([A-Za-z0-9]{3,}\)(?:\s+\d+)?$/i, ""); // セット情報削除
     const cleanedName = namePart.trim();
 
     if (!cleanedName) continue;
@@ -386,10 +402,20 @@ function loadCardImages(deckList) {
         resolve();
         return;
       }
-      const img = new Image();
       const src = `./cardlist/${card.fileName}`;
+
+      // ① すでにキャッシュがあれば使い回す
+      if (imageCache[src]) {
+        card.imgObj = imageCache[src];
+        resolve();
+        return;
+      }
+
+      // ② なければ新規作成・ロードしてキャッシュに登録
+      const img = new Image();
       img.onload = () => {
         card.imgObj = img;
+        imageCache[src] = img; // ロード成功時にキャッシュ保存
         resolve();
       };
       img.onerror = () => {
@@ -672,12 +698,18 @@ function onSaveClick() {
 }
 
 async function onGenerateClick() {
+  if (isGenerating) return; // 処理中の二重実行を防止
+
   try {
+    isGenerating = true;
     const saveBtn = document.getElementById("saveBtn");
+    const genBtn = document.getElementById("generate-btn"); // 追加: 生成ボタン
+
     if (saveBtn) {
       saveBtn.disabled = true;
       saveBtn.innerText = "画像を保存";
     }
+    if (genBtn) genBtn.disabled = true; // 処理中はボタンを無効化
 
     setStatus("デッキリストを解析中...");
     const deckInput = document.getElementById("deck-input");
@@ -709,5 +741,9 @@ async function onGenerateClick() {
   } catch (e) {
     console.error(e);
     setStatus(`エラーが発生しました: ${e.message}`, true);
+  } finally {
+    isGenerating = false; // 処理終了時にフラグ解除
+    const genBtn = document.getElementById("generate-btn");
+    if (genBtn) genBtn.disabled = false; // ボタンを再度有効化
   }
 }
