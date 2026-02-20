@@ -317,6 +317,17 @@ function parseDeck(deckText) {
     if (line.startsWith("Sideboard") || line.startsWith("サイドボード")) break;
     if (line.includes("??")) continue;
 
+    // ★修正: 先にルビ（ふりがな）や余分な空白を除去してからパースする
+    line = line.replace(/（.*?）/g, ""); // ルビ削除
+    line = line.replace(/\(.*?\)/g, (match) => {
+      // セット記号 (LRW) などは後で消すので、ここでは数字や英語だけのカッコは残す
+      if (match.match(/\([A-Za-z0-9]{3,}\)/)) return match;
+      if (match.match(/\([0-9A-Z/]+\)/i)) return match; // マナコストっぽいものも残す
+      return ""; // それ以外の半角カッコ（半角ルビなど）は消す
+    });
+    line = line.replace(/[\s　]+/g, " "); // 連続スペース・全角スペースを半角1つに
+    line = line.trim();
+
     let count = 1;
     let namePart = line;
     let manualCost = ""; // ★追加: 手動指定コスト保存用
@@ -352,8 +363,7 @@ function parseDeck(deckText) {
       }
     }
 
-    // カード名の正規化
-    namePart = namePart.replace(/（.*?）/g, ""); // ルビ削除
+    // カード名の正規化 (セット情報削除など)
     namePart = namePart.replace(/\s*\([A-Za-z0-9]{3,}\)(?:\s+\d+)?$/i, ""); // セット情報削除
     const cleanedName = namePart.trim();
 
@@ -468,19 +478,12 @@ function drawDeck(deckList) {
   const currentColCount = getColumnCount();
 
   const groupedCards = {
-    cost0: [],
-    cost1: [],
-    cost2: [],
-    cost3: [],
-    cost4: [],
-    cost5: [],
-    cost6plus: [],
-    lands: [],
-    basicLands: [], // ★追加: 基本土地専用グループ
+    basicLands: [], // ★基本土地専用グループ
+    lands: [], // ★特殊土地グループ
   };
 
   deckList.forEach((card) => {
-    // ★修正: 先に基本土地かどうかを判定し、完全に分離する
+    // 先に基本土地かどうかを判定し、完全に分離する
     const isBasic = BASIC_LAND_NAMES.some((n) => card.displayName.includes(n));
     if (isBasic) {
       groupedCards.basicLands.push(card);
@@ -492,13 +495,11 @@ function drawDeck(deckList) {
       groupedCards.lands.push(card);
     } else {
       const cmc = card.cmc || 0;
-      const cmcKey = cmc >= 6 ? "cost6plus" : `cost${cmc}`;
-      // キーが存在しない場合の安全策
-      if (groupedCards[cmcKey]) {
-        groupedCards[cmcKey].push(card);
-      } else {
-        groupedCards["cost0"].push(card);
+      const cmcKey = `cost${cmc}`;
+      if (!groupedCards[cmcKey]) {
+        groupedCards[cmcKey] = [];
       }
+      groupedCards[cmcKey].push(card);
     }
   });
 
@@ -557,17 +558,15 @@ function drawDeck(deckList) {
     return a.displayName.localeCompare(b.displayName);
   });
 
-  // --- Canvas描画処理 ---
-  const groupOrder = [
-    "cost0",
-    "cost1",
-    "cost2",
-    "cost3",
-    "cost4",
-    "cost5",
-    "cost6plus",
-    "lands",
-  ];
+  // 動的マナコストグループの順序決定
+  const costKeys = Object.keys(groupedCards)
+    .filter((k) => k.startsWith("cost"))
+    .map((k) => parseInt(k.replace("cost", ""), 10))
+    .sort((a, b) => a - b)
+    .map((cmc) => `cost${cmc}`);
+
+  // 描画順：マナコスト順 -> 特殊土地
+  const groupOrder = [...costKeys, "lands"];
   const groupSpacing = 20;
 
   let requiredHeight = GAP;
