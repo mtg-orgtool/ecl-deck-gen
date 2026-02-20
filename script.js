@@ -76,6 +76,16 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  // ★追加: アイコン表示切り替えプルダウンのイベントリスナー
+  const iconDisplaySelect = document.getElementById("iconDisplaySelect");
+  if (iconDisplaySelect) {
+    iconDisplaySelect.addEventListener("change", () => {
+      if (currentDeckList.length > 0 && !isGenerating) {
+        drawDeck(currentDeckList);
+      }
+    });
+  }
+
   // ウィンドウリサイズ・画面回転時の再描画サポート
   let resizeTimer;
   window.addEventListener("resize", () => {
@@ -149,10 +159,23 @@ function getColumnCount() {
 }
 
 function drawTierIcon(ctx, x, y, tier) {
-  if (!tier || tier === "U") return;
-  const iconX = x + 30,
-    iconY = y + 50,
-    radius = 18;
+  // 選択されているアイコンの表示モードを取得
+  const iconDisplaySelect = document.getElementById("iconDisplaySelect");
+  const displayMode = iconDisplaySelect ? iconDisplaySelect.value : "standard";
+
+  if (displayMode === "none" || !tier || tier === "U") return;
+
+  // サイズ計算
+  const scale = displayMode === "large" ? 1.5 : 1.0;
+  const radius = 18 * scale;
+
+  // 大きくなった分、X/Y座標も少しずらして枠を超えすぎないように微調整
+  // 標準：x+30, y+50 => r=18
+  // 大きめ(r=27): 内側に少し寄せるか、元の中心を維持するか
+  // ここでは元の中心座標(x+30, y+50)を維持する形で実装
+  const iconX = x + 30;
+  const iconY = y + 50;
+
   const tierColors = {
     A: "#d92626",
     B: "#22a522",
@@ -161,24 +184,27 @@ function drawTierIcon(ctx, x, y, tier) {
     F: "#555555",
   };
   const color = tierColors[tier.charAt(0)] || "#888888";
+
   ctx.save();
   ctx.shadowColor = "rgba(0, 0, 0, 0.6)";
-  ctx.shadowBlur = 5;
-  ctx.shadowOffsetX = 2;
-  ctx.shadowOffsetY = 2;
+  ctx.shadowBlur = 5 * scale;
+  ctx.shadowOffsetX = 2 * scale;
+  ctx.shadowOffsetY = 2 * scale;
   ctx.beginPath();
   ctx.arc(iconX, iconY, radius, 0, Math.PI * 2);
   ctx.fillStyle = color;
   ctx.fill();
   ctx.strokeStyle = "#ffffff";
-  ctx.lineWidth = 2;
+  ctx.lineWidth = 2 * scale;
   ctx.stroke();
   ctx.restore();
+
   ctx.fillStyle = "#ffffff";
   ctx.textAlign = "center";
   ctx.textBaseline = "middle";
-  ctx.font = "bold 20px Arial";
-  ctx.fillText(tier, iconX, iconY + 1);
+  ctx.font = `bold ${20 * scale}px Arial`;
+  // 文字のY方向の微調整（scaleに合わせて少し下げる）
+  ctx.fillText(tier, iconX, iconY + 1 * scale);
 }
 
 function drawBadge(ctx, x, y, cnt) {
