@@ -1,4 +1,4 @@
-// 自動生成されたデータ (2026/1/29 0:20:42)
+// 自動生成されたデータ (2026/2/20 15:38:43)
 const MASTER_CARD_DATA = {
   "Changeling Wayfinder": {
     "enName": "Changeling Wayfinder",
@@ -9,30 +9,30 @@ const MASTER_CARD_DATA = {
     "tiers": {
       "ALL": "C-",
       "WU": "C-",
-      "WB": "D+",
+      "WB": "C-",
       "WR": "D+",
-      "WG": "C-",
+      "WG": "D+",
       "UB": "D+",
       "UR": "C",
       "UG": "C-",
       "BR": "D",
-      "BG": "C",
-      "RG": "D-"
+      "BG": "C-",
+      "RG": "F"
     },
     "winRates": {
-      "ALL": "54.1%",
-      "WU": "54.3%",
-      "WB": "53.5%",
+      "ALL": "53.7%",
+      "WU": "54.7%",
+      "WB": "53.8%",
       "WR": "53.6%",
-      "WG": "53.8%",
+      "WG": "53.6%",
       "UB": "53.0%",
-      "UR": "56.1%",
-      "UG": "54.2%",
-      "BR": "52.1%",
-      "BG": "55.8%",
-      "RG": "51.1%"
+      "UR": "55.6%",
+      "UG": "53.7%",
+      "BR": "51.8%",
+      "BG": "54.7%",
+      "RG": "48.9%"
     },
-    "winRate": "54.1%",
+    "winRate": "53.7%",
     "tier": "C-"
   },
   "Rooftop Percher": {
@@ -44,30 +44,30 @@ const MASTER_CARD_DATA = {
     "tiers": {
       "ALL": "C",
       "WU": "C-",
-      "WB": "U",
-      "WR": "U",
-      "WG": "C+",
-      "UB": "U",
+      "WB": "D",
+      "WR": "D+",
+      "WG": "C",
+      "UB": "C-",
       "UR": "C+",
       "UG": "U",
-      "BR": "F",
+      "BR": "D+",
       "BG": "C+",
-      "RG": "U"
+      "RG": "F"
     },
     "winRates": {
-      "ALL": "55.4%",
-      "WU": "53.9%",
-      "WB": "-",
-      "WR": "-",
-      "WG": "57.2%",
-      "UB": "-",
-      "UR": "57.1%",
+      "ALL": "55.2%",
+      "WU": "54.0%",
+      "WB": "51.4%",
+      "WR": "53.1%",
+      "WG": "55.8%",
+      "UB": "54.2%",
+      "UR": "56.3%",
       "UG": "-",
-      "BR": "49.3%",
-      "BG": "57.3%",
-      "RG": "-"
+      "BR": "53.1%",
+      "BG": "56.6%",
+      "RG": "48.3%"
     },
-    "winRate": "55.4%",
+    "winRate": "55.2%",
     "tier": "C"
   },
   "Adept Watershaper": {
@@ -80,8 +80,8 @@ const MASTER_CARD_DATA = {
       "ALL": "B-",
       "WU": "B",
       "WB": "U",
-      "WR": "U",
-      "WG": "B",
+      "WR": "C",
+      "WG": "B-",
       "UB": "U",
       "UR": "U",
       "UG": "U",
@@ -90,11 +90,11 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "58.1%",
+      "ALL": "57.8%",
       "WU": "58.8%",
       "WB": "-",
-      "WR": "-",
-      "WG": "59.3%",
+      "WR": "55.7%",
+      "WG": "58.7%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -102,7 +102,7 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "58.1%",
+    "winRate": "57.8%",
     "tier": "B-"
   },
   "Ajani, Outland Chaperone": {
@@ -125,8 +125,8 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "60.7%",
-      "WU": "61.3%",
+      "ALL": "60.6%",
+      "WU": "60.6%",
       "WB": "-",
       "WR": "-",
       "WG": "63.0%",
@@ -137,7 +137,7 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "60.7%",
+    "winRate": "60.6%",
     "tier": "B+"
   },
   "Appeal to Eirdu": {
@@ -147,8 +147,8 @@ const MASTER_CARD_DATA = {
     "type": "インスタント",
     "fileName": "エイルドゥへの嘆願.webp",
     "tiers": {
-      "ALL": "F",
-      "WU": "D",
+      "ALL": "D-",
+      "WU": "D-",
       "WB": "U",
       "WR": "U",
       "WG": "D-",
@@ -160,11 +160,11 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "49.9%",
-      "WU": "51.2%",
+      "ALL": "50.0%",
+      "WU": "50.9%",
       "WB": "-",
       "WR": "-",
-      "WG": "50.1%",
+      "WG": "50.2%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -172,8 +172,8 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "49.9%",
-    "tier": "F"
+    "winRate": "50.0%",
+    "tier": "D-"
   },
   "Bark of Doran": {
     "enName": "Bark of Doran",
@@ -183,10 +183,10 @@ const MASTER_CARD_DATA = {
     "fileName": "ドランの樹皮.webp",
     "tiers": {
       "ALL": "F",
-      "WU": "U",
+      "WU": "D+",
       "WB": "U",
       "WR": "U",
-      "WG": "U",
+      "WG": "F",
       "UB": "U",
       "UR": "U",
       "UG": "U",
@@ -195,11 +195,11 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "48.8%",
-      "WU": "-",
+      "ALL": "49.4%",
+      "WU": "52.8%",
       "WB": "-",
       "WR": "-",
-      "WG": "-",
+      "WG": "47.3%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -207,7 +207,7 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "48.8%",
+    "winRate": "49.4%",
     "tier": "F"
   },
   "Brigid, Clachan's Heart": {
@@ -218,7 +218,7 @@ const MASTER_CARD_DATA = {
     "fileName": "小村の心、ブリジッド.webp",
     "tiers": {
       "ALL": "B+",
-      "WU": "B+",
+      "WU": "B",
       "WB": "U",
       "WR": "U",
       "WG": "A",
@@ -230,11 +230,11 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "61.2%",
-      "WU": "60.5%",
+      "ALL": "60.9%",
+      "WU": "59.1%",
       "WB": "-",
       "WR": "-",
-      "WG": "63.0%",
+      "WG": "63.1%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -242,7 +242,7 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "61.2%",
+    "winRate": "60.9%",
     "tier": "B+"
   },
   "Brigid, Doun's Mind": {
@@ -287,10 +287,10 @@ const MASTER_CARD_DATA = {
     "fileName": "積みすぎな石背負い.webp",
     "tiers": {
       "ALL": "D+",
-      "WU": "D",
+      "WU": "D+",
       "WB": "D+",
-      "WR": "D-",
-      "WG": "C",
+      "WR": "D",
+      "WG": "C-",
       "UB": "U",
       "UR": "U",
       "UG": "U",
@@ -300,10 +300,10 @@ const MASTER_CARD_DATA = {
     },
     "winRates": {
       "ALL": "52.9%",
-      "WU": "52.1%",
-      "WB": "52.7%",
-      "WR": "50.0%",
-      "WG": "55.2%",
+      "WU": "52.9%",
+      "WB": "52.5%",
+      "WR": "51.3%",
+      "WG": "54.4%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -322,10 +322,10 @@ const MASTER_CARD_DATA = {
     "fileName": "小村の闘士.webp",
     "tiers": {
       "ALL": "C",
-      "WU": "U",
+      "WU": "F",
       "WB": "U",
       "WR": "U",
-      "WG": "B-",
+      "WG": "C+",
       "UB": "U",
       "UR": "U",
       "UG": "U",
@@ -334,11 +334,11 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "55.7%",
-      "WU": "-",
+      "ALL": "55.4%",
+      "WU": "49.1%",
       "WB": "-",
       "WR": "-",
-      "WG": "57.6%",
+      "WG": "56.7%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -346,7 +346,7 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "55.7%",
+    "winRate": "55.4%",
     "tier": "C"
   },
   "Clachan Festival": {
@@ -358,7 +358,7 @@ const MASTER_CARD_DATA = {
     "tiers": {
       "ALL": "C+",
       "WU": "C+",
-      "WB": "U",
+      "WB": "D+",
       "WR": "D+",
       "WG": "B-",
       "UB": "U",
@@ -369,11 +369,11 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "56.8%",
-      "WU": "56.6%",
-      "WB": "-",
-      "WR": "52.7%",
-      "WG": "58.2%",
+      "ALL": "56.4%",
+      "WU": "56.2%",
+      "WB": "52.6%",
+      "WR": "52.9%",
+      "WG": "57.5%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -381,7 +381,7 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "56.8%",
+    "winRate": "56.4%",
     "tier": "C+"
   },
   "Crib Swap": {
@@ -392,10 +392,10 @@ const MASTER_CARD_DATA = {
     "fileName": "外身の交換.webp",
     "tiers": {
       "ALL": "F",
-      "WU": "D",
+      "WU": "D-",
       "WB": "U",
       "WR": "U",
-      "WG": "F",
+      "WG": "D-",
       "UB": "U",
       "UR": "U",
       "UG": "U",
@@ -405,10 +405,10 @@ const MASTER_CARD_DATA = {
     },
     "winRates": {
       "ALL": "49.9%",
-      "WU": "51.3%",
+      "WU": "50.8%",
       "WB": "-",
       "WR": "-",
-      "WG": "48.8%",
+      "WG": "50.4%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -429,8 +429,8 @@ const MASTER_CARD_DATA = {
       "ALL": "A",
       "WU": "A+",
       "WB": "U",
-      "WR": "U",
-      "WG": "B+",
+      "WR": "A+",
+      "WG": "A",
       "UB": "U",
       "UR": "U",
       "UG": "U",
@@ -439,11 +439,11 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "63.6%",
-      "WU": "65.5%",
+      "ALL": "63.2%",
+      "WU": "64.3%",
       "WB": "-",
-      "WR": "-",
-      "WG": "61.3%",
+      "WR": "64.2%",
+      "WG": "63.7%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -451,7 +451,7 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "63.6%",
+    "winRate": "63.2%",
     "tier": "A"
   },
   "Eirdu, Carrier of Dawn": {
@@ -463,9 +463,9 @@ const MASTER_CARD_DATA = {
     "tiers": {
       "ALL": "B+",
       "WU": "A-",
-      "WB": "U",
+      "WB": "C+",
       "WR": "U",
-      "WG": "A",
+      "WG": "A+",
       "UB": "U",
       "UR": "U",
       "UG": "U",
@@ -474,11 +474,11 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "61.2%",
-      "WU": "61.5%",
-      "WB": "-",
+      "ALL": "61.1%",
+      "WU": "61.7%",
+      "WB": "57.2%",
       "WR": "-",
-      "WG": "63.6%",
+      "WG": "64.8%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -486,7 +486,7 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "61.2%",
+    "winRate": "61.1%",
     "tier": "B+"
   },
   "Isilu, Carrier of Twilight": {
@@ -534,7 +534,7 @@ const MASTER_CARD_DATA = {
       "WU": "B-",
       "WB": "C-",
       "WR": "D",
-      "WG": "C-",
+      "WG": "C",
       "UB": "U",
       "UR": "U",
       "UG": "U",
@@ -543,11 +543,11 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "56.4%",
-      "WU": "57.8%",
-      "WB": "54.7%",
-      "WR": "52.1%",
-      "WG": "54.1%",
+      "ALL": "56.5%",
+      "WU": "57.7%",
+      "WB": "54.5%",
+      "WR": "51.3%",
+      "WG": "55.1%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -555,7 +555,7 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "56.4%",
+    "winRate": "56.5%",
     "tier": "C+"
   },
   "Evershrike's Gift": {
@@ -567,8 +567,8 @@ const MASTER_CARD_DATA = {
     "tiers": {
       "ALL": "D+",
       "WU": "D",
-      "WB": "U",
-      "WR": "U",
+      "WB": "F",
+      "WR": "F",
       "WG": "C-",
       "UB": "U",
       "UR": "U",
@@ -578,11 +578,11 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "52.7%",
+      "ALL": "53.1%",
       "WU": "52.2%",
-      "WB": "-",
-      "WR": "-",
-      "WG": "54.2%",
+      "WB": "48.1%",
+      "WR": "48.9%",
+      "WG": "54.9%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -590,7 +590,7 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "52.7%",
+    "winRate": "53.1%",
     "tier": "D+"
   },
   "Flock Impostor": {
@@ -600,45 +600,10 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- 多相の戦士(Shapeshifter)",
     "fileName": "鳥群のなりすまし.webp",
     "tiers": {
-      "ALL": "C-",
+      "ALL": "C",
       "WU": "C",
       "WB": "F",
-      "WR": "C-",
-      "WG": "C+",
-      "UB": "U",
-      "UR": "U",
-      "UG": "U",
-      "BR": "U",
-      "BG": "U",
-      "RG": "U"
-    },
-    "winRates": {
-      "ALL": "54.9%",
-      "WU": "55.4%",
-      "WB": "46.5%",
-      "WR": "54.5%",
-      "WG": "56.5%",
-      "UB": "-",
-      "UR": "-",
-      "UG": "-",
-      "BR": "-",
-      "BG": "-",
-      "RG": "-"
-    },
-    "winRate": "54.9%",
-    "tier": "C-"
-  },
-  "Gallant Fowlknight": {
-    "enName": "Gallant Fowlknight",
-    "jpName": "勇敢な鶏騎士",
-    "cost": "(３)(白)",
-    "type": "クリーチャー --- キスキン(Kithkin)・騎士(Knight)",
-    "fileName": "勇敢な鶏騎士.webp",
-    "tiers": {
-      "ALL": "C-",
-      "WU": "C-",
-      "WB": "U",
-      "WR": "D-",
+      "WR": "D",
       "WG": "C",
       "UB": "U",
       "UR": "U",
@@ -648,11 +613,11 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "54.8%",
-      "WU": "54.8%",
-      "WB": "-",
-      "WR": "50.1%",
-      "WG": "55.2%",
+      "ALL": "55.0%",
+      "WU": "55.7%",
+      "WB": "49.1%",
+      "WR": "52.2%",
+      "WG": "56.1%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -660,7 +625,42 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "54.8%",
+    "winRate": "55.0%",
+    "tier": "C"
+  },
+  "Gallant Fowlknight": {
+    "enName": "Gallant Fowlknight",
+    "jpName": "勇敢な鶏騎士",
+    "cost": "(３)(白)",
+    "type": "クリーチャー --- キスキン(Kithkin)・騎士(Knight)",
+    "fileName": "勇敢な鶏騎士.webp",
+    "tiers": {
+      "ALL": "C-",
+      "WU": "D+",
+      "WB": "D-",
+      "WR": "D-",
+      "WG": "C-",
+      "UB": "U",
+      "UR": "U",
+      "UG": "U",
+      "BR": "U",
+      "BG": "U",
+      "RG": "U"
+    },
+    "winRates": {
+      "ALL": "54.2%",
+      "WU": "53.2%",
+      "WB": "50.6%",
+      "WR": "50.5%",
+      "WG": "54.8%",
+      "UB": "-",
+      "UR": "-",
+      "UG": "-",
+      "BR": "-",
+      "BG": "-",
+      "RG": "-"
+    },
+    "winRate": "54.2%",
     "tier": "C-"
   },
   "Goldmeadow Nomad": {
@@ -670,9 +670,9 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- キスキン(Kithkin)・スカウト(Scout)",
     "fileName": "ゴールドメドウの遊牧民.webp",
     "tiers": {
-      "ALL": "D+",
-      "WU": "C-",
-      "WB": "D-",
+      "ALL": "D",
+      "WU": "D+",
+      "WB": "F",
       "WR": "D-",
       "WG": "D+",
       "UB": "U",
@@ -683,11 +683,11 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "52.7%",
-      "WU": "53.9%",
-      "WB": "50.3%",
+      "ALL": "52.4%",
+      "WU": "53.0%",
+      "WB": "49.7%",
       "WR": "50.1%",
-      "WG": "53.2%",
+      "WG": "52.9%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -695,8 +695,8 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "52.7%",
-    "tier": "D+"
+    "winRate": "52.4%",
+    "tier": "D"
   },
   "Keep Out": {
     "enName": "Keep Out",
@@ -707,8 +707,8 @@ const MASTER_CARD_DATA = {
     "tiers": {
       "ALL": "D+",
       "WU": "C-",
-      "WB": "D-",
-      "WR": "D",
+      "WB": "D",
+      "WR": "F",
       "WG": "D+",
       "UB": "U",
       "UR": "U",
@@ -718,11 +718,11 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "52.8%",
-      "WU": "53.8%",
-      "WB": "51.0%",
-      "WR": "51.3%",
-      "WG": "52.7%",
+      "ALL": "52.7%",
+      "WU": "53.7%",
+      "WB": "51.2%",
+      "WR": "49.0%",
+      "WG": "52.5%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -730,7 +730,7 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "52.8%",
+    "winRate": "52.7%",
     "tier": "D+"
   },
   "Kinbinding": {
@@ -742,8 +742,8 @@ const MASTER_CARD_DATA = {
     "tiers": {
       "ALL": "A+",
       "WU": "A+",
-      "WB": "U",
-      "WR": "U",
+      "WB": "B+",
+      "WR": "A",
       "WG": "A+",
       "UB": "U",
       "UR": "U",
@@ -753,11 +753,11 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "64.4%",
-      "WU": "67.1%",
-      "WB": "-",
-      "WR": "-",
-      "WG": "64.5%",
+      "ALL": "64.1%",
+      "WU": "67.3%",
+      "WB": "61.3%",
+      "WR": "62.7%",
+      "WG": "64.2%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -765,7 +765,7 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "64.4%",
+    "winRate": "64.1%",
     "tier": "A+"
   },
   "Kinsbaile Aspirant": {
@@ -776,9 +776,9 @@ const MASTER_CARD_DATA = {
     "fileName": "キンズベイルの野心家.webp",
     "tiers": {
       "ALL": "B-",
-      "WU": "D+",
+      "WU": "D",
       "WB": "U",
-      "WR": "U",
+      "WR": "D",
       "WG": "B",
       "UB": "U",
       "UR": "U",
@@ -789,10 +789,10 @@ const MASTER_CARD_DATA = {
     },
     "winRates": {
       "ALL": "57.9%",
-      "WU": "53.6%",
+      "WU": "52.0%",
       "WB": "-",
-      "WR": "-",
-      "WG": "58.9%",
+      "WR": "51.9%",
+      "WG": "59.0%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -810,11 +810,11 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- キスキン(Kithkin)・兵士(Soldier)",
     "fileName": "キンザーの歩哨.webp",
     "tiers": {
-      "ALL": "B-",
-      "WU": "B-",
+      "ALL": "B",
+      "WU": "B",
       "WB": "U",
-      "WR": "U",
-      "WG": "B+",
+      "WR": "C-",
+      "WG": "A-",
       "UB": "U",
       "UR": "U",
       "UG": "U",
@@ -823,11 +823,11 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "58.2%",
-      "WU": "58.1%",
+      "ALL": "59.2%",
+      "WU": "58.8%",
       "WB": "-",
-      "WR": "-",
-      "WG": "60.8%",
+      "WR": "54.9%",
+      "WG": "61.5%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -835,8 +835,8 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "58.2%",
-    "tier": "B-"
+    "winRate": "59.2%",
+    "tier": "B"
   },
   "Kithkeeper": {
     "enName": "Kithkeeper",
@@ -845,33 +845,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- エレメンタル(Elemental)",
     "fileName": "キスキーパー.webp",
     "tiers": {
-      "ALL": "D+",
+      "ALL": "C-",
       "WU": "D",
       "WB": "U",
-      "WR": "U",
+      "WR": "D-",
       "WG": "D",
       "UB": "U",
       "UR": "B-",
       "UG": "U",
       "BR": "U",
       "BG": "U",
-      "RG": "U"
+      "RG": "D+"
     },
     "winRates": {
-      "ALL": "53.5%",
-      "WU": "51.7%",
+      "ALL": "53.7%",
+      "WU": "52.2%",
       "WB": "-",
-      "WR": "-",
-      "WG": "52.1%",
+      "WR": "50.2%",
+      "WG": "52.4%",
       "UB": "-",
-      "UR": "57.6%",
+      "UR": "57.9%",
       "UG": "-",
       "BR": "-",
       "BG": "-",
-      "RG": "-"
+      "RG": "52.8%"
     },
-    "winRate": "53.5%",
-    "tier": "D+"
+    "winRate": "53.7%",
+    "tier": "C-"
   },
   "Liminal Hold": {
     "enName": "Liminal Hold",
@@ -886,26 +886,26 @@ const MASTER_CARD_DATA = {
       "WR": "C-",
       "WG": "C+",
       "UB": "U",
-      "UR": "C",
+      "UR": "B-",
       "UG": "U",
       "BR": "U",
-      "BG": "U",
+      "BG": "C-",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "55.5%",
-      "WU": "56.3%",
-      "WB": "55.2%",
-      "WR": "53.7%",
-      "WG": "56.2%",
+      "ALL": "55.8%",
+      "WU": "56.5%",
+      "WB": "55.8%",
+      "WR": "54.9%",
+      "WG": "56.4%",
       "UB": "-",
-      "UR": "55.4%",
+      "UR": "57.8%",
       "UG": "-",
       "BR": "-",
-      "BG": "-",
+      "BG": "53.8%",
       "RG": "-"
     },
-    "winRate": "55.5%",
+    "winRate": "55.8%",
     "tier": "C"
   },
   "Meanders Guide": {
@@ -919,7 +919,7 @@ const MASTER_CARD_DATA = {
       "WU": "C-",
       "WB": "U",
       "WR": "U",
-      "WG": "U",
+      "WG": "D",
       "UB": "U",
       "UR": "U",
       "UG": "U",
@@ -928,11 +928,11 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "54.1%",
-      "WU": "54.9%",
+      "ALL": "54.0%",
+      "WU": "54.8%",
       "WB": "-",
       "WR": "-",
-      "WG": "-",
+      "WG": "52.1%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -940,7 +940,7 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "54.1%",
+    "winRate": "54.0%",
     "tier": "C-"
   },
   "Moonlit Lamenter": {
@@ -950,10 +950,10 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- ツリーフォーク(Treefolk)・クレリック(Cleric)",
     "fileName": "月明かりの哀悼者.webp",
     "tiers": {
-      "ALL": "C-",
+      "ALL": "C",
       "WU": "C",
-      "WB": "C-",
-      "WR": "C",
+      "WB": "C",
+      "WR": "C+",
       "WG": "C",
       "UB": "U",
       "UR": "U",
@@ -963,11 +963,11 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "54.8%",
-      "WU": "55.1%",
-      "WB": "54.6%",
-      "WR": "55.4%",
-      "WG": "55.7%",
+      "ALL": "55.3%",
+      "WU": "55.6%",
+      "WB": "55.3%",
+      "WR": "56.2%",
+      "WG": "55.5%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -975,8 +975,8 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "54.8%",
-    "tier": "C-"
+    "winRate": "55.3%",
+    "tier": "C"
   },
   "Morningtide's Light": {
     "enName": "Morningtide's Light",
@@ -985,7 +985,7 @@ const MASTER_CARD_DATA = {
     "type": "ソーサリー",
     "fileName": "モーニングタイドの光.webp",
     "tiers": {
-      "ALL": "D+",
+      "ALL": "C-",
       "WU": "C-",
       "WB": "U",
       "WR": "U",
@@ -998,11 +998,11 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "53.6%",
-      "WU": "54.7%",
+      "ALL": "54.1%",
+      "WU": "54.0%",
       "WB": "-",
       "WR": "-",
-      "WG": "58.3%",
+      "WG": "58.2%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -1010,8 +1010,8 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "53.6%",
-    "tier": "D+"
+    "winRate": "54.1%",
+    "tier": "C-"
   },
   "Personify": {
     "enName": "Personify",
@@ -1020,11 +1020,11 @@ const MASTER_CARD_DATA = {
     "type": "インスタント",
     "fileName": "成りきり.webp",
     "tiers": {
-      "ALL": "C-",
+      "ALL": "C",
       "WU": "C",
-      "WB": "D-",
-      "WR": "U",
-      "WG": "C",
+      "WB": "D",
+      "WR": "F",
+      "WG": "C+",
       "UB": "U",
       "UR": "U",
       "UG": "U",
@@ -1033,11 +1033,11 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "54.4%",
-      "WU": "55.3%",
-      "WB": "50.0%",
-      "WR": "-",
-      "WG": "55.7%",
+      "ALL": "55.1%",
+      "WU": "55.7%",
+      "WB": "52.3%",
+      "WR": "48.8%",
+      "WG": "56.2%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -1045,8 +1045,8 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "54.4%",
-    "tier": "C-"
+    "winRate": "55.1%",
+    "tier": "C"
   },
   "Protective Response": {
     "enName": "Protective Response",
@@ -1055,11 +1055,11 @@ const MASTER_CARD_DATA = {
     "type": "インスタント",
     "fileName": "防衛反応.webp",
     "tiers": {
-      "ALL": "B-",
+      "ALL": "C+",
       "WU": "B-",
       "WB": "C-",
-      "WR": "D+",
-      "WG": "B",
+      "WR": "C-",
+      "WG": "B-",
       "UB": "U",
       "UR": "U",
       "UG": "U",
@@ -1068,11 +1068,11 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "57.5%",
-      "WU": "57.9%",
-      "WB": "54.0%",
-      "WR": "53.3%",
-      "WG": "59.1%",
+      "ALL": "57.1%",
+      "WU": "58.0%",
+      "WB": "53.8%",
+      "WR": "54.2%",
+      "WG": "57.7%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -1080,8 +1080,8 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "57.5%",
-    "tier": "B-"
+    "winRate": "57.1%",
+    "tier": "C+"
   },
   "Pyrrhic Strike": {
     "enName": "Pyrrhic Strike",
@@ -1092,30 +1092,30 @@ const MASTER_CARD_DATA = {
     "tiers": {
       "ALL": "B-",
       "WU": "B",
-      "WB": "B-",
+      "WB": "C+",
       "WR": "C+",
-      "WG": "B+",
+      "WG": "B",
       "UB": "U",
-      "UR": "U",
+      "UR": "B",
       "UG": "U",
       "BR": "U",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "58.7%",
+      "ALL": "58.3%",
       "WU": "58.8%",
-      "WB": "57.6%",
-      "WR": "56.3%",
-      "WG": "60.0%",
+      "WB": "56.2%",
+      "WR": "56.4%",
+      "WG": "59.2%",
       "UB": "-",
-      "UR": "-",
+      "UR": "59.5%",
       "UG": "-",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "58.7%",
+    "winRate": "58.3%",
     "tier": "B-"
   },
   "Reluctant Dounguard": {
@@ -1126,10 +1126,10 @@ const MASTER_CARD_DATA = {
     "fileName": "不承不承の矮村護衛.webp",
     "tiers": {
       "ALL": "D",
-      "WU": "D-",
+      "WU": "F",
       "WB": "F",
       "WR": "D-",
-      "WG": "C-",
+      "WG": "D+",
       "UB": "U",
       "UR": "U",
       "UG": "U",
@@ -1138,11 +1138,11 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "52.2%",
-      "WU": "50.2%",
-      "WB": "45.9%",
-      "WR": "50.6%",
-      "WG": "53.7%",
+      "ALL": "51.3%",
+      "WU": "49.6%",
+      "WB": "45.1%",
+      "WR": "50.4%",
+      "WG": "52.7%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -1150,7 +1150,7 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "52.2%",
+    "winRate": "51.3%",
     "tier": "D"
   },
   "Rhys, the Evermore": {
@@ -1161,9 +1161,44 @@ const MASTER_CARD_DATA = {
     "fileName": "不朽不変、ライズ.webp",
     "tiers": {
       "ALL": "D+",
+      "WU": "C-",
+      "WB": "D",
+      "WR": "F",
+      "WG": "C-",
+      "UB": "U",
+      "UR": "U",
+      "UG": "U",
+      "BR": "U",
+      "BG": "U",
+      "RG": "U"
+    },
+    "winRates": {
+      "ALL": "52.5%",
+      "WU": "53.7%",
+      "WB": "51.6%",
+      "WR": "49.9%",
+      "WG": "54.2%",
+      "UB": "-",
+      "UR": "-",
+      "UG": "-",
+      "BR": "-",
+      "BG": "-",
+      "RG": "-"
+    },
+    "winRate": "52.5%",
+    "tier": "D+"
+  },
+  "Riverguard's Reflexes": {
+    "enName": "Riverguard's Reflexes",
+    "jpName": "川護衛の即応",
+    "cost": "(１)(白)",
+    "type": "インスタント",
+    "fileName": "川護衛の即応.webp",
+    "tiers": {
+      "ALL": "D+",
       "WU": "D+",
       "WB": "U",
-      "WR": "U",
+      "WR": "F",
       "WG": "C-",
       "UB": "U",
       "UR": "U",
@@ -1174,10 +1209,10 @@ const MASTER_CARD_DATA = {
     },
     "winRates": {
       "ALL": "52.6%",
-      "WU": "53.5%",
+      "WU": "52.7%",
       "WB": "-",
-      "WR": "-",
-      "WG": "54.8%",
+      "WR": "42.4%",
+      "WG": "54.3%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -1188,41 +1223,6 @@ const MASTER_CARD_DATA = {
     "winRate": "52.6%",
     "tier": "D+"
   },
-  "Riverguard's Reflexes": {
-    "enName": "Riverguard's Reflexes",
-    "jpName": "川護衛の即応",
-    "cost": "(１)(白)",
-    "type": "インスタント",
-    "fileName": "川護衛の即応.webp",
-    "tiers": {
-      "ALL": "D",
-      "WU": "D+",
-      "WB": "U",
-      "WR": "U",
-      "WG": "D+",
-      "UB": "U",
-      "UR": "U",
-      "UG": "U",
-      "BR": "U",
-      "BG": "U",
-      "RG": "U"
-    },
-    "winRates": {
-      "ALL": "52.4%",
-      "WU": "53.4%",
-      "WB": "-",
-      "WR": "-",
-      "WG": "53.4%",
-      "UB": "-",
-      "UR": "-",
-      "UG": "-",
-      "BR": "-",
-      "BG": "-",
-      "RG": "-"
-    },
-    "winRate": "52.4%",
-    "tier": "D"
-  },
   "Shore Lurker": {
     "enName": "Shore Lurker",
     "jpName": "海辺潜み",
@@ -1232,8 +1232,8 @@ const MASTER_CARD_DATA = {
     "tiers": {
       "ALL": "D+",
       "WU": "C-",
-      "WB": "U",
-      "WR": "U",
+      "WB": "D+",
+      "WR": "F",
       "WG": "D",
       "UB": "U",
       "UR": "U",
@@ -1243,11 +1243,11 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "53.1%",
-      "WU": "53.8%",
-      "WB": "-",
-      "WR": "-",
-      "WG": "52.3%",
+      "ALL": "53.6%",
+      "WU": "54.3%",
+      "WB": "52.5%",
+      "WR": "49.7%",
+      "WG": "52.4%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -1255,7 +1255,7 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "53.1%",
+    "winRate": "53.6%",
     "tier": "D+"
   },
   "Slumbering Walker": {
@@ -1265,11 +1265,11 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- 巨人(Giant)・戦士(Warrior)",
     "fileName": "まどろむ散歩者.webp",
     "tiers": {
-      "ALL": "B+",
-      "WU": "A-",
-      "WB": "U",
-      "WR": "U",
-      "WG": "B+",
+      "ALL": "B",
+      "WU": "A",
+      "WB": "B-",
+      "WR": "B",
+      "WG": "B",
       "UB": "U",
       "UR": "U",
       "UG": "U",
@@ -1278,11 +1278,11 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "60.2%",
-      "WU": "61.9%",
-      "WB": "-",
-      "WR": "-",
-      "WG": "60.2%",
+      "ALL": "59.4%",
+      "WU": "62.5%",
+      "WB": "57.6%",
+      "WR": "58.8%",
+      "WG": "59.0%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -1290,8 +1290,8 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "60.2%",
-    "tier": "B+"
+    "winRate": "59.4%",
+    "tier": "B"
   },
   "Spiral into Solitude": {
     "enName": "Spiral into Solitude",
@@ -1313,11 +1313,11 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "54.4%",
+      "ALL": "54.3%",
       "WU": "54.7%",
-      "WB": "53.6%",
-      "WR": "52.7%",
-      "WG": "55.5%",
+      "WB": "53.3%",
+      "WR": "53.1%",
+      "WG": "55.3%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -1325,7 +1325,7 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "54.4%",
+    "winRate": "54.3%",
     "tier": "C-"
   },
   "Sun-Dappled Celebrant": {
@@ -1336,9 +1336,9 @@ const MASTER_CARD_DATA = {
     "fileName": "太陽まだらの祝賀者.webp",
     "tiers": {
       "ALL": "D+",
-      "WU": "C-",
+      "WU": "D+",
       "WB": "F",
-      "WR": "C-",
+      "WR": "D+",
       "WG": "D+",
       "UB": "U",
       "UR": "U",
@@ -1349,10 +1349,10 @@ const MASTER_CARD_DATA = {
     },
     "winRates": {
       "ALL": "52.8%",
-      "WU": "53.7%",
-      "WB": "49.6%",
-      "WR": "54.2%",
-      "WG": "52.8%",
+      "WU": "53.4%",
+      "WB": "49.4%",
+      "WR": "53.5%",
+      "WG": "53.2%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -1371,9 +1371,9 @@ const MASTER_CARD_DATA = {
     "fileName": "思考の糸の浸潤家.webp",
     "tiers": {
       "ALL": "B-",
-      "WU": "B-",
-      "WB": "U",
-      "WR": "U",
+      "WU": "C-",
+      "WB": "C+",
+      "WR": "D",
       "WG": "B",
       "UB": "U",
       "UR": "U",
@@ -1383,10 +1383,10 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "58.6%",
-      "WU": "57.5%",
-      "WB": "-",
-      "WR": "-",
+      "ALL": "58.3%",
+      "WU": "54.8%",
+      "WB": "56.2%",
+      "WR": "51.6%",
       "WG": "59.4%",
       "UB": "-",
       "UR": "-",
@@ -1395,7 +1395,7 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "58.6%",
+    "winRate": "58.3%",
     "tier": "B-"
   },
   "Timid Shieldbearer": {
@@ -1405,9 +1405,9 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- キスキン(Kithkin)・兵士(Soldier)",
     "fileName": "臆病な盾持ち.webp",
     "tiers": {
-      "ALL": "C",
+      "ALL": "C-",
       "WU": "C",
-      "WB": "D+",
+      "WB": "D",
       "WR": "D",
       "WG": "C",
       "UB": "U",
@@ -1418,11 +1418,11 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "55.0%",
-      "WU": "55.9%",
-      "WB": "53.3%",
-      "WR": "51.4%",
-      "WG": "55.8%",
+      "ALL": "54.9%",
+      "WU": "55.6%",
+      "WB": "52.4%",
+      "WR": "52.1%",
+      "WG": "55.5%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -1430,8 +1430,8 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "55.0%",
-    "tier": "C"
+    "winRate": "54.9%",
+    "tier": "C-"
   },
   "Tributary Vaulter": {
     "enName": "Tributary Vaulter",
@@ -1440,11 +1440,11 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- マーフォーク(Merfolk)・戦士(Warrior)",
     "fileName": "支流の跳躍者.webp",
     "tiers": {
-      "ALL": "C-",
+      "ALL": "C",
       "WU": "C",
       "WB": "U",
       "WR": "U",
-      "WG": "U",
+      "WG": "F",
       "UB": "U",
       "UR": "U",
       "UG": "U",
@@ -1453,11 +1453,11 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "54.8%",
-      "WU": "55.3%",
+      "ALL": "55.2%",
+      "WU": "55.6%",
       "WB": "-",
       "WR": "-",
-      "WG": "-",
+      "WG": "48.6%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -1465,8 +1465,8 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "54.8%",
-    "tier": "C-"
+    "winRate": "55.2%",
+    "tier": "C"
   },
   "Wanderbrine Preacher": {
     "enName": "Wanderbrine Preacher",
@@ -1479,7 +1479,7 @@ const MASTER_CARD_DATA = {
       "WU": "C+",
       "WB": "F",
       "WR": "D",
-      "WG": "C",
+      "WG": "C-",
       "UB": "U",
       "UR": "U",
       "UG": "U",
@@ -1489,10 +1489,10 @@ const MASTER_CARD_DATA = {
     },
     "winRates": {
       "ALL": "55.5%",
-      "WU": "56.5%",
-      "WB": "48.6%",
-      "WR": "52.2%",
-      "WG": "55.0%",
+      "WU": "56.6%",
+      "WB": "47.6%",
+      "WR": "51.7%",
+      "WG": "53.9%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -1512,7 +1512,7 @@ const MASTER_CARD_DATA = {
     "tiers": {
       "ALL": "B",
       "WU": "B+",
-      "WB": "U",
+      "WB": "C+",
       "WR": "C-",
       "WG": "B",
       "UB": "U",
@@ -1524,10 +1524,10 @@ const MASTER_CARD_DATA = {
     },
     "winRates": {
       "ALL": "59.4%",
-      "WU": "60.4%",
-      "WB": "-",
-      "WR": "54.1%",
-      "WG": "58.9%",
+      "WU": "60.3%",
+      "WB": "56.8%",
+      "WR": "54.8%",
+      "WG": "59.2%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -1546,7 +1546,7 @@ const MASTER_CARD_DATA = {
     "fileName": "篩い飛ばし.webp",
     "tiers": {
       "ALL": "D+",
-      "WU": "D+",
+      "WU": "C-",
       "WB": "U",
       "WR": "U",
       "WG": "D+",
@@ -1558,11 +1558,11 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "52.9%",
-      "WU": "53.6%",
+      "ALL": "52.8%",
+      "WU": "54.7%",
       "WB": "-",
       "WR": "-",
-      "WG": "53.6%",
+      "WG": "53.4%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -1570,7 +1570,7 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "52.9%",
+    "winRate": "52.8%",
     "tier": "D+"
   },
   "Aquitect's Defenses": {
@@ -1593,19 +1593,19 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "52.5%",
-      "WU": "54.1%",
+      "ALL": "52.9%",
+      "WU": "54.3%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "50.3%",
-      "UR": "51.9%",
+      "UB": "50.9%",
+      "UR": "52.2%",
       "UG": "-",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "52.5%",
+    "winRate": "52.9%",
     "tier": "D+"
   },
   "Blossombind": {
@@ -1615,12 +1615,12 @@ const MASTER_CARD_DATA = {
     "type": "エンチャント --- オーラ(Aura)",
     "fileName": "花弁縛り.webp",
     "tiers": {
-      "ALL": "C-",
+      "ALL": "C",
       "WU": "C",
       "WB": "U",
       "WR": "U",
       "WG": "U",
-      "UB": "D-",
+      "UB": "F",
       "UR": "C",
       "UG": "D+",
       "BR": "U",
@@ -1628,20 +1628,20 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "54.8%",
+      "ALL": "55.0%",
       "WU": "55.9%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "50.3%",
-      "UR": "55.8%",
+      "UB": "49.9%",
+      "UR": "55.9%",
       "UG": "53.2%",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "54.8%",
-    "tier": "C-"
+    "winRate": "55.0%",
+    "tier": "C"
   },
   "Champions of the Shoal": {
     "enName": "Champions of the Shoal",
@@ -1650,33 +1650,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- マーフォーク(Merfolk)・兵士(Soldier)",
     "fileName": "浅瀬の闘士.webp",
     "tiers": {
-      "ALL": "B+",
+      "ALL": "A-",
       "WU": "A",
       "WB": "U",
       "WR": "U",
       "WG": "U",
       "UB": "U",
-      "UR": "C+",
+      "UR": "B",
       "UG": "U",
       "BR": "U",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "61.3%",
-      "WU": "62.8%",
+      "ALL": "62.2%",
+      "WU": "63.6%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
       "UB": "-",
-      "UR": "57.4%",
+      "UR": "59.8%",
       "UG": "-",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "61.3%",
-    "tier": "B+"
+    "winRate": "62.2%",
+    "tier": "A-"
   },
   "Disruptor of Currents": {
     "enName": "Disruptor of Currents",
@@ -1690,7 +1690,7 @@ const MASTER_CARD_DATA = {
       "WB": "U",
       "WR": "U",
       "WG": "U",
-      "UB": "U",
+      "UB": "C-",
       "UR": "A",
       "UG": "U",
       "BR": "U",
@@ -1698,19 +1698,19 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "61.0%",
-      "WU": "62.7%",
+      "ALL": "61.2%",
+      "WU": "62.5%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "-",
-      "UR": "63.9%",
+      "UB": "53.9%",
+      "UR": "62.8%",
       "UG": "-",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "61.0%",
+    "winRate": "61.2%",
     "tier": "B+"
   },
   "Flitterwing Nuisance": {
@@ -1720,33 +1720,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- フェアリー(Faerie)・ならず者(Rogue)",
     "fileName": "閃翼の嫌がらせ屋.webp",
     "tiers": {
-      "ALL": "B+",
-      "WU": "A",
+      "ALL": "B",
+      "WU": "A-",
       "WB": "U",
       "WR": "U",
       "WG": "U",
       "UB": "B",
-      "UR": "B",
+      "UR": "B+",
       "UG": "U",
       "BR": "U",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "60.0%",
-      "WU": "62.8%",
+      "ALL": "59.9%",
+      "WU": "61.8%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "59.5%",
-      "UR": "59.5%",
+      "UB": "58.8%",
+      "UR": "60.6%",
       "UG": "-",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "60.0%",
-    "tier": "B+"
+    "winRate": "59.9%",
+    "tier": "B"
   },
   "Glamer Gifter": {
     "enName": "Glamer Gifter",
@@ -1760,7 +1760,7 @@ const MASTER_CARD_DATA = {
       "WB": "U",
       "WR": "U",
       "WG": "U",
-      "UB": "C-",
+      "UB": "D+",
       "UR": "C+",
       "UG": "D+",
       "BR": "U",
@@ -1769,13 +1769,13 @@ const MASTER_CARD_DATA = {
     },
     "winRates": {
       "ALL": "56.6%",
-      "WU": "58.4%",
+      "WU": "58.2%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "54.2%",
-      "UR": "56.5%",
-      "UG": "53.2%",
+      "UB": "53.1%",
+      "UR": "56.9%",
+      "UG": "53.3%",
       "BR": "-",
       "BG": "-",
       "RG": "-"
@@ -1796,26 +1796,26 @@ const MASTER_CARD_DATA = {
       "WR": "U",
       "WG": "U",
       "UB": "D",
-      "UR": "C-",
-      "UG": "D+",
+      "UR": "D+",
+      "UG": "D",
       "BR": "U",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "53.1%",
-      "WU": "54.4%",
+      "ALL": "53.2%",
+      "WU": "54.5%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "51.2%",
-      "UR": "53.8%",
-      "UG": "53.0%",
+      "UB": "52.3%",
+      "UR": "52.7%",
+      "UG": "51.2%",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "53.1%",
+    "winRate": "53.2%",
     "tier": "D+"
   },
   "Glen Elendra Guardian": {
@@ -1826,31 +1826,31 @@ const MASTER_CARD_DATA = {
     "fileName": "エレンドラ谷の守護者.webp",
     "tiers": {
       "ALL": "C+",
-      "WU": "C+",
+      "WU": "B-",
       "WB": "U",
       "WR": "U",
       "WG": "U",
       "UB": "C",
-      "UR": "B-",
+      "UR": "C+",
       "UG": "U",
       "BR": "U",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "57.0%",
-      "WU": "57.2%",
+      "ALL": "56.3%",
+      "WU": "57.7%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "56.0%",
-      "UR": "58.3%",
+      "UB": "55.3%",
+      "UR": "57.1%",
       "UG": "-",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "57.0%",
+    "winRate": "56.3%",
     "tier": "C+"
   },
   "Glen Elendra's Answer": {
@@ -1860,12 +1860,12 @@ const MASTER_CARD_DATA = {
     "type": "インスタント",
     "fileName": "エレンドラ谷の応答.webp",
     "tiers": {
-      "ALL": "B-",
-      "WU": "B-",
+      "ALL": "B",
+      "WU": "B",
       "WB": "U",
       "WR": "U",
       "WG": "U",
-      "UB": "U",
+      "UB": "C",
       "UR": "B+",
       "UG": "U",
       "BR": "U",
@@ -1873,20 +1873,20 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "58.2%",
-      "WU": "57.8%",
+      "ALL": "59.3%",
+      "WU": "59.5%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "-",
-      "UR": "60.9%",
+      "UB": "55.8%",
+      "UR": "60.8%",
       "UG": "-",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "58.2%",
-    "tier": "B-"
+    "winRate": "59.3%",
+    "tier": "B"
   },
   "Gravelgill Scoundrel": {
     "enName": "Gravelgill Scoundrel",
@@ -1902,25 +1902,25 @@ const MASTER_CARD_DATA = {
       "WG": "U",
       "UB": "D-",
       "UR": "D+",
-      "UG": "U",
+      "UG": "F",
       "BR": "U",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "55.7%",
-      "WU": "56.4%",
+      "ALL": "55.8%",
+      "WU": "56.3%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "50.4%",
-      "UR": "53.0%",
-      "UG": "-",
+      "UB": "50.7%",
+      "UR": "52.8%",
+      "UG": "49.0%",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "55.7%",
+    "winRate": "55.8%",
     "tier": "C"
   },
   "Harmonized Crescendo": {
@@ -1931,31 +1931,31 @@ const MASTER_CARD_DATA = {
     "fileName": "調和した大合唱.webp",
     "tiers": {
       "ALL": "D+",
-      "WU": "C+",
+      "WU": "C",
       "WB": "U",
       "WR": "U",
       "WG": "U",
       "UB": "U",
-      "UR": "D",
+      "UR": "D+",
       "UG": "U",
       "BR": "U",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "53.1%",
-      "WU": "56.3%",
+      "ALL": "53.2%",
+      "WU": "55.9%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
       "UB": "-",
-      "UR": "52.4%",
+      "UR": "52.5%",
       "UG": "-",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "53.1%",
+    "winRate": "53.2%",
     "tier": "D+"
   },
   "Illusion Spinners": {
@@ -1965,33 +1965,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- フェアリー(Faerie)・ウィザード(Wizard)",
     "fileName": "幻影の紡ぎ手.webp",
     "tiers": {
-      "ALL": "D",
-      "WU": "D",
+      "ALL": "D-",
+      "WU": "D-",
       "WB": "U",
       "WR": "U",
       "WG": "U",
-      "UB": "D+",
-      "UR": "D+",
+      "UB": "D",
+      "UR": "D-",
       "UG": "U",
       "BR": "U",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "52.2%",
-      "WU": "51.2%",
+      "ALL": "51.1%",
+      "WU": "50.8%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "52.7%",
-      "UR": "53.5%",
+      "UB": "52.4%",
+      "UR": "50.4%",
       "UG": "-",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "52.2%",
-    "tier": "D"
+    "winRate": "51.1%",
+    "tier": "D-"
   },
   "Kulrath Mystic": {
     "enName": "Kulrath Mystic",
@@ -2001,31 +2001,31 @@ const MASTER_CARD_DATA = {
     "fileName": "クルラスの神秘家.webp",
     "tiers": {
       "ALL": "C-",
-      "WU": "F",
+      "WU": "D-",
       "WB": "U",
       "WR": "U",
       "WG": "U",
       "UB": "F",
-      "UR": "C",
-      "UG": "U",
+      "UR": "C-",
+      "UG": "D",
       "BR": "U",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "54.0%",
-      "WU": "49.9%",
+      "ALL": "53.9%",
+      "WU": "50.4%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "48.7%",
-      "UR": "55.4%",
-      "UG": "-",
+      "UB": "49.7%",
+      "UR": "54.9%",
+      "UG": "51.7%",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "54.0%",
+    "winRate": "53.9%",
     "tier": "C-"
   },
   "Loch Mare": {
@@ -2036,11 +2036,11 @@ const MASTER_CARD_DATA = {
     "fileName": "湖棲馬.webp",
     "tiers": {
       "ALL": "A-",
-      "WU": "A+",
+      "WU": "A",
       "WB": "U",
       "WR": "U",
       "WG": "U",
-      "UB": "U",
+      "UB": "C+",
       "UR": "A",
       "UG": "U",
       "BR": "U",
@@ -2048,19 +2048,19 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "62.2%",
-      "WU": "64.6%",
+      "ALL": "62.0%",
+      "WU": "62.7%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "-",
-      "UR": "62.5%",
+      "UB": "56.9%",
+      "UR": "63.8%",
       "UG": "-",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "62.2%",
+    "winRate": "62.0%",
     "tier": "A-"
   },
   "Lofty Dreams": {
@@ -2075,27 +2075,27 @@ const MASTER_CARD_DATA = {
       "WB": "U",
       "WR": "U",
       "WG": "U",
-      "UB": "U",
-      "UR": "C+",
+      "UB": "D-",
+      "UR": "C",
       "UG": "U",
       "BR": "U",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "55.5%",
+      "ALL": "55.4%",
       "WU": "56.5%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "-",
-      "UR": "56.2%",
+      "UB": "50.2%",
+      "UR": "55.4%",
       "UG": "-",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "55.5%",
+    "winRate": "55.4%",
     "tier": "C"
   },
   "Mirrorform": {
@@ -2105,33 +2105,33 @@ const MASTER_CARD_DATA = {
     "type": "インスタント",
     "fileName": "鏡変化.webp",
     "tiers": {
-      "ALL": "C-",
-      "WU": "C+",
+      "ALL": "C",
+      "WU": "B-",
       "WB": "U",
       "WR": "U",
       "WG": "U",
       "UB": "U",
-      "UR": "D",
+      "UR": "C-",
       "UG": "U",
       "BR": "U",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "54.4%",
-      "WU": "57.2%",
+      "ALL": "55.4%",
+      "WU": "58.4%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
       "UB": "-",
-      "UR": "52.3%",
+      "UR": "54.5%",
       "UG": "-",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "54.4%",
-    "tier": "C-"
+    "winRate": "55.4%",
+    "tier": "C"
   },
   "Noggle the Mind": {
     "enName": "Noggle the Mind",
@@ -2147,25 +2147,25 @@ const MASTER_CARD_DATA = {
       "WG": "U",
       "UB": "C-",
       "UR": "C+",
-      "UG": "U",
+      "UG": "C",
       "BR": "U",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "55.0%",
+      "ALL": "55.2%",
       "WU": "54.8%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "54.6%",
-      "UR": "57.0%",
-      "UG": "-",
+      "UB": "54.5%",
+      "UR": "56.9%",
+      "UG": "55.3%",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "55.0%",
+    "winRate": "55.2%",
     "tier": "C"
   },
   "Oko, Lorwyn Liege": {
@@ -2176,31 +2176,31 @@ const MASTER_CARD_DATA = {
     "fileName": "ローウィンの主、オーコ.webp",
     "tiers": {
       "ALL": "C+",
-      "WU": "D+",
+      "WU": "C-",
       "WB": "U",
       "WR": "U",
       "WG": "U",
       "UB": "U",
       "UR": "C+",
-      "UG": "U",
+      "UG": "B+",
       "BR": "U",
-      "BG": "U",
+      "BG": "C+",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "56.3%",
-      "WU": "52.9%",
+      "ALL": "56.6%",
+      "WU": "54.2%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
       "UB": "-",
-      "UR": "57.4%",
-      "UG": "-",
+      "UR": "57.3%",
+      "UG": "61.1%",
       "BR": "-",
-      "BG": "-",
+      "BG": "56.8%",
       "RG": "-"
     },
-    "winRate": "56.3%",
+    "winRate": "56.6%",
     "tier": "C+"
   },
   "Oko, Shadowmoor Scion": {
@@ -2244,33 +2244,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- 多相の戦士(Shapeshifter)",
     "fileName": "全変する変わり身.webp",
     "tiers": {
-      "ALL": "C+",
+      "ALL": "C",
       "WU": "C+",
       "WB": "U",
       "WR": "U",
       "WG": "U",
       "UB": "D",
       "UR": "C+",
-      "UG": "B-",
+      "UG": "C",
       "BR": "U",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "56.5%",
-      "WU": "56.9%",
+      "ALL": "56.0%",
+      "WU": "56.5%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "52.0%",
-      "UR": "57.3%",
-      "UG": "58.5%",
+      "UB": "52.1%",
+      "UR": "57.0%",
+      "UG": "55.7%",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "56.5%",
-    "tier": "C+"
+    "winRate": "56.0%",
+    "tier": "C"
   },
   "Pestered Wellguard": {
     "enName": "Pestered Wellguard",
@@ -2279,33 +2279,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- マーフォーク(Merfolk)・兵士(Soldier)",
     "fileName": "悩ましき井戸守り.webp",
     "tiers": {
-      "ALL": "C",
+      "ALL": "C-",
       "WU": "C",
       "WB": "U",
       "WR": "U",
       "WG": "U",
       "UB": "F",
-      "UR": "C+",
+      "UR": "C-",
       "UG": "U",
       "BR": "U",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "55.0%",
-      "WU": "56.1%",
+      "ALL": "54.4%",
+      "WU": "55.5%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "48.1%",
-      "UR": "56.6%",
+      "UB": "47.9%",
+      "UR": "54.4%",
       "UG": "-",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "55.0%",
-    "tier": "C"
+    "winRate": "54.4%",
+    "tier": "C-"
   },
   "Rime Chill": {
     "enName": "Rime Chill",
@@ -2315,31 +2315,31 @@ const MASTER_CARD_DATA = {
     "fileName": "凍炎の冷気.webp",
     "tiers": {
       "ALL": "D",
-      "WU": "D-",
+      "WU": "D",
       "WB": "U",
       "WR": "U",
       "WG": "U",
-      "UB": "U",
-      "UR": "C-",
-      "UG": "U",
+      "UB": "D-",
+      "UR": "D+",
+      "UG": "D+",
       "BR": "U",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "52.3%",
-      "WU": "50.1%",
+      "ALL": "52.2%",
+      "WU": "52.2%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "-",
-      "UR": "54.5%",
-      "UG": "-",
+      "UB": "50.9%",
+      "UR": "53.6%",
+      "UG": "52.7%",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "52.3%",
+    "winRate": "52.2%",
     "tier": "D"
   },
   "Rimefire Torque": {
@@ -2349,7 +2349,7 @@ const MASTER_CARD_DATA = {
     "type": "アーティファクト",
     "fileName": "凍炎の首飾り.webp",
     "tiers": {
-      "ALL": "U",
+      "ALL": "F",
       "WU": "U",
       "WB": "U",
       "WR": "U",
@@ -2362,7 +2362,7 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "-",
+      "ALL": "39.9%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
@@ -2374,8 +2374,8 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "-",
-    "tier": "U"
+    "winRate": "39.9%",
+    "tier": "F"
   },
   "Rimekin Recluse": {
     "enName": "Rimekin Recluse",
@@ -2390,26 +2390,26 @@ const MASTER_CARD_DATA = {
       "WR": "U",
       "WG": "U",
       "UB": "C+",
-      "UR": "A-",
-      "UG": "C+",
+      "UR": "B+",
+      "UG": "B-",
       "BR": "U",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "60.1%",
-      "WU": "61.0%",
+      "ALL": "60.0%",
+      "WU": "61.1%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "56.9%",
-      "UR": "61.7%",
-      "UG": "57.0%",
+      "UB": "56.3%",
+      "UR": "61.0%",
+      "UG": "58.6%",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "60.1%",
+    "winRate": "60.0%",
     "tier": "B+"
   },
   "Run Away Together": {
@@ -2420,31 +2420,31 @@ const MASTER_CARD_DATA = {
     "fileName": "共に逃走.webp",
     "tiers": {
       "ALL": "D-",
-      "WU": "D",
+      "WU": "D-",
       "WB": "U",
       "WR": "U",
       "WG": "U",
       "UB": "F",
       "UR": "D+",
-      "UG": "U",
+      "UG": "F",
       "BR": "U",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "50.8%",
-      "WU": "51.3%",
+      "ALL": "51.0%",
+      "WU": "51.1%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "46.2%",
-      "UR": "53.3%",
-      "UG": "-",
+      "UB": "48.2%",
+      "UR": "52.7%",
+      "UG": "48.5%",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "50.8%",
+    "winRate": "51.0%",
     "tier": "D-"
   },
   "Shinestriker": {
@@ -2454,33 +2454,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- エレメンタル(Elemental)",
     "fileName": "光撃獣.webp",
     "tiers": {
-      "ALL": "B",
+      "ALL": "B-",
       "WU": "B-",
       "WB": "U",
       "WR": "U",
       "WG": "U",
-      "UB": "C-",
-      "UR": "B+",
-      "UG": "B",
+      "UB": "D+",
+      "UR": "B",
+      "UG": "B-",
       "BR": "U",
       "BG": "U",
-      "RG": "U"
+      "RG": "B-"
     },
     "winRates": {
-      "ALL": "58.9%",
-      "WU": "58.7%",
+      "ALL": "58.3%",
+      "WU": "57.8%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "54.7%",
-      "UR": "60.2%",
-      "UG": "59.1%",
+      "UB": "53.6%",
+      "UR": "59.5%",
+      "UG": "58.0%",
       "BR": "-",
       "BG": "-",
-      "RG": "-"
+      "RG": "58.0%"
     },
-    "winRate": "58.9%",
-    "tier": "B"
+    "winRate": "58.3%",
+    "tier": "B-"
   },
   "Silvergill Mentor": {
     "enName": "Silvergill Mentor",
@@ -2494,8 +2494,8 @@ const MASTER_CARD_DATA = {
       "WB": "U",
       "WR": "U",
       "WG": "U",
-      "UB": "U",
-      "UR": "B-",
+      "UB": "D",
+      "UR": "C+",
       "UG": "U",
       "BR": "U",
       "BG": "U",
@@ -2503,12 +2503,12 @@ const MASTER_CARD_DATA = {
     },
     "winRates": {
       "ALL": "60.1%",
-      "WU": "60.7%",
+      "WU": "60.9%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "-",
-      "UR": "58.0%",
+      "UB": "52.4%",
+      "UR": "56.6%",
       "UG": "-",
       "BR": "-",
       "BG": "-",
@@ -2524,33 +2524,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- マーフォーク(Merfolk)・市民(Citizen)",
     "fileName": "銀エラの行商人.webp",
     "tiers": {
-      "ALL": "C",
+      "ALL": "C-",
       "WU": "C",
       "WB": "U",
       "WR": "U",
       "WG": "U",
       "UB": "F",
-      "UR": "C-",
-      "UG": "U",
+      "UR": "D+",
+      "UG": "F",
       "BR": "U",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "55.2%",
-      "WU": "55.9%",
+      "ALL": "54.9%",
+      "WU": "55.6%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "48.7%",
-      "UR": "54.5%",
-      "UG": "-",
+      "UB": "49.8%",
+      "UR": "53.1%",
+      "UG": "47.7%",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "55.2%",
-    "tier": "C"
+    "winRate": "54.9%",
+    "tier": "C-"
   },
   "Spell Snare": {
     "enName": "Spell Snare",
@@ -2564,27 +2564,27 @@ const MASTER_CARD_DATA = {
       "WB": "U",
       "WR": "U",
       "WG": "U",
-      "UB": "U",
-      "UR": "F",
+      "UB": "F",
+      "UR": "D",
       "UG": "U",
       "BR": "U",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "47.8%",
-      "WU": "49.9%",
+      "ALL": "48.9%",
+      "WU": "48.9%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "-",
-      "UR": "49.6%",
+      "UB": "47.0%",
+      "UR": "51.4%",
       "UG": "-",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "47.8%",
+    "winRate": "48.9%",
     "tier": "F"
   },
   "Stratosoarer": {
@@ -2599,27 +2599,27 @@ const MASTER_CARD_DATA = {
       "WB": "U",
       "WR": "U",
       "WG": "U",
-      "UB": "F",
+      "UB": "D-",
       "UR": "C+",
-      "UG": "D-",
+      "UG": "D+",
       "BR": "U",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "54.3%",
-      "WU": "52.8%",
+      "ALL": "54.7%",
+      "WU": "53.0%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "49.1%",
-      "UR": "57.1%",
-      "UG": "50.1%",
+      "UB": "50.4%",
+      "UR": "56.5%",
+      "UG": "52.7%",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "54.3%",
+    "winRate": "54.7%",
     "tier": "C-"
   },
   "Summit Sentinel": {
@@ -2629,33 +2629,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- エレメンタル(Elemental)・兵士(Soldier)",
     "fileName": "山頂の歩哨.webp",
     "tiers": {
-      "ALL": "D+",
-      "WU": "D-",
+      "ALL": "C-",
+      "WU": "D",
       "WB": "U",
       "WR": "U",
       "WG": "U",
       "UB": "F",
       "UR": "C",
-      "UG": "D-",
+      "UG": "D",
       "BR": "U",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "53.5%",
-      "WU": "51.1%",
+      "ALL": "53.8%",
+      "WU": "51.3%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "48.9%",
-      "UR": "55.4%",
-      "UG": "50.9%",
+      "UB": "49.9%",
+      "UR": "55.2%",
+      "UG": "51.5%",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "53.5%",
-    "tier": "D+"
+    "winRate": "53.8%",
+    "tier": "C-"
   },
   "Sunderflock": {
     "enName": "Sunderflock",
@@ -2665,7 +2665,7 @@ const MASTER_CARD_DATA = {
     "fileName": "刻み群れ.webp",
     "tiers": {
       "ALL": "A",
-      "WU": "D+",
+      "WU": "C",
       "WB": "U",
       "WR": "U",
       "WG": "U",
@@ -2677,19 +2677,19 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "63.4%",
-      "WU": "52.7%",
+      "ALL": "63.9%",
+      "WU": "55.1%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
       "UB": "-",
-      "UR": "66.7%",
+      "UR": "66.5%",
       "UG": "-",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "63.4%",
+    "winRate": "63.9%",
     "tier": "A"
   },
   "Swat Away": {
@@ -2704,27 +2704,27 @@ const MASTER_CARD_DATA = {
       "WB": "U",
       "WR": "U",
       "WG": "U",
-      "UB": "D-",
+      "UB": "D",
       "UR": "C+",
-      "UG": "U",
+      "UG": "D",
       "BR": "U",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "54.3%",
-      "WU": "53.9%",
+      "ALL": "54.6%",
+      "WU": "54.3%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "51.0%",
+      "UB": "51.6%",
       "UR": "56.3%",
-      "UG": "-",
+      "UG": "51.4%",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "54.3%",
+    "winRate": "54.6%",
     "tier": "C-"
   },
   "Sygg, Wanderwine Wisdom": {
@@ -2735,7 +2735,7 @@ const MASTER_CARD_DATA = {
     "fileName": "ワンダーワインの知恵者、シグ.webp",
     "tiers": {
       "ALL": "B+",
-      "WU": "A",
+      "WU": "A-",
       "WB": "U",
       "WR": "U",
       "WG": "U",
@@ -2747,19 +2747,19 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "60.6%",
-      "WU": "62.7%",
+      "ALL": "60.5%",
+      "WU": "62.2%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
       "UB": "-",
-      "UR": "58.8%",
+      "UR": "59.1%",
       "UG": "-",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "60.6%",
+    "winRate": "60.5%",
     "tier": "B+"
   },
   "Sygg, Wanderbrine Shield": {
@@ -2804,31 +2804,31 @@ const MASTER_CARD_DATA = {
     "fileName": "タヌフェルの凍炎語り.webp",
     "tiers": {
       "ALL": "C+",
-      "WU": "C-",
+      "WU": "C",
       "WB": "U",
       "WR": "U",
       "WG": "U",
-      "UB": "D",
+      "UB": "D+",
       "UR": "B-",
-      "UG": "D+",
+      "UG": "C-",
       "BR": "U",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "56.4%",
-      "WU": "54.9%",
+      "ALL": "56.5%",
+      "WU": "55.5%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "51.4%",
-      "UR": "57.9%",
-      "UG": "53.1%",
+      "UB": "52.7%",
+      "UR": "57.7%",
+      "UG": "54.4%",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "56.4%",
+    "winRate": "56.5%",
     "tier": "C+"
   },
   "Temporal Cleansing": {
@@ -2837,76 +2837,6 @@ const MASTER_CARD_DATA = {
     "cost": "(３)(青)",
     "type": "ソーサリー",
     "fileName": "経時的浄化.webp",
-    "tiers": {
-      "ALL": "C",
-      "WU": "C+",
-      "WB": "U",
-      "WR": "U",
-      "WG": "U",
-      "UB": "F",
-      "UR": "C+",
-      "UG": "D",
-      "BR": "U",
-      "BG": "U",
-      "RG": "U"
-    },
-    "winRates": {
-      "ALL": "55.6%",
-      "WU": "56.3%",
-      "WB": "-",
-      "WR": "-",
-      "WG": "-",
-      "UB": "49.1%",
-      "UR": "57.2%",
-      "UG": "51.5%",
-      "BR": "-",
-      "BG": "-",
-      "RG": "-"
-    },
-    "winRate": "55.6%",
-    "tier": "C"
-  },
-  "Thirst for Identity": {
-    "enName": "Thirst for Identity",
-    "jpName": "個性の渇望",
-    "cost": "(２)(青)",
-    "type": "インスタント",
-    "fileName": "個性の渇望.webp",
-    "tiers": {
-      "ALL": "D+",
-      "WU": "D+",
-      "WB": "U",
-      "WR": "U",
-      "WG": "U",
-      "UB": "D",
-      "UR": "C-",
-      "UG": "U",
-      "BR": "U",
-      "BG": "U",
-      "RG": "U"
-    },
-    "winRates": {
-      "ALL": "53.1%",
-      "WU": "53.4%",
-      "WB": "-",
-      "WR": "-",
-      "WG": "-",
-      "UB": "52.0%",
-      "UR": "54.3%",
-      "UG": "-",
-      "BR": "-",
-      "BG": "-",
-      "RG": "-"
-    },
-    "winRate": "53.1%",
-    "tier": "D+"
-  },
-  "Unexpected Assistance": {
-    "enName": "Unexpected Assistance",
-    "jpName": "予期せぬ助太刀",
-    "cost": "(３)(青)(青)",
-    "type": "インスタント",
-    "fileName": "予期せぬ助太刀.webp",
     "tiers": {
       "ALL": "C",
       "WU": "C+",
@@ -2922,18 +2852,88 @@ const MASTER_CARD_DATA = {
     },
     "winRates": {
       "ALL": "55.9%",
-      "WU": "56.8%",
+      "WU": "56.3%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "51.1%",
-      "UR": "56.6%",
-      "UG": "51.5%",
+      "UB": "50.1%",
+      "UR": "57.3%",
+      "UG": "52.0%",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
     "winRate": "55.9%",
+    "tier": "C"
+  },
+  "Thirst for Identity": {
+    "enName": "Thirst for Identity",
+    "jpName": "個性の渇望",
+    "cost": "(２)(青)",
+    "type": "インスタント",
+    "fileName": "個性の渇望.webp",
+    "tiers": {
+      "ALL": "D+",
+      "WU": "D+",
+      "WB": "U",
+      "WR": "U",
+      "WG": "U",
+      "UB": "D+",
+      "UR": "C-",
+      "UG": "U",
+      "BR": "U",
+      "BG": "U",
+      "RG": "U"
+    },
+    "winRates": {
+      "ALL": "53.2%",
+      "WU": "53.4%",
+      "WB": "-",
+      "WR": "-",
+      "WG": "-",
+      "UB": "52.7%",
+      "UR": "54.0%",
+      "UG": "-",
+      "BR": "-",
+      "BG": "-",
+      "RG": "-"
+    },
+    "winRate": "53.2%",
+    "tier": "D+"
+  },
+  "Unexpected Assistance": {
+    "enName": "Unexpected Assistance",
+    "jpName": "予期せぬ助太刀",
+    "cost": "(３)(青)(青)",
+    "type": "インスタント",
+    "fileName": "予期せぬ助太刀.webp",
+    "tiers": {
+      "ALL": "C",
+      "WU": "C+",
+      "WB": "U",
+      "WR": "U",
+      "WG": "U",
+      "UB": "D",
+      "UR": "C",
+      "UG": "D-",
+      "BR": "U",
+      "BG": "U",
+      "RG": "U"
+    },
+    "winRates": {
+      "ALL": "55.7%",
+      "WU": "56.9%",
+      "WB": "-",
+      "WR": "-",
+      "WG": "-",
+      "UB": "51.3%",
+      "UR": "55.8%",
+      "UG": "50.3%",
+      "BR": "-",
+      "BG": "-",
+      "RG": "-"
+    },
+    "winRate": "55.7%",
     "tier": "C"
   },
   "Unwelcome Sprite": {
@@ -2948,22 +2948,22 @@ const MASTER_CARD_DATA = {
       "WB": "U",
       "WR": "U",
       "WG": "U",
-      "UB": "D+",
-      "UR": "B-",
-      "UG": "U",
+      "UB": "C-",
+      "UR": "C+",
+      "UG": "C+",
       "BR": "U",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
       "ALL": "56.2%",
-      "WU": "56.7%",
+      "WU": "56.6%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "53.1%",
-      "UR": "57.9%",
-      "UG": "-",
+      "UB": "54.0%",
+      "UR": "57.2%",
+      "UG": "56.3%",
       "BR": "-",
       "BG": "-",
       "RG": "-"
@@ -2978,33 +2978,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- マーフォーク(Merfolk)・ウィザード(Wizard)",
     "fileName": "ワンダーワインの錯乱術士.webp",
     "tiers": {
-      "ALL": "D",
+      "ALL": "D-",
       "WU": "D",
       "WB": "U",
       "WR": "U",
       "WG": "U",
       "UB": "U",
-      "UR": "U",
+      "UR": "F",
       "UG": "U",
       "BR": "U",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "51.4%",
-      "WU": "52.1%",
+      "ALL": "50.7%",
+      "WU": "51.4%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
       "UB": "-",
-      "UR": "-",
+      "UR": "47.2%",
       "UG": "-",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "51.4%",
-    "tier": "D"
+    "winRate": "50.7%",
+    "tier": "D-"
   },
   "Wanderwine Farewell": {
     "enName": "Wanderwine Farewell",
@@ -3018,7 +3018,7 @@ const MASTER_CARD_DATA = {
       "WB": "U",
       "WR": "U",
       "WG": "U",
-      "UB": "U",
+      "UB": "F",
       "UR": "D+",
       "UG": "U",
       "BR": "U",
@@ -3026,19 +3026,19 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "56.6%",
-      "WU": "57.8%",
+      "ALL": "56.7%",
+      "WU": "57.9%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "-",
-      "UR": "53.2%",
+      "UB": "48.2%",
+      "UR": "52.7%",
       "UG": "-",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "56.6%",
+    "winRate": "56.7%",
     "tier": "C+"
   },
   "Wild Unraveling": {
@@ -3053,27 +3053,27 @@ const MASTER_CARD_DATA = {
       "WB": "U",
       "WR": "U",
       "WG": "U",
-      "UB": "D",
-      "UR": "C",
-      "UG": "U",
+      "UB": "D+",
+      "UR": "C-",
+      "UG": "D+",
       "BR": "U",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "53.6%",
-      "WU": "54.0%",
+      "ALL": "53.5%",
+      "WU": "53.9%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "51.2%",
-      "UR": "55.0%",
-      "UG": "-",
+      "UB": "52.7%",
+      "UR": "54.1%",
+      "UG": "53.6%",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "53.6%",
+    "winRate": "53.5%",
     "tier": "D+"
   },
   "Auntie's Sentence": {
@@ -3085,30 +3085,30 @@ const MASTER_CARD_DATA = {
     "tiers": {
       "ALL": "D+",
       "WU": "U",
-      "WB": "F",
+      "WB": "D-",
       "WR": "U",
       "WG": "U",
-      "UB": "D-",
+      "UB": "F",
       "UR": "U",
       "UG": "U",
-      "BR": "D-",
+      "BR": "D",
       "BG": "C",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "53.0%",
+      "ALL": "53.3%",
       "WU": "-",
-      "WB": "49.7%",
+      "WB": "51.1%",
       "WR": "-",
       "WG": "-",
-      "UB": "50.2%",
+      "UB": "49.4%",
       "UR": "-",
       "UG": "-",
-      "BR": "50.4%",
-      "BG": "55.9%",
+      "BR": "51.2%",
+      "BG": "55.7%",
       "RG": "-"
     },
-    "winRate": "53.0%",
+    "winRate": "53.3%",
     "tier": "D+"
   },
   "Barbed Bloodletter": {
@@ -3120,30 +3120,30 @@ const MASTER_CARD_DATA = {
     "tiers": {
       "ALL": "D+",
       "WU": "U",
-      "WB": "U",
+      "WB": "C",
       "WR": "U",
       "WG": "U",
       "UB": "D+",
       "UR": "U",
       "UG": "U",
       "BR": "D",
-      "BG": "C-",
+      "BG": "C",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "53.0%",
+      "ALL": "53.5%",
       "WU": "-",
-      "WB": "-",
+      "WB": "56.1%",
       "WR": "-",
       "WG": "-",
-      "UB": "52.6%",
+      "UB": "53.6%",
       "UR": "-",
       "UG": "-",
-      "BR": "52.2%",
-      "BG": "54.8%",
+      "BR": "51.5%",
+      "BG": "55.1%",
       "RG": "-"
     },
-    "winRate": "53.0%",
+    "winRate": "53.5%",
     "tier": "D+"
   },
   "Bile-Vial Boggart": {
@@ -3166,19 +3166,19 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "51.5%",
+      "ALL": "52.0%",
       "WU": "-",
-      "WB": "48.2%",
+      "WB": "49.5%",
       "WR": "-",
       "WG": "-",
-      "UB": "46.6%",
+      "UB": "47.5%",
       "UR": "-",
       "UG": "-",
-      "BR": "52.5%",
-      "BG": "49.0%",
+      "BR": "52.8%",
+      "BG": "49.7%",
       "RG": "-"
     },
-    "winRate": "51.5%",
+    "winRate": "52.0%",
     "tier": "D"
   },
   "Bitterbloom Bearer": {
@@ -3193,27 +3193,27 @@ const MASTER_CARD_DATA = {
       "WB": "U",
       "WR": "U",
       "WG": "U",
-      "UB": "C",
+      "UB": "C+",
       "UR": "U",
       "UG": "U",
-      "BR": "B-",
+      "BR": "B",
       "BG": "B+",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "58.3%",
+      "ALL": "58.4%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "55.7%",
+      "UB": "57.1%",
       "UR": "-",
       "UG": "-",
-      "BR": "58.1%",
-      "BG": "60.9%",
+      "BR": "59.2%",
+      "BG": "60.1%",
       "RG": "-"
     },
-    "winRate": "58.3%",
+    "winRate": "58.4%",
     "tier": "B-"
   },
   "Blight Rot": {
@@ -3225,7 +3225,7 @@ const MASTER_CARD_DATA = {
     "tiers": {
       "ALL": "C",
       "WU": "U",
-      "WB": "D",
+      "WB": "C-",
       "WR": "U",
       "WG": "U",
       "UB": "C-",
@@ -3238,14 +3238,14 @@ const MASTER_CARD_DATA = {
     "winRates": {
       "ALL": "55.4%",
       "WU": "-",
-      "WB": "52.2%",
+      "WB": "53.7%",
       "WR": "-",
       "WG": "-",
-      "UB": "53.8%",
+      "UB": "53.9%",
       "UR": "-",
       "UG": "-",
-      "BR": "53.0%",
-      "BG": "58.1%",
+      "BR": "53.4%",
+      "BG": "57.6%",
       "RG": "-"
     },
     "winRate": "55.4%",
@@ -3260,30 +3260,30 @@ const MASTER_CARD_DATA = {
     "tiers": {
       "ALL": "D-",
       "WU": "U",
-      "WB": "D+",
+      "WB": "D",
       "WR": "U",
       "WG": "U",
       "UB": "F",
       "UR": "U",
       "UG": "U",
       "BR": "D-",
-      "BG": "D",
+      "BG": "D-",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "50.9%",
+      "ALL": "50.5%",
       "WU": "-",
-      "WB": "53.1%",
+      "WB": "52.4%",
       "WR": "-",
       "WG": "-",
-      "UB": "48.5%",
+      "UB": "47.1%",
       "UR": "-",
       "UG": "-",
-      "BR": "50.1%",
-      "BG": "51.3%",
+      "BR": "50.7%",
+      "BG": "50.2%",
       "RG": "-"
     },
-    "winRate": "50.9%",
+    "winRate": "50.5%",
     "tier": "D-"
   },
   "Bloodline Bidding": {
@@ -3293,7 +3293,7 @@ const MASTER_CARD_DATA = {
     "type": "ソーサリー",
     "fileName": "血統の召集.webp",
     "tiers": {
-      "ALL": "B",
+      "ALL": "B-",
       "WU": "U",
       "WB": "U",
       "WR": "U",
@@ -3301,12 +3301,12 @@ const MASTER_CARD_DATA = {
       "UB": "U",
       "UR": "U",
       "UG": "U",
-      "BR": "D+",
-      "BG": "A",
+      "BR": "C-",
+      "BG": "A-",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "59.0%",
+      "ALL": "58.7%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
@@ -3314,12 +3314,12 @@ const MASTER_CARD_DATA = {
       "UB": "-",
       "UR": "-",
       "UG": "-",
-      "BR": "52.5%",
-      "BG": "63.5%",
+      "BR": "54.5%",
+      "BG": "61.9%",
       "RG": "-"
     },
-    "winRate": "59.0%",
-    "tier": "B"
+    "winRate": "58.7%",
+    "tier": "B-"
   },
   "Boggart Mischief": {
     "enName": "Boggart Mischief",
@@ -3336,12 +3336,12 @@ const MASTER_CARD_DATA = {
       "UB": "U",
       "UR": "U",
       "UG": "U",
-      "BR": "C+",
-      "BG": "U",
+      "BR": "B-",
+      "BG": "F",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "56.7%",
+      "ALL": "57.1%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
@@ -3349,11 +3349,11 @@ const MASTER_CARD_DATA = {
       "UB": "-",
       "UR": "-",
       "UG": "-",
-      "BR": "57.4%",
-      "BG": "-",
+      "BR": "57.8%",
+      "BG": "49.0%",
       "RG": "-"
     },
-    "winRate": "56.7%",
+    "winRate": "57.1%",
     "tier": "C+"
   },
   "Boggart Prankster": {
@@ -3376,19 +3376,19 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "52.5%",
+      "ALL": "52.6%",
       "WU": "-",
-      "WB": "48.9%",
+      "WB": "49.9%",
       "WR": "-",
       "WG": "-",
       "UB": "-",
       "UR": "-",
       "UG": "-",
       "BR": "53.0%",
-      "BG": "49.3%",
+      "BG": "48.2%",
       "RG": "-"
     },
-    "winRate": "52.5%",
+    "winRate": "52.6%",
     "tier": "D+"
   },
   "Bogslither's Embrace": {
@@ -3400,30 +3400,30 @@ const MASTER_CARD_DATA = {
     "tiers": {
       "ALL": "C",
       "WU": "U",
-      "WB": "D+",
+      "WB": "C-",
       "WR": "U",
       "WG": "U",
-      "UB": "D",
-      "UR": "U",
+      "UB": "D+",
+      "UR": "C-",
       "UG": "U",
-      "BR": "C-",
+      "BR": "C",
       "BG": "B-",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "55.9%",
+      "ALL": "56.1%",
       "WU": "-",
-      "WB": "52.5%",
+      "WB": "54.3%",
       "WR": "-",
       "WG": "-",
-      "UB": "52.4%",
-      "UR": "-",
+      "UB": "53.2%",
+      "UR": "54.8%",
       "UG": "-",
-      "BR": "54.5%",
-      "BG": "58.7%",
+      "BR": "55.4%",
+      "BG": "57.9%",
       "RG": "-"
     },
-    "winRate": "55.9%",
+    "winRate": "56.1%",
     "tier": "C"
   },
   "Champion of the Weird": {
@@ -3433,7 +3433,7 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- ゴブリン(Goblin)・狂戦士(Berserker)",
     "fileName": "怪異の闘士.webp",
     "tiers": {
-      "ALL": "B-",
+      "ALL": "B",
       "WU": "U",
       "WB": "U",
       "WR": "U",
@@ -3441,12 +3441,12 @@ const MASTER_CARD_DATA = {
       "UB": "U",
       "UR": "U",
       "UG": "U",
-      "BR": "B+",
-      "BG": "U",
+      "BR": "A-",
+      "BG": "C-",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "58.7%",
+      "ALL": "59.7%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
@@ -3454,12 +3454,12 @@ const MASTER_CARD_DATA = {
       "UB": "-",
       "UR": "-",
       "UG": "-",
-      "BR": "60.6%",
-      "BG": "-",
+      "BR": "61.5%",
+      "BG": "54.0%",
       "RG": "-"
     },
-    "winRate": "58.7%",
-    "tier": "B-"
+    "winRate": "59.7%",
+    "tier": "B"
   },
   "Creakwood Safewright": {
     "enName": "Creakwood Safewright",
@@ -3468,33 +3468,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- エルフ(Elf)・戦士(Warrior)",
     "fileName": "軋み森の守美者.webp",
     "tiers": {
-      "ALL": "B-",
+      "ALL": "C+",
       "WU": "U",
-      "WB": "U",
+      "WB": "D",
       "WR": "U",
       "WG": "U",
-      "UB": "U",
+      "UB": "C-",
       "UR": "U",
       "UG": "U",
-      "BR": "C+",
-      "BG": "B",
+      "BR": "D+",
+      "BG": "B-",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "58.5%",
+      "ALL": "57.4%",
       "WU": "-",
-      "WB": "-",
+      "WB": "52.2%",
       "WR": "-",
       "WG": "-",
-      "UB": "-",
+      "UB": "54.1%",
       "UR": "-",
       "UG": "-",
-      "BR": "56.4%",
-      "BG": "59.5%",
+      "BR": "53.1%",
+      "BG": "58.4%",
       "RG": "-"
     },
-    "winRate": "58.5%",
-    "tier": "B-"
+    "winRate": "57.4%",
+    "tier": "C+"
   },
   "Darkness Descends": {
     "enName": "Darkness Descends",
@@ -3505,30 +3505,30 @@ const MASTER_CARD_DATA = {
     "tiers": {
       "ALL": "F",
       "WU": "U",
-      "WB": "U",
+      "WB": "F",
       "WR": "U",
       "WG": "U",
       "UB": "U",
       "UR": "U",
       "UG": "U",
       "BR": "F",
-      "BG": "F",
+      "BG": "D-",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "48.3%",
+      "ALL": "48.6%",
       "WU": "-",
-      "WB": "-",
+      "WB": "49.8%",
       "WR": "-",
       "WG": "-",
       "UB": "-",
       "UR": "-",
       "UG": "-",
-      "BR": "47.0%",
-      "BG": "49.7%",
+      "BR": "47.3%",
+      "BG": "50.9%",
       "RG": "-"
     },
-    "winRate": "48.3%",
+    "winRate": "48.6%",
     "tier": "F"
   },
   "Dawnhand Dissident": {
@@ -3540,30 +3540,30 @@ const MASTER_CARD_DATA = {
     "tiers": {
       "ALL": "B",
       "WU": "U",
-      "WB": "U",
+      "WB": "C+",
       "WR": "U",
       "WG": "U",
-      "UB": "U",
+      "UB": "C",
       "UR": "U",
       "UG": "U",
       "BR": "B",
-      "BG": "A-",
+      "BG": "B+",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "59.6%",
+      "ALL": "59.1%",
       "WU": "-",
-      "WB": "-",
+      "WB": "56.3%",
       "WR": "-",
       "WG": "-",
-      "UB": "-",
+      "UB": "55.5%",
       "UR": "-",
       "UG": "-",
-      "BR": "59.5%",
-      "BG": "62.0%",
+      "BR": "59.3%",
+      "BG": "60.6%",
       "RG": "-"
     },
-    "winRate": "59.6%",
+    "winRate": "59.1%",
     "tier": "B"
   },
   "Dawnhand Eulogist": {
@@ -3575,30 +3575,30 @@ const MASTER_CARD_DATA = {
     "tiers": {
       "ALL": "B-",
       "WU": "U",
-      "WB": "U",
+      "WB": "D",
       "WR": "U",
       "WG": "U",
-      "UB": "U",
+      "UB": "D",
       "UR": "U",
       "UG": "U",
-      "BR": "U",
-      "BG": "B",
+      "BR": "D+",
+      "BG": "B-",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "58.3%",
+      "ALL": "57.9%",
       "WU": "-",
-      "WB": "-",
+      "WB": "51.7%",
       "WR": "-",
       "WG": "-",
-      "UB": "-",
+      "UB": "51.7%",
       "UR": "-",
       "UG": "-",
-      "BR": "-",
-      "BG": "59.0%",
+      "BR": "52.8%",
+      "BG": "58.6%",
       "RG": "-"
     },
-    "winRate": "58.3%",
+    "winRate": "57.9%",
     "tier": "B-"
   },
   "Dose of Dawnglow": {
@@ -3610,10 +3610,10 @@ const MASTER_CARD_DATA = {
     "tiers": {
       "ALL": "D-",
       "WU": "U",
-      "WB": "U",
+      "WB": "F",
       "WR": "U",
       "WG": "U",
-      "UB": "U",
+      "UB": "F",
       "UR": "U",
       "UG": "U",
       "BR": "F",
@@ -3621,19 +3621,19 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "51.1%",
+      "ALL": "50.9%",
       "WU": "-",
-      "WB": "-",
+      "WB": "47.4%",
       "WR": "-",
       "WG": "-",
-      "UB": "-",
+      "UB": "46.8%",
       "UR": "-",
       "UG": "-",
-      "BR": "47.1%",
-      "BG": "53.3%",
+      "BR": "48.1%",
+      "BG": "52.7%",
       "RG": "-"
     },
-    "winRate": "51.1%",
+    "winRate": "50.9%",
     "tier": "D-"
   },
   "Dream Seizer": {
@@ -3645,30 +3645,30 @@ const MASTER_CARD_DATA = {
     "tiers": {
       "ALL": "D",
       "WU": "U",
-      "WB": "D",
+      "WB": "D+",
       "WR": "U",
       "WG": "U",
       "UB": "F",
       "UR": "U",
       "UG": "U",
       "BR": "D",
-      "BG": "D+",
+      "BG": "D",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "51.2%",
+      "ALL": "51.3%",
       "WU": "-",
-      "WB": "51.6%",
+      "WB": "52.7%",
       "WR": "-",
       "WG": "-",
-      "UB": "48.7%",
+      "UB": "48.3%",
       "UR": "-",
       "UG": "-",
-      "BR": "51.8%",
-      "BG": "53.4%",
+      "BR": "52.3%",
+      "BG": "52.1%",
       "RG": "-"
     },
-    "winRate": "51.2%",
+    "winRate": "51.3%",
     "tier": "D"
   },
   "Gloom Ripper": {
@@ -3686,12 +3686,12 @@ const MASTER_CARD_DATA = {
       "UB": "U",
       "UR": "U",
       "UG": "U",
-      "BR": "U",
+      "BR": "B",
       "BG": "A+",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "66.9%",
+      "ALL": "66.1%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
@@ -3699,11 +3699,11 @@ const MASTER_CARD_DATA = {
       "UB": "-",
       "UR": "-",
       "UG": "-",
-      "BR": "-",
-      "BG": "69.0%",
+      "BR": "59.8%",
+      "BG": "68.2%",
       "RG": "-"
     },
-    "winRate": "66.9%",
+    "winRate": "66.1%",
     "tier": "A+"
   },
   "Gnarlbark Elm": {
@@ -3715,30 +3715,30 @@ const MASTER_CARD_DATA = {
     "tiers": {
       "ALL": "C-",
       "WU": "U",
-      "WB": "D",
+      "WB": "D+",
       "WR": "U",
       "WG": "U",
-      "UB": "D+",
+      "UB": "D",
       "UR": "U",
       "UG": "U",
-      "BR": "D+",
-      "BG": "C+",
+      "BR": "C-",
+      "BG": "C",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "54.3%",
+      "ALL": "54.0%",
       "WU": "-",
-      "WB": "51.3%",
+      "WB": "53.5%",
       "WR": "-",
       "WG": "-",
-      "UB": "53.3%",
+      "UB": "51.6%",
       "UR": "-",
       "UG": "-",
-      "BR": "53.0%",
-      "BG": "57.1%",
+      "BR": "53.7%",
+      "BG": "55.8%",
       "RG": "-"
     },
-    "winRate": "54.3%",
+    "winRate": "54.0%",
     "tier": "C-"
   },
   "Graveshifter": {
@@ -3754,26 +3754,26 @@ const MASTER_CARD_DATA = {
       "WR": "U",
       "WG": "U",
       "UB": "D",
-      "UR": "U",
+      "UR": "C+",
       "UG": "U",
       "BR": "D+",
-      "BG": "C+",
+      "BG": "C",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "54.3%",
+      "ALL": "54.0%",
       "WU": "-",
-      "WB": "50.2%",
+      "WB": "50.6%",
       "WR": "-",
       "WG": "-",
-      "UB": "51.5%",
-      "UR": "-",
+      "UB": "51.9%",
+      "UR": "56.4%",
       "UG": "-",
-      "BR": "52.8%",
-      "BG": "56.9%",
+      "BR": "53.0%",
+      "BG": "55.8%",
       "RG": "-"
     },
-    "winRate": "54.3%",
+    "winRate": "54.0%",
     "tier": "C-"
   },
   "Grub, Storied Matriarch": {
@@ -3783,7 +3783,7 @@ const MASTER_CARD_DATA = {
     "type": "伝説のクリーチャー --- ゴブリン(Goblin)・邪術師(Warlock)",
     "fileName": "名高き女族長、グラブ.webp",
     "tiers": {
-      "ALL": "C+",
+      "ALL": "B-",
       "WU": "U",
       "WB": "U",
       "WR": "U",
@@ -3796,7 +3796,7 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "56.8%",
+      "ALL": "57.5%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
@@ -3804,12 +3804,12 @@ const MASTER_CARD_DATA = {
       "UB": "-",
       "UR": "-",
       "UG": "-",
-      "BR": "58.2%",
+      "BR": "58.6%",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "56.8%",
-    "tier": "C+"
+    "winRate": "57.5%",
+    "tier": "B-"
   },
   "Grub, Notorious Auntie": {
     "enName": "Grub, Notorious Auntie",
@@ -3861,23 +3861,23 @@ const MASTER_CARD_DATA = {
       "UR": "U",
       "UG": "U",
       "BR": "D",
-      "BG": "F",
+      "BG": "D-",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "51.8%",
+      "ALL": "51.9%",
       "WU": "-",
-      "WB": "53.4%",
+      "WB": "53.1%",
       "WR": "-",
       "WG": "-",
       "UB": "-",
       "UR": "-",
       "UG": "-",
-      "BR": "52.2%",
-      "BG": "49.5%",
+      "BR": "52.3%",
+      "BG": "50.6%",
       "RG": "-"
     },
-    "winRate": "51.8%",
+    "winRate": "51.9%",
     "tier": "D"
   },
   "Heirloom Auntie": {
@@ -3892,7 +3892,7 @@ const MASTER_CARD_DATA = {
       "WB": "F",
       "WR": "U",
       "WG": "U",
-      "UB": "U",
+      "UB": "F",
       "UR": "U",
       "UG": "U",
       "BR": "F",
@@ -3900,19 +3900,19 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "48.3%",
+      "ALL": "48.5%",
       "WU": "-",
-      "WB": "46.2%",
+      "WB": "46.1%",
       "WR": "-",
       "WG": "-",
-      "UB": "-",
+      "UB": "44.1%",
       "UR": "-",
       "UG": "-",
-      "BR": "49.2%",
-      "BG": "47.2%",
+      "BR": "49.3%",
+      "BG": "46.4%",
       "RG": "-"
     },
-    "winRate": "48.3%",
+    "winRate": "48.5%",
     "tier": "F"
   },
   "Iron-Shield Elf": {
@@ -3927,27 +3927,27 @@ const MASTER_CARD_DATA = {
       "WB": "C-",
       "WR": "U",
       "WG": "U",
-      "UB": "C-",
+      "UB": "C+",
       "UR": "U",
       "UG": "U",
-      "BR": "D+",
+      "BR": "C-",
       "BG": "B",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "57.9%",
+      "ALL": "57.7%",
       "WU": "-",
-      "WB": "54.6%",
+      "WB": "54.5%",
       "WR": "-",
       "WG": "-",
-      "UB": "54.5%",
+      "UB": "56.3%",
       "UR": "-",
       "UG": "-",
-      "BR": "52.7%",
-      "BG": "59.6%",
+      "BR": "53.8%",
+      "BG": "58.9%",
       "RG": "-"
     },
-    "winRate": "57.9%",
+    "winRate": "57.7%",
     "tier": "B-"
   },
   "Moonglove Extractor": {
@@ -3957,7 +3957,7 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- エルフ(Elf)・邪術師(Warlock)",
     "fileName": "ツキノテブクロの抽出者.webp",
     "tiers": {
-      "ALL": "D+",
+      "ALL": "D",
       "WU": "U",
       "WB": "F",
       "WR": "U",
@@ -3966,24 +3966,24 @@ const MASTER_CARD_DATA = {
       "UR": "U",
       "UG": "U",
       "BR": "F",
-      "BG": "C-",
+      "BG": "D+",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "52.5%",
+      "ALL": "52.0%",
       "WU": "-",
-      "WB": "46.6%",
+      "WB": "48.6%",
       "WR": "-",
       "WG": "-",
-      "UB": "45.6%",
+      "UB": "46.3%",
       "UR": "-",
       "UG": "-",
-      "BR": "49.1%",
-      "BG": "53.8%",
+      "BR": "47.9%",
+      "BG": "53.0%",
       "RG": "-"
     },
-    "winRate": "52.5%",
-    "tier": "D+"
+    "winRate": "52.0%",
+    "tier": "D"
   },
   "Moonshadow": {
     "enName": "Moonshadow",
@@ -4000,12 +4000,12 @@ const MASTER_CARD_DATA = {
       "UB": "U",
       "UR": "U",
       "UG": "U",
-      "BR": "D+",
-      "BG": "A-",
+      "BR": "C",
+      "BG": "B+",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "57.4%",
+      "ALL": "57.3%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
@@ -4013,11 +4013,11 @@ const MASTER_CARD_DATA = {
       "UB": "-",
       "UR": "-",
       "UG": "-",
-      "BR": "53.4%",
-      "BG": "61.5%",
+      "BR": "55.3%",
+      "BG": "60.1%",
       "RG": "-"
     },
-    "winRate": "57.4%",
+    "winRate": "57.3%",
     "tier": "C+"
   },
   "Mornsong Aria": {
@@ -4062,33 +4062,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- ゴブリン(Goblin)・邪術師(Warlock)",
     "fileName": "泥デコの呪い投げ.webp",
     "tiers": {
-      "ALL": "C+",
+      "ALL": "B-",
       "WU": "U",
-      "WB": "U",
+      "WB": "D",
       "WR": "U",
       "WG": "U",
       "UB": "U",
       "UR": "U",
       "UG": "U",
       "BR": "B-",
-      "BG": "U",
+      "BG": "F",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "57.2%",
+      "ALL": "57.7%",
       "WU": "-",
-      "WB": "-",
+      "WB": "51.3%",
       "WR": "-",
       "WG": "-",
       "UB": "-",
       "UR": "-",
       "UG": "-",
-      "BR": "57.9%",
-      "BG": "-",
+      "BR": "58.6%",
+      "BG": "49.8%",
       "RG": "-"
     },
-    "winRate": "57.2%",
-    "tier": "C+"
+    "winRate": "57.7%",
+    "tier": "B-"
   },
   "Nameless Inversion": {
     "enName": "Nameless Inversion",
@@ -4097,12 +4097,12 @@ const MASTER_CARD_DATA = {
     "type": "同族・インスタント --- 多相の戦士(Shapeshifter)",
     "fileName": "名も無き転置.webp",
     "tiers": {
-      "ALL": "C",
+      "ALL": "C+",
       "WU": "U",
       "WB": "D",
       "WR": "U",
       "WG": "U",
-      "UB": "D",
+      "UB": "D+",
       "UR": "U",
       "UG": "U",
       "BR": "C-",
@@ -4110,20 +4110,20 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "55.9%",
+      "ALL": "56.2%",
       "WU": "-",
-      "WB": "52.0%",
+      "WB": "52.4%",
       "WR": "-",
       "WG": "-",
-      "UB": "52.4%",
+      "UB": "52.6%",
       "UR": "-",
       "UG": "-",
-      "BR": "53.7%",
-      "BG": "59.4%",
+      "BR": "54.4%",
+      "BG": "59.0%",
       "RG": "-"
     },
-    "winRate": "55.9%",
-    "tier": "C"
+    "winRate": "56.2%",
+    "tier": "C+"
   },
   "Nightmare Sower": {
     "enName": "Nightmare Sower",
@@ -4132,33 +4132,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- フェアリー(Faerie)・暗殺者(Assassin)",
     "fileName": "悪夢蒔き.webp",
     "tiers": {
-      "ALL": "D-",
+      "ALL": "D",
       "WU": "U",
-      "WB": "U",
+      "WB": "D-",
       "WR": "U",
       "WG": "U",
-      "UB": "D",
+      "UB": "D+",
       "UR": "U",
       "UG": "U",
       "BR": "F",
-      "BG": "D",
+      "BG": "D+",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "50.6%",
+      "ALL": "51.2%",
       "WU": "-",
-      "WB": "-",
+      "WB": "50.2%",
       "WR": "-",
       "WG": "-",
-      "UB": "51.8%",
+      "UB": "53.0%",
       "UR": "-",
       "UG": "-",
-      "BR": "47.3%",
-      "BG": "52.0%",
+      "BR": "48.6%",
+      "BG": "52.5%",
       "RG": "-"
     },
-    "winRate": "50.6%",
-    "tier": "D-"
+    "winRate": "51.2%",
+    "tier": "D"
   },
   "Perfect Intimidation": {
     "enName": "Perfect Intimidation",
@@ -4176,7 +4176,7 @@ const MASTER_CARD_DATA = {
       "UR": "U",
       "UG": "U",
       "BR": "F",
-      "BG": "D-",
+      "BG": "F",
       "RG": "U"
     },
     "winRates": {
@@ -4188,8 +4188,8 @@ const MASTER_CARD_DATA = {
       "UB": "-",
       "UR": "-",
       "UG": "-",
-      "BR": "45.1%",
-      "BG": "50.4%",
+      "BR": "45.8%",
+      "BG": "49.6%",
       "RG": "-"
     },
     "winRate": "47.3%",
@@ -4204,7 +4204,7 @@ const MASTER_CARD_DATA = {
     "tiers": {
       "ALL": "D+",
       "WU": "U",
-      "WB": "D+",
+      "WB": "C",
       "WR": "U",
       "WG": "U",
       "UB": "D-",
@@ -4215,19 +4215,19 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "52.5%",
+      "ALL": "52.6%",
       "WU": "-",
-      "WB": "52.8%",
+      "WB": "55.1%",
       "WR": "-",
       "WG": "-",
-      "UB": "50.4%",
+      "UB": "50.9%",
       "UR": "-",
       "UG": "-",
-      "BR": "50.0%",
-      "BG": "55.6%",
+      "BR": "50.2%",
+      "BG": "55.2%",
       "RG": "-"
     },
-    "winRate": "52.5%",
+    "winRate": "52.6%",
     "tier": "D+"
   },
   "Retched Wretch": {
@@ -4239,30 +4239,30 @@ const MASTER_CARD_DATA = {
     "tiers": {
       "ALL": "D+",
       "WU": "U",
-      "WB": "D",
+      "WB": "F",
       "WR": "U",
       "WG": "U",
       "UB": "U",
       "UR": "U",
       "UG": "U",
-      "BR": "D+",
-      "BG": "U",
+      "BR": "C-",
+      "BG": "F",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "52.5%",
+      "ALL": "53.2%",
       "WU": "-",
-      "WB": "51.5%",
+      "WB": "49.3%",
       "WR": "-",
       "WG": "-",
       "UB": "-",
       "UR": "-",
       "UG": "-",
-      "BR": "53.2%",
-      "BG": "-",
+      "BR": "54.1%",
+      "BG": "47.9%",
       "RG": "-"
     },
-    "winRate": "52.5%",
+    "winRate": "53.2%",
     "tier": "D+"
   },
   "Scarblade Scout": {
@@ -4274,30 +4274,30 @@ const MASTER_CARD_DATA = {
     "tiers": {
       "ALL": "B-",
       "WU": "U",
-      "WB": "D+",
+      "WB": "D",
       "WR": "U",
       "WG": "U",
       "UB": "C-",
       "UR": "U",
       "UG": "U",
       "BR": "D-",
-      "BG": "B",
+      "BG": "B-",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "58.2%",
+      "ALL": "57.5%",
       "WU": "-",
-      "WB": "52.8%",
+      "WB": "52.4%",
       "WR": "-",
       "WG": "-",
-      "UB": "54.1%",
+      "UB": "54.3%",
       "UR": "-",
       "UG": "-",
-      "BR": "51.0%",
-      "BG": "59.4%",
+      "BR": "50.3%",
+      "BG": "58.7%",
       "RG": "-"
     },
-    "winRate": "58.2%",
+    "winRate": "57.5%",
     "tier": "B-"
   },
   "Scarblade's Malice": {
@@ -4322,14 +4322,14 @@ const MASTER_CARD_DATA = {
     "winRates": {
       "ALL": "54.1%",
       "WU": "-",
-      "WB": "51.4%",
+      "WB": "52.2%",
       "WR": "-",
       "WG": "-",
-      "UB": "48.5%",
+      "UB": "49.3%",
       "UR": "-",
       "UG": "-",
-      "BR": "52.3%",
-      "BG": "55.7%",
+      "BR": "52.4%",
+      "BG": "55.5%",
       "RG": "-"
     },
     "winRate": "54.1%",
@@ -4344,30 +4344,30 @@ const MASTER_CARD_DATA = {
     "tiers": {
       "ALL": "C-",
       "WU": "U",
-      "WB": "U",
+      "WB": "D-",
       "WR": "U",
       "WG": "U",
-      "UB": "U",
-      "UR": "B",
+      "UB": "D+",
+      "UR": "B-",
       "UG": "U",
       "BR": "D",
       "BG": "C-",
-      "RG": "U"
+      "RG": "C"
     },
     "winRates": {
-      "ALL": "54.5%",
+      "ALL": "54.4%",
       "WU": "-",
-      "WB": "-",
+      "WB": "50.5%",
       "WR": "-",
       "WG": "-",
-      "UB": "-",
-      "UR": "59.7%",
+      "UB": "53.6%",
+      "UR": "57.7%",
       "UG": "-",
-      "BR": "52.0%",
-      "BG": "54.7%",
-      "RG": "-"
+      "BR": "52.3%",
+      "BG": "53.7%",
+      "RG": "55.5%"
     },
-    "winRate": "54.5%",
+    "winRate": "54.4%",
     "tier": "C-"
   },
   "Taster of Wares": {
@@ -4377,33 +4377,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- ゴブリン(Goblin)・邪術師(Warlock)",
     "fileName": "売り物のつまみ食い.webp",
     "tiers": {
-      "ALL": "A-",
+      "ALL": "B+",
       "WU": "U",
-      "WB": "U",
+      "WB": "B",
       "WR": "U",
       "WG": "U",
-      "UB": "U",
+      "UB": "B",
       "UR": "U",
       "UG": "U",
       "BR": "A",
-      "BG": "A-",
+      "BG": "B",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "61.5%",
+      "ALL": "60.6%",
       "WU": "-",
-      "WB": "-",
+      "WB": "59.7%",
       "WR": "-",
       "WG": "-",
-      "UB": "-",
+      "UB": "59.9%",
       "UR": "-",
       "UG": "-",
-      "BR": "62.9%",
-      "BG": "62.1%",
+      "BR": "62.5%",
+      "BG": "59.8%",
       "RG": "-"
     },
-    "winRate": "61.5%",
-    "tier": "A-"
+    "winRate": "60.6%",
+    "tier": "B+"
   },
   "Twilight Diviner": {
     "enName": "Twilight Diviner",
@@ -4420,8 +4420,8 @@ const MASTER_CARD_DATA = {
       "UB": "U",
       "UR": "U",
       "UG": "U",
-      "BR": "U",
-      "BG": "B-",
+      "BR": "C-",
+      "BG": "C+",
       "RG": "U"
     },
     "winRates": {
@@ -4433,8 +4433,8 @@ const MASTER_CARD_DATA = {
       "UB": "-",
       "UR": "-",
       "UG": "-",
-      "BR": "-",
-      "BG": "57.6%",
+      "BR": "53.7%",
+      "BG": "57.4%",
       "RG": "-"
     },
     "winRate": "56.0%",
@@ -4449,30 +4449,30 @@ const MASTER_CARD_DATA = {
     "tiers": {
       "ALL": "C",
       "WU": "U",
-      "WB": "U",
+      "WB": "C-",
       "WR": "U",
       "WG": "U",
-      "UB": "D+",
+      "UB": "D-",
       "UR": "U",
       "UG": "U",
-      "BR": "C",
+      "BR": "C-",
       "BG": "C+",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "55.7%",
+      "ALL": "55.1%",
       "WU": "-",
-      "WB": "-",
+      "WB": "53.8%",
       "WR": "-",
       "WG": "-",
-      "UB": "53.3%",
+      "UB": "51.1%",
       "UR": "-",
       "UG": "-",
-      "BR": "55.0%",
-      "BG": "57.4%",
+      "BR": "54.0%",
+      "BG": "57.1%",
       "RG": "-"
     },
-    "winRate": "55.7%",
+    "winRate": "55.1%",
     "tier": "C"
   },
   "Ashling, Rekindled": {
@@ -4490,9 +4490,9 @@ const MASTER_CARD_DATA = {
       "UB": "U",
       "UR": "A-",
       "UG": "U",
-      "BR": "U",
+      "BR": "C",
       "BG": "U",
-      "RG": "U"
+      "RG": "C+"
     },
     "winRates": {
       "ALL": "60.5%",
@@ -4501,11 +4501,11 @@ const MASTER_CARD_DATA = {
       "WR": "-",
       "WG": "-",
       "UB": "-",
-      "UR": "62.0%",
+      "UR": "62.2%",
       "UG": "-",
-      "BR": "-",
+      "BR": "55.3%",
       "BG": "-",
-      "RG": "-"
+      "RG": "56.2%"
     },
     "winRate": "60.5%",
     "tier": "B+"
@@ -4554,29 +4554,29 @@ const MASTER_CARD_DATA = {
       "ALL": "D-",
       "WU": "U",
       "WB": "U",
-      "WR": "D",
+      "WR": "D+",
       "WG": "U",
       "UB": "U",
-      "UR": "D+",
+      "UR": "D",
       "UG": "U",
       "BR": "F",
       "BG": "U",
-      "RG": "D"
+      "RG": "D+"
     },
     "winRates": {
-      "ALL": "50.6%",
+      "ALL": "51.0%",
       "WU": "-",
       "WB": "-",
-      "WR": "51.2%",
+      "WR": "52.5%",
       "WG": "-",
       "UB": "-",
-      "UR": "53.1%",
+      "UR": "52.3%",
       "UG": "-",
-      "BR": "46.7%",
+      "BR": "46.8%",
       "BG": "-",
-      "RG": "51.6%"
+      "RG": "52.9%"
     },
-    "winRate": "50.6%",
+    "winRate": "51.0%",
     "tier": "D-"
   },
   "Boneclub Berserker": {
@@ -4599,7 +4599,7 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "50.6%",
+      "ALL": "50.4%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
@@ -4607,11 +4607,11 @@ const MASTER_CARD_DATA = {
       "UB": "-",
       "UR": "-",
       "UG": "-",
-      "BR": "50.9%",
+      "BR": "50.8%",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "50.6%",
+    "winRate": "50.4%",
     "tier": "D-"
   },
   "Boulder Dash": {
@@ -4627,26 +4627,26 @@ const MASTER_CARD_DATA = {
       "WR": "C-",
       "WG": "U",
       "UB": "U",
-      "UR": "C+",
+      "UR": "B-",
       "UG": "U",
-      "BR": "C",
+      "BR": "C-",
       "BG": "U",
       "RG": "C-"
     },
     "winRates": {
-      "ALL": "55.6%",
+      "ALL": "55.5%",
       "WU": "-",
       "WB": "-",
-      "WR": "54.2%",
+      "WR": "53.8%",
       "WG": "-",
       "UB": "-",
-      "UR": "57.0%",
+      "UR": "57.5%",
       "UG": "-",
-      "BR": "55.5%",
+      "BR": "54.2%",
       "BG": "-",
-      "RG": "54.5%"
+      "RG": "54.8%"
     },
-    "winRate": "55.6%",
+    "winRate": "55.5%",
     "tier": "C"
   },
   "Brambleback Brute": {
@@ -4662,26 +4662,26 @@ const MASTER_CARD_DATA = {
       "WR": "D-",
       "WG": "U",
       "UB": "U",
-      "UR": "C-",
+      "UR": "D+",
       "UG": "U",
       "BR": "D",
       "BG": "U",
       "RG": "C-"
     },
     "winRates": {
-      "ALL": "52.0%",
+      "ALL": "52.1%",
       "WU": "-",
       "WB": "-",
-      "WR": "50.4%",
+      "WR": "50.9%",
       "WG": "-",
       "UB": "-",
-      "UR": "54.1%",
+      "UR": "53.6%",
       "UG": "-",
-      "BR": "52.4%",
+      "BR": "52.1%",
       "BG": "-",
-      "RG": "54.4%"
+      "RG": "54.9%"
     },
-    "winRate": "52.0%",
+    "winRate": "52.1%",
     "tier": "D"
   },
   "Burning Curiosity": {
@@ -4697,26 +4697,26 @@ const MASTER_CARD_DATA = {
       "WR": "F",
       "WG": "U",
       "UB": "U",
-      "UR": "C-",
+      "UR": "D+",
       "UG": "U",
-      "BR": "D-",
+      "BR": "D",
       "BG": "U",
-      "RG": "D+"
+      "RG": "D"
     },
     "winRates": {
-      "ALL": "51.8%",
+      "ALL": "51.6%",
       "WU": "-",
       "WB": "-",
-      "WR": "49.2%",
+      "WR": "48.8%",
       "WG": "-",
       "UB": "-",
-      "UR": "54.2%",
+      "UR": "52.7%",
       "UG": "-",
-      "BR": "51.0%",
+      "BR": "51.8%",
       "BG": "-",
-      "RG": "53.5%"
+      "RG": "51.9%"
     },
-    "winRate": "51.8%",
+    "winRate": "51.6%",
     "tier": "D"
   },
   "Champion of the Path": {
@@ -4726,7 +4726,7 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- エレメンタル(Elemental)・魔術師(Sorcerer)",
     "fileName": "隘路の闘士.webp",
     "tiers": {
-      "ALL": "C",
+      "ALL": "C-",
       "WU": "U",
       "WB": "U",
       "WR": "U",
@@ -4739,20 +4739,20 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "56.0%",
+      "ALL": "54.5%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
       "WG": "-",
       "UB": "-",
-      "UR": "57.3%",
+      "UR": "56.2%",
       "UG": "-",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "56.0%",
-    "tier": "C"
+    "winRate": "54.5%",
+    "tier": "C-"
   },
   "Cinder Strike": {
     "enName": "Cinder Strike",
@@ -4764,29 +4764,29 @@ const MASTER_CARD_DATA = {
       "ALL": "C",
       "WU": "U",
       "WB": "U",
-      "WR": "D+",
+      "WR": "C-",
       "WG": "U",
       "UB": "U",
-      "UR": "B-",
+      "UR": "C+",
       "UG": "U",
       "BR": "C-",
       "BG": "U",
-      "RG": "D"
+      "RG": "D+"
     },
     "winRates": {
-      "ALL": "55.3%",
+      "ALL": "55.5%",
       "WU": "-",
       "WB": "-",
-      "WR": "52.6%",
+      "WR": "54.1%",
       "WG": "-",
       "UB": "-",
-      "UR": "57.6%",
+      "UR": "57.4%",
       "UG": "-",
-      "BR": "54.6%",
+      "BR": "54.9%",
       "BG": "-",
-      "RG": "51.9%"
+      "RG": "53.0%"
     },
-    "winRate": "55.3%",
+    "winRate": "55.5%",
     "tier": "C"
   },
   "Collective Inferno": {
@@ -4809,19 +4809,19 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "48.8%",
+      "ALL": "48.5%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
       "WG": "-",
       "UB": "-",
-      "UR": "48.9%",
+      "UR": "48.4%",
       "UG": "-",
-      "BR": "48.7%",
+      "BR": "49.5%",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "48.8%",
+    "winRate": "48.5%",
     "tier": "F"
   },
   "Elder Auntie": {
@@ -4834,29 +4834,29 @@ const MASTER_CARD_DATA = {
       "ALL": "D",
       "WU": "U",
       "WB": "U",
-      "WR": "D-",
+      "WR": "F",
       "WG": "U",
       "UB": "U",
-      "UR": "C",
+      "UR": "C-",
       "UG": "U",
       "BR": "D",
       "BG": "U",
-      "RG": "U"
+      "RG": "D"
     },
     "winRates": {
-      "ALL": "52.1%",
+      "ALL": "52.0%",
       "WU": "-",
       "WB": "-",
-      "WR": "50.5%",
+      "WR": "49.6%",
       "WG": "-",
       "UB": "-",
-      "UR": "55.2%",
+      "UR": "53.9%",
       "UG": "-",
-      "BR": "51.8%",
+      "BR": "52.0%",
       "BG": "-",
-      "RG": "-"
+      "RG": "51.5%"
     },
-    "winRate": "52.1%",
+    "winRate": "52.0%",
     "tier": "D"
   },
   "End-Blaze Epiphany": {
@@ -4869,29 +4869,29 @@ const MASTER_CARD_DATA = {
       "ALL": "B+",
       "WU": "U",
       "WB": "U",
-      "WR": "U",
+      "WR": "B",
       "WG": "U",
       "UB": "U",
-      "UR": "A",
+      "UR": "A-",
       "UG": "U",
       "BR": "B",
       "BG": "U",
-      "RG": "U"
+      "RG": "B-"
     },
     "winRates": {
-      "ALL": "60.4%",
+      "ALL": "60.2%",
       "WU": "-",
       "WB": "-",
-      "WR": "-",
+      "WR": "59.1%",
       "WG": "-",
       "UB": "-",
-      "UR": "63.7%",
+      "UR": "61.9%",
       "UG": "-",
-      "BR": "58.9%",
+      "BR": "59.1%",
       "BG": "-",
-      "RG": "-"
+      "RG": "58.6%"
     },
-    "winRate": "60.4%",
+    "winRate": "60.2%",
     "tier": "B+"
   },
   "Enraged Flamecaster": {
@@ -4904,7 +4904,7 @@ const MASTER_CARD_DATA = {
       "ALL": "D+",
       "WU": "U",
       "WB": "U",
-      "WR": "D",
+      "WR": "F",
       "WG": "U",
       "UB": "U",
       "UR": "C-",
@@ -4914,19 +4914,19 @@ const MASTER_CARD_DATA = {
       "RG": "D-"
     },
     "winRates": {
-      "ALL": "52.9%",
+      "ALL": "52.8%",
       "WU": "-",
       "WB": "-",
-      "WR": "52.0%",
+      "WR": "48.5%",
       "WG": "-",
       "UB": "-",
-      "UR": "54.2%",
+      "UR": "54.1%",
       "UG": "-",
-      "BR": "45.4%",
+      "BR": "45.0%",
       "BG": "-",
-      "RG": "50.5%"
+      "RG": "50.6%"
     },
-    "winRate": "52.9%",
+    "winRate": "52.8%",
     "tier": "D+"
   },
   "Explosive Prodigy": {
@@ -4939,29 +4939,29 @@ const MASTER_CARD_DATA = {
       "ALL": "B-",
       "WU": "U",
       "WB": "U",
-      "WR": "B-",
+      "WR": "C+",
       "WG": "U",
       "UB": "U",
       "UR": "B",
       "UG": "U",
       "BR": "C+",
       "BG": "U",
-      "RG": "C"
+      "RG": "C+"
     },
     "winRates": {
-      "ALL": "58.4%",
+      "ALL": "58.1%",
       "WU": "-",
       "WB": "-",
-      "WR": "58.6%",
+      "WR": "56.4%",
       "WG": "-",
       "UB": "-",
-      "UR": "59.7%",
+      "UR": "59.2%",
       "UG": "-",
-      "BR": "56.8%",
+      "BR": "56.6%",
       "BG": "-",
-      "RG": "55.7%"
+      "RG": "56.2%"
     },
-    "winRate": "58.4%",
+    "winRate": "58.1%",
     "tier": "B-"
   },
   "Feed the Flames": {
@@ -4974,7 +4974,7 @@ const MASTER_CARD_DATA = {
       "ALL": "C-",
       "WU": "U",
       "WB": "U",
-      "WR": "D+",
+      "WR": "D",
       "WG": "U",
       "UB": "U",
       "UR": "C+",
@@ -4984,19 +4984,19 @@ const MASTER_CARD_DATA = {
       "RG": "D+"
     },
     "winRates": {
-      "ALL": "54.7%",
+      "ALL": "54.4%",
       "WU": "-",
       "WB": "-",
-      "WR": "53.5%",
+      "WR": "52.1%",
       "WG": "-",
       "UB": "-",
-      "UR": "56.7%",
+      "UR": "56.5%",
       "UG": "-",
-      "BR": "53.6%",
+      "BR": "53.2%",
       "BG": "-",
-      "RG": "52.9%"
+      "RG": "52.7%"
     },
-    "winRate": "54.7%",
+    "winRate": "54.4%",
     "tier": "C-"
   },
   "Flame-Chain Mauler": {
@@ -5012,26 +5012,26 @@ const MASTER_CARD_DATA = {
       "WR": "F",
       "WG": "U",
       "UB": "U",
-      "UR": "C-",
+      "UR": "C",
       "UG": "U",
-      "BR": "D-",
+      "BR": "F",
       "BG": "U",
-      "RG": "D"
+      "RG": "D-"
     },
     "winRates": {
-      "ALL": "53.4%",
+      "ALL": "53.3%",
       "WU": "-",
       "WB": "-",
-      "WR": "48.8%",
+      "WR": "49.0%",
       "WG": "-",
       "UB": "-",
-      "UR": "54.9%",
+      "UR": "55.0%",
       "UG": "-",
-      "BR": "50.4%",
+      "BR": "49.2%",
       "BG": "-",
-      "RG": "52.3%"
+      "RG": "50.1%"
     },
-    "winRate": "53.4%",
+    "winRate": "53.3%",
     "tier": "D+"
   },
   "Flamebraider": {
@@ -5041,33 +5041,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- エレメンタル(Elemental)・バード(Bard)",
     "fileName": "炎束ね.webp",
     "tiers": {
-      "ALL": "B",
+      "ALL": "B-",
       "WU": "U",
       "WB": "U",
-      "WR": "C",
+      "WR": "C-",
       "WG": "U",
       "UB": "U",
       "UR": "B+",
       "UG": "U",
-      "BR": "D-",
+      "BR": "C-",
       "BG": "U",
-      "RG": "C"
+      "RG": "C-"
     },
     "winRates": {
-      "ALL": "59.3%",
+      "ALL": "58.6%",
       "WU": "-",
       "WB": "-",
-      "WR": "55.2%",
+      "WR": "53.8%",
       "WG": "-",
       "UB": "-",
-      "UR": "60.9%",
+      "UR": "60.0%",
       "UG": "-",
-      "BR": "50.1%",
+      "BR": "54.3%",
       "BG": "-",
-      "RG": "55.7%"
+      "RG": "54.3%"
     },
-    "winRate": "59.3%",
-    "tier": "B"
+    "winRate": "58.6%",
+    "tier": "B-"
   },
   "Flamekin Gildweaver": {
     "enName": "Flamekin Gildweaver",
@@ -5084,24 +5084,24 @@ const MASTER_CARD_DATA = {
       "UB": "U",
       "UR": "B-",
       "UG": "U",
-      "BR": "D",
+      "BR": "D+",
       "BG": "U",
-      "RG": "C"
+      "RG": "C-"
     },
     "winRates": {
-      "ALL": "57.0%",
+      "ALL": "56.4%",
       "WU": "-",
       "WB": "-",
-      "WR": "52.6%",
+      "WR": "52.9%",
       "WG": "-",
       "UB": "-",
-      "UR": "58.4%",
+      "UR": "57.7%",
       "UG": "-",
-      "BR": "51.4%",
+      "BR": "53.2%",
       "BG": "-",
-      "RG": "55.0%"
+      "RG": "54.4%"
     },
-    "winRate": "57.0%",
+    "winRate": "56.4%",
     "tier": "C+"
   },
   "Giantfall": {
@@ -5114,29 +5114,29 @@ const MASTER_CARD_DATA = {
       "ALL": "D+",
       "WU": "U",
       "WB": "U",
-      "WR": "D-",
+      "WR": "F",
       "WG": "U",
       "UB": "U",
-      "UR": "C",
+      "UR": "C-",
       "UG": "U",
-      "BR": "D-",
+      "BR": "D",
       "BG": "U",
       "RG": "C-"
     },
     "winRates": {
-      "ALL": "53.4%",
+      "ALL": "53.1%",
       "WU": "-",
       "WB": "-",
-      "WR": "50.5%",
+      "WR": "49.9%",
       "WG": "-",
       "UB": "-",
-      "UR": "55.3%",
+      "UR": "54.6%",
       "UG": "-",
-      "BR": "50.9%",
+      "BR": "51.7%",
       "BG": "-",
-      "RG": "54.7%"
+      "RG": "54.9%"
     },
-    "winRate": "53.4%",
+    "winRate": "53.1%",
     "tier": "D+"
   },
   "Goatnap": {
@@ -5159,7 +5159,7 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "48.8%",
+      "ALL": "48.6%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
@@ -5167,11 +5167,11 @@ const MASTER_CARD_DATA = {
       "UB": "-",
       "UR": "-",
       "UG": "-",
-      "BR": "50.7%",
+      "BR": "50.4%",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "48.8%",
+    "winRate": "48.6%",
     "tier": "F"
   },
   "Goliath Daydreamer": {
@@ -5181,33 +5181,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- 巨人(Giant)・ウィザード(Wizard)",
     "fileName": "大巨人の夢想家.webp",
     "tiers": {
-      "ALL": "C",
+      "ALL": "C-",
       "WU": "U",
       "WB": "U",
-      "WR": "U",
+      "WR": "C-",
       "WG": "U",
       "UB": "U",
-      "UR": "B-",
+      "UR": "C+",
       "UG": "U",
       "BR": "D+",
       "BG": "U",
-      "RG": "U"
+      "RG": "C-"
     },
     "winRates": {
-      "ALL": "55.5%",
+      "ALL": "54.9%",
       "WU": "-",
       "WB": "-",
-      "WR": "-",
+      "WR": "54.7%",
       "WG": "-",
       "UB": "-",
-      "UR": "57.6%",
+      "UR": "56.7%",
       "UG": "-",
       "BR": "53.6%",
       "BG": "-",
-      "RG": "-"
+      "RG": "54.4%"
     },
-    "winRate": "55.5%",
-    "tier": "C"
+    "winRate": "54.9%",
+    "tier": "C-"
   },
   "Gristle Glutton": {
     "enName": "Gristle Glutton",
@@ -5216,33 +5216,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- ゴブリン(Goblin)・スカウト(Scout)",
     "fileName": "肉筋の大食漢.webp",
     "tiers": {
-      "ALL": "D+",
+      "ALL": "C-",
       "WU": "U",
       "WB": "U",
-      "WR": "C-",
+      "WR": "D+",
       "WG": "U",
       "UB": "U",
-      "UR": "D+",
+      "UR": "C-",
       "UG": "U",
-      "BR": "D+",
+      "BR": "C-",
       "BG": "U",
-      "RG": "D"
+      "RG": "D-"
     },
     "winRates": {
-      "ALL": "53.3%",
+      "ALL": "53.8%",
       "WU": "-",
       "WB": "-",
-      "WR": "54.8%",
+      "WR": "53.4%",
       "WG": "-",
       "UB": "-",
-      "UR": "53.4%",
+      "UR": "54.2%",
       "UG": "-",
-      "BR": "53.1%",
+      "BR": "54.0%",
       "BG": "-",
-      "RG": "52.1%"
+      "RG": "51.1%"
     },
-    "winRate": "53.3%",
-    "tier": "D+"
+    "winRate": "53.8%",
+    "tier": "C-"
   },
   "Hexing Squelcher": {
     "enName": "Hexing Squelcher",
@@ -5254,10 +5254,10 @@ const MASTER_CARD_DATA = {
       "ALL": "D-",
       "WU": "U",
       "WB": "U",
-      "WR": "U",
+      "WR": "D-",
       "WG": "U",
       "UB": "U",
-      "UR": "C",
+      "UR": "C-",
       "UG": "U",
       "BR": "D-",
       "BG": "U",
@@ -5267,12 +5267,12 @@ const MASTER_CARD_DATA = {
       "ALL": "51.1%",
       "WU": "-",
       "WB": "-",
-      "WR": "-",
+      "WR": "50.9%",
       "WG": "-",
       "UB": "-",
-      "UR": "55.5%",
+      "UR": "54.0%",
       "UG": "-",
-      "BR": "50.0%",
+      "BR": "50.4%",
       "BG": "-",
       "RG": "-"
     },
@@ -5292,26 +5292,26 @@ const MASTER_CARD_DATA = {
       "WR": "U",
       "WG": "U",
       "UB": "U",
-      "UR": "U",
+      "UR": "F",
       "UG": "U",
       "BR": "F",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "45.9%",
+      "ALL": "43.8%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
       "WG": "-",
       "UB": "-",
-      "UR": "-",
+      "UR": "46.6%",
       "UG": "-",
-      "BR": "45.9%",
+      "BR": "44.1%",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "45.9%",
+    "winRate": "43.8%",
     "tier": "F"
   },
   "Kindle the Inner Flame": {
@@ -5334,19 +5334,19 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "54.3%",
+      "ALL": "54.8%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
       "WG": "-",
       "UB": "-",
-      "UR": "55.7%",
+      "UR": "55.9%",
       "UG": "-",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "54.3%",
+    "winRate": "54.8%",
     "tier": "C-"
   },
   "Kulrath Zealot": {
@@ -5359,29 +5359,29 @@ const MASTER_CARD_DATA = {
       "ALL": "C+",
       "WU": "U",
       "WB": "U",
-      "WR": "C+",
+      "WR": "C",
       "WG": "U",
       "UB": "U",
       "UR": "B-",
       "UG": "U",
       "BR": "C-",
       "BG": "U",
-      "RG": "C+"
+      "RG": "C"
     },
     "winRates": {
-      "ALL": "57.3%",
+      "ALL": "56.8%",
       "WU": "-",
       "WB": "-",
-      "WR": "56.3%",
+      "WR": "55.1%",
       "WG": "-",
       "UB": "-",
-      "UR": "58.5%",
+      "UR": "58.2%",
       "UG": "-",
-      "BR": "54.4%",
+      "BR": "54.7%",
       "BG": "-",
-      "RG": "56.7%"
+      "RG": "55.7%"
     },
-    "winRate": "57.3%",
+    "winRate": "56.8%",
     "tier": "C+"
   },
   "Lasting Tarfire": {
@@ -5404,7 +5404,7 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "46.8%",
+      "ALL": "47.2%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
@@ -5412,11 +5412,11 @@ const MASTER_CARD_DATA = {
       "UB": "-",
       "UR": "-",
       "UG": "-",
-      "BR": "47.3%",
+      "BR": "47.6%",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "46.8%",
+    "winRate": "47.2%",
     "tier": "F"
   },
   "Lavaleaper": {
@@ -5432,26 +5432,26 @@ const MASTER_CARD_DATA = {
       "WR": "U",
       "WG": "U",
       "UB": "U",
-      "UR": "U",
+      "UR": "F",
       "UG": "U",
       "BR": "U",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "48.6%",
+      "ALL": "48.0%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
       "WG": "-",
       "UB": "-",
-      "UR": "-",
+      "UR": "46.8%",
       "UG": "-",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "48.6%",
+    "winRate": "48.0%",
     "tier": "F"
   },
   "Meek Attack": {
@@ -5496,33 +5496,33 @@ const MASTER_CARD_DATA = {
     "type": "インスタント",
     "fileName": "無謀な略奪.webp",
     "tiers": {
-      "ALL": "F",
+      "ALL": "D-",
       "WU": "U",
       "WB": "U",
-      "WR": "U",
+      "WR": "D",
       "WG": "U",
       "UB": "U",
-      "UR": "D-",
+      "UR": "D",
       "UG": "U",
       "BR": "F",
       "BG": "U",
-      "RG": "U"
+      "RG": "D-"
     },
     "winRates": {
-      "ALL": "49.9%",
+      "ALL": "50.1%",
       "WU": "-",
       "WB": "-",
-      "WR": "-",
+      "WR": "52.3%",
       "WG": "-",
       "UB": "-",
-      "UR": "51.0%",
+      "UR": "51.4%",
       "UG": "-",
-      "BR": "48.8%",
+      "BR": "48.9%",
       "BG": "-",
-      "RG": "-"
+      "RG": "51.0%"
     },
-    "winRate": "49.9%",
-    "tier": "F"
+    "winRate": "50.1%",
+    "tier": "D-"
   },
   "Scuzzback Scrounger": {
     "enName": "Scuzzback Scrounger",
@@ -5531,33 +5531,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- ゴブリン(Goblin)・戦士(Warrior)",
     "fileName": "汚れ背のたかり屋.webp",
     "tiers": {
-      "ALL": "C-",
+      "ALL": "C",
       "WU": "U",
       "WB": "U",
-      "WR": "U",
+      "WR": "C-",
       "WG": "U",
       "UB": "U",
-      "UR": "C+",
+      "UR": "B-",
       "UG": "U",
-      "BR": "D",
+      "BR": "C-",
       "BG": "U",
-      "RG": "U"
+      "RG": "D"
     },
     "winRates": {
-      "ALL": "54.0%",
+      "ALL": "55.0%",
       "WU": "-",
       "WB": "-",
-      "WR": "-",
+      "WR": "53.8%",
       "WG": "-",
       "UB": "-",
-      "UR": "57.3%",
+      "UR": "57.7%",
       "UG": "-",
-      "BR": "51.9%",
+      "BR": "54.3%",
       "BG": "-",
-      "RG": "-"
+      "RG": "52.0%"
     },
-    "winRate": "54.0%",
-    "tier": "C-"
+    "winRate": "55.0%",
+    "tier": "C"
   },
   "Sear": {
     "enName": "Sear",
@@ -5569,29 +5569,29 @@ const MASTER_CARD_DATA = {
       "ALL": "C+",
       "WU": "U",
       "WB": "U",
-      "WR": "C",
+      "WR": "C-",
       "WG": "U",
       "UB": "U",
       "UR": "B-",
       "UG": "U",
       "BR": "C",
       "BG": "U",
-      "RG": "C"
+      "RG": "D+"
     },
     "winRates": {
-      "ALL": "57.1%",
+      "ALL": "56.6%",
       "WU": "-",
       "WB": "-",
-      "WR": "56.1%",
+      "WR": "54.4%",
       "WG": "-",
       "UB": "-",
-      "UR": "58.6%",
+      "UR": "58.4%",
       "UG": "-",
       "BR": "55.6%",
       "BG": "-",
-      "RG": "55.6%"
+      "RG": "53.6%"
     },
-    "winRate": "57.1%",
+    "winRate": "56.6%",
     "tier": "C+"
   },
   "Sizzling Changeling": {
@@ -5604,29 +5604,29 @@ const MASTER_CARD_DATA = {
       "ALL": "C-",
       "WU": "U",
       "WB": "U",
-      "WR": "D",
+      "WR": "D+",
       "WG": "U",
       "UB": "U",
       "UR": "C",
       "UG": "U",
       "BR": "D+",
       "BG": "U",
-      "RG": "D+"
+      "RG": "D"
     },
     "winRates": {
-      "ALL": "54.3%",
+      "ALL": "54.0%",
       "WU": "-",
       "WB": "-",
-      "WR": "52.0%",
+      "WR": "52.6%",
       "WG": "-",
       "UB": "-",
-      "UR": "55.7%",
+      "UR": "55.4%",
       "UG": "-",
-      "BR": "53.6%",
+      "BR": "53.1%",
       "BG": "-",
-      "RG": "53.0%"
+      "RG": "52.4%"
     },
-    "winRate": "54.3%",
+    "winRate": "54.0%",
     "tier": "C-"
   },
   "Soul Immolation": {
@@ -5639,29 +5639,29 @@ const MASTER_CARD_DATA = {
       "ALL": "A",
       "WU": "U",
       "WB": "U",
-      "WR": "U",
+      "WR": "A-",
       "WG": "U",
       "UB": "U",
       "UR": "A+",
       "UG": "U",
-      "BR": "A-",
+      "BR": "B+",
       "BG": "U",
-      "RG": "U"
+      "RG": "A+"
     },
     "winRates": {
-      "ALL": "63.2%",
+      "ALL": "63.0%",
       "WU": "-",
       "WB": "-",
-      "WR": "-",
+      "WR": "62.1%",
       "WG": "-",
       "UB": "-",
-      "UR": "65.4%",
+      "UR": "64.7%",
       "UG": "-",
-      "BR": "62.2%",
+      "BR": "61.3%",
       "BG": "-",
-      "RG": "-"
+      "RG": "67.1%"
     },
-    "winRate": "63.2%",
+    "winRate": "63.0%",
     "tier": "A"
   },
   "Soulbright Seeker": {
@@ -5674,27 +5674,27 @@ const MASTER_CARD_DATA = {
       "ALL": "C",
       "WU": "U",
       "WB": "U",
-      "WR": "U",
+      "WR": "D",
       "WG": "U",
       "UB": "U",
       "UR": "C",
       "UG": "U",
-      "BR": "U",
+      "BR": "F",
       "BG": "U",
-      "RG": "U"
+      "RG": "D"
     },
     "winRates": {
       "ALL": "55.0%",
       "WU": "-",
       "WB": "-",
-      "WR": "-",
+      "WR": "51.7%",
       "WG": "-",
       "UB": "-",
-      "UR": "55.8%",
+      "UR": "55.9%",
       "UG": "-",
-      "BR": "-",
+      "BR": "49.3%",
       "BG": "-",
-      "RG": "-"
+      "RG": "51.4%"
     },
     "winRate": "55.0%",
     "tier": "C"
@@ -5712,26 +5712,26 @@ const MASTER_CARD_DATA = {
       "WR": "D+",
       "WG": "U",
       "UB": "U",
-      "UR": "B-",
+      "UR": "C+",
       "UG": "U",
       "BR": "C",
       "BG": "U",
-      "RG": "U"
+      "RG": "B-"
     },
     "winRates": {
-      "ALL": "55.6%",
+      "ALL": "55.4%",
       "WU": "-",
       "WB": "-",
-      "WR": "53.3%",
+      "WR": "52.8%",
       "WG": "-",
       "UB": "-",
-      "UR": "57.9%",
+      "UR": "56.9%",
       "UG": "-",
       "BR": "55.6%",
       "BG": "-",
-      "RG": "-"
+      "RG": "58.0%"
     },
-    "winRate": "55.6%",
+    "winRate": "55.4%",
     "tier": "C"
   },
   "Spinerock Tyrant": {
@@ -5744,29 +5744,29 @@ const MASTER_CARD_DATA = {
       "ALL": "A-",
       "WU": "U",
       "WB": "U",
-      "WR": "U",
+      "WR": "A-",
       "WG": "U",
       "UB": "U",
       "UR": "A+",
       "UG": "U",
       "BR": "A-",
       "BG": "U",
-      "RG": "U"
+      "RG": "B+"
     },
     "winRates": {
-      "ALL": "61.8%",
+      "ALL": "62.2%",
       "WU": "-",
       "WB": "-",
-      "WR": "-",
+      "WR": "61.7%",
       "WG": "-",
       "UB": "-",
-      "UR": "64.3%",
+      "UR": "64.5%",
       "UG": "-",
-      "BR": "62.1%",
+      "BR": "62.0%",
       "BG": "-",
-      "RG": "-"
+      "RG": "60.9%"
     },
-    "winRate": "61.8%",
+    "winRate": "62.2%",
     "tier": "A-"
   },
   "Squawkroaster": {
@@ -5779,29 +5779,29 @@ const MASTER_CARD_DATA = {
       "ALL": "D",
       "WU": "U",
       "WB": "U",
-      "WR": "U",
+      "WR": "D",
       "WG": "U",
       "UB": "U",
       "UR": "D+",
       "UG": "U",
-      "BR": "U",
+      "BR": "D-",
       "BG": "U",
-      "RG": "D"
+      "RG": "F"
     },
     "winRates": {
-      "ALL": "51.5%",
+      "ALL": "51.8%",
       "WU": "-",
       "WB": "-",
-      "WR": "-",
+      "WR": "52.2%",
       "WG": "-",
       "UB": "-",
-      "UR": "52.6%",
+      "UR": "53.0%",
       "UG": "-",
-      "BR": "-",
+      "BR": "50.2%",
       "BG": "-",
-      "RG": "51.2%"
+      "RG": "49.3%"
     },
-    "winRate": "51.5%",
+    "winRate": "51.8%",
     "tier": "D"
   },
   "Sting-Slinger": {
@@ -5817,26 +5817,26 @@ const MASTER_CARD_DATA = {
       "WR": "D-",
       "WG": "U",
       "UB": "U",
-      "UR": "D+",
+      "UR": "D",
       "UG": "U",
       "BR": "D",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "51.8%",
+      "ALL": "52.0%",
       "WU": "-",
       "WB": "-",
-      "WR": "50.4%",
+      "WR": "50.1%",
       "WG": "-",
       "UB": "-",
-      "UR": "52.6%",
+      "UR": "52.2%",
       "UG": "-",
-      "BR": "51.8%",
+      "BR": "52.4%",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "51.8%",
+    "winRate": "52.0%",
     "tier": "D"
   },
   "Tweeze": {
@@ -5856,22 +5856,22 @@ const MASTER_CARD_DATA = {
       "UG": "U",
       "BR": "D+",
       "BG": "U",
-      "RG": "D+"
+      "RG": "D"
     },
     "winRates": {
-      "ALL": "54.5%",
+      "ALL": "54.6%",
       "WU": "-",
       "WB": "-",
-      "WR": "52.5%",
+      "WR": "52.7%",
       "WG": "-",
       "UB": "-",
       "UR": "56.8%",
       "UG": "-",
-      "BR": "53.2%",
+      "BR": "53.6%",
       "BG": "-",
-      "RG": "52.5%"
+      "RG": "52.4%"
     },
-    "winRate": "54.5%",
+    "winRate": "54.6%",
     "tier": "C-"
   },
   "Warren Torchmaster": {
@@ -5900,9 +5900,9 @@ const MASTER_CARD_DATA = {
       "WR": "51.1%",
       "WG": "-",
       "UB": "-",
-      "UR": "51.7%",
+      "UR": "52.1%",
       "UG": "-",
-      "BR": "51.9%",
+      "BR": "51.8%",
       "BG": "-",
       "RG": "-"
     },
@@ -5925,23 +5925,23 @@ const MASTER_CARD_DATA = {
       "UR": "U",
       "UG": "D+",
       "BR": "U",
-      "BG": "B+",
-      "RG": "C"
+      "BG": "B",
+      "RG": "C-"
     },
     "winRates": {
-      "ALL": "58.5%",
+      "ALL": "57.9%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "57.8%",
+      "WG": "57.7%",
       "UB": "-",
       "UR": "-",
-      "UG": "53.0%",
+      "UG": "53.4%",
       "BR": "-",
-      "BG": "60.6%",
-      "RG": "56.1%"
+      "BG": "59.8%",
+      "RG": "54.8%"
     },
-    "winRate": "58.5%",
+    "winRate": "57.9%",
     "tier": "B-"
   },
   "Aurora Awakener": {
@@ -5957,26 +5957,26 @@ const MASTER_CARD_DATA = {
       "WR": "U",
       "WG": "B+",
       "UB": "U",
-      "UR": "U",
+      "UR": "A",
       "UG": "U",
       "BR": "U",
-      "BG": "A-",
-      "RG": "U"
+      "BG": "B",
+      "RG": "B+"
     },
     "winRates": {
-      "ALL": "60.8%",
+      "ALL": "60.6%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "60.9%",
+      "WG": "61.2%",
       "UB": "-",
-      "UR": "-",
+      "UR": "62.9%",
       "UG": "-",
       "BR": "-",
-      "BG": "61.7%",
-      "RG": "-"
+      "BG": "59.4%",
+      "RG": "60.8%"
     },
-    "winRate": "60.8%",
+    "winRate": "60.6%",
     "tier": "B+"
   },
   "Bloom Tender": {
@@ -5990,7 +5990,7 @@ const MASTER_CARD_DATA = {
       "WU": "U",
       "WB": "U",
       "WR": "U",
-      "WG": "U",
+      "WG": "C-",
       "UB": "U",
       "UR": "U",
       "UG": "U",
@@ -5999,19 +5999,19 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "54.2%",
+      "ALL": "54.6%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "-",
+      "WG": "54.5%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
       "BR": "-",
-      "BG": "57.4%",
+      "BG": "56.8%",
       "RG": "-"
     },
-    "winRate": "54.2%",
+    "winRate": "54.6%",
     "tier": "C-"
   },
   "Blossoming Defense": {
@@ -6025,28 +6025,28 @@ const MASTER_CARD_DATA = {
       "WU": "U",
       "WB": "U",
       "WR": "U",
-      "WG": "C-",
+      "WG": "C",
       "UB": "U",
       "UR": "U",
-      "UG": "U",
+      "UG": "D-",
       "BR": "U",
-      "BG": "B-",
-      "RG": "U"
+      "BG": "C+",
+      "RG": "C"
     },
     "winRates": {
-      "ALL": "55.9%",
+      "ALL": "55.4%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "54.6%",
+      "WG": "55.2%",
       "UB": "-",
       "UR": "-",
-      "UG": "-",
+      "UG": "51.1%",
       "BR": "-",
-      "BG": "57.9%",
-      "RG": "-"
+      "BG": "56.5%",
+      "RG": "55.7%"
     },
-    "winRate": "55.9%",
+    "winRate": "55.4%",
     "tier": "C"
   },
   "Bristlebane Battler": {
@@ -6056,33 +6056,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- キスキン(Kithkin)・兵士(Soldier)",
     "fileName": "鋸折りの戦闘員.webp",
     "tiers": {
-      "ALL": "B+",
+      "ALL": "B",
       "WU": "U",
       "WB": "U",
       "WR": "U",
-      "WG": "A-",
+      "WG": "B+",
       "UB": "U",
       "UR": "U",
       "UG": "U",
       "BR": "U",
       "BG": "B+",
-      "RG": "U"
+      "RG": "B-"
     },
     "winRates": {
-      "ALL": "60.6%",
+      "ALL": "59.7%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "62.2%",
+      "WG": "61.1%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
       "BR": "-",
-      "BG": "60.9%",
-      "RG": "-"
+      "BG": "60.6%",
+      "RG": "58.2%"
     },
-    "winRate": "60.6%",
-    "tier": "B+"
+    "winRate": "59.7%",
+    "tier": "B"
   },
   "Bristlebane Outrider": {
     "enName": "Bristlebane Outrider",
@@ -6098,25 +6098,25 @@ const MASTER_CARD_DATA = {
       "WG": "B-",
       "UB": "U",
       "UR": "U",
-      "UG": "U",
+      "UG": "D",
       "BR": "U",
       "BG": "C-",
-      "RG": "U"
+      "RG": "C"
     },
     "winRates": {
-      "ALL": "57.2%",
+      "ALL": "56.2%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "58.7%",
+      "WG": "57.6%",
       "UB": "-",
       "UR": "-",
-      "UG": "-",
+      "UG": "52.4%",
       "BR": "-",
-      "BG": "54.8%",
-      "RG": "-"
+      "BG": "54.3%",
+      "RG": "55.0%"
     },
-    "winRate": "57.2%",
+    "winRate": "56.2%",
     "tier": "C+"
   },
   "Celestial Reunion": {
@@ -6130,7 +6130,7 @@ const MASTER_CARD_DATA = {
       "WU": "U",
       "WB": "U",
       "WR": "U",
-      "WG": "U",
+      "WG": "C-",
       "UB": "U",
       "UR": "U",
       "UG": "U",
@@ -6139,19 +6139,19 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "54.5%",
+      "ALL": "53.8%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "-",
+      "WG": "54.6%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
       "BR": "-",
-      "BG": "55.7%",
+      "BG": "55.3%",
       "RG": "-"
     },
-    "winRate": "54.5%",
+    "winRate": "53.8%",
     "tier": "C-"
   },
   "Champions of the Perfect": {
@@ -6161,7 +6161,7 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- エルフ(Elf)・戦士(Warrior)",
     "fileName": "完全者の闘士.webp",
     "tiers": {
-      "ALL": "A",
+      "ALL": "B+",
       "WU": "U",
       "WB": "U",
       "WR": "U",
@@ -6170,24 +6170,24 @@ const MASTER_CARD_DATA = {
       "UR": "U",
       "UG": "U",
       "BR": "U",
-      "BG": "A+",
+      "BG": "A",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "62.7%",
+      "ALL": "61.2%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "59.2%",
+      "WG": "58.9%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
       "BR": "-",
-      "BG": "64.7%",
+      "BG": "62.8%",
       "RG": "-"
     },
-    "winRate": "62.7%",
-    "tier": "A"
+    "winRate": "61.2%",
+    "tier": "B+"
   },
   "Chomping Changeling": {
     "enName": "Chomping Changeling",
@@ -6196,33 +6196,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- 多相の戦士(Shapeshifter)",
     "fileName": "食らいつく変わり身.webp",
     "tiers": {
-      "ALL": "D-",
+      "ALL": "F",
       "WU": "U",
       "WB": "U",
       "WR": "U",
-      "WG": "D",
+      "WG": "F",
       "UB": "U",
       "UR": "U",
       "UG": "U",
       "BR": "U",
-      "BG": "D",
-      "RG": "U"
+      "BG": "D-",
+      "RG": "F"
     },
     "winRates": {
-      "ALL": "50.3%",
+      "ALL": "49.3%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "51.4%",
+      "WG": "49.4%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
       "BR": "-",
-      "BG": "52.4%",
-      "RG": "-"
+      "BG": "51.0%",
+      "RG": "43.5%"
     },
-    "winRate": "50.3%",
-    "tier": "D-"
+    "winRate": "49.3%",
+    "tier": "F"
   },
   "Crossroads Watcher": {
     "enName": "Crossroads Watcher",
@@ -6238,25 +6238,25 @@ const MASTER_CARD_DATA = {
       "WG": "C+",
       "UB": "U",
       "UR": "U",
-      "UG": "U",
+      "UG": "D",
       "BR": "U",
       "BG": "D",
-      "RG": "B-"
+      "RG": "C"
     },
     "winRates": {
-      "ALL": "55.1%",
+      "ALL": "55.2%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
       "WG": "56.4%",
       "UB": "-",
       "UR": "-",
-      "UG": "-",
+      "UG": "51.2%",
       "BR": "-",
-      "BG": "51.6%",
-      "RG": "57.6%"
+      "BG": "52.0%",
+      "RG": "55.2%"
     },
-    "winRate": "55.1%",
+    "winRate": "55.2%",
     "tier": "C"
   },
   "Dawn's Light Archer": {
@@ -6270,28 +6270,28 @@ const MASTER_CARD_DATA = {
       "WU": "U",
       "WB": "U",
       "WR": "U",
-      "WG": "D-",
+      "WG": "D",
       "UB": "U",
       "UR": "U",
-      "UG": "U",
+      "UG": "F",
       "BR": "U",
-      "BG": "B-",
-      "RG": "U"
+      "BG": "C",
+      "RG": "D-"
     },
     "winRates": {
-      "ALL": "56.1%",
+      "ALL": "55.0%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "51.1%",
+      "WG": "51.2%",
       "UB": "-",
       "UR": "-",
-      "UG": "-",
+      "UG": "49.4%",
       "BR": "-",
-      "BG": "57.5%",
-      "RG": "-"
+      "BG": "56.1%",
+      "RG": "50.9%"
     },
-    "winRate": "56.1%",
+    "winRate": "55.0%",
     "tier": "C"
   },
   "Dundoolin Weaver": {
@@ -6308,25 +6308,25 @@ const MASTER_CARD_DATA = {
       "WG": "C+",
       "UB": "U",
       "UR": "U",
-      "UG": "U",
+      "UG": "C-",
       "BR": "U",
-      "BG": "B-",
-      "RG": "C"
+      "BG": "C+",
+      "RG": "C-"
     },
     "winRates": {
-      "ALL": "56.6%",
+      "ALL": "56.2%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "57.2%",
+      "WG": "57.4%",
       "UB": "-",
       "UR": "-",
-      "UG": "-",
+      "UG": "54.5%",
       "BR": "-",
-      "BG": "58.3%",
-      "RG": "55.0%"
+      "BG": "56.7%",
+      "RG": "54.3%"
     },
-    "winRate": "56.6%",
+    "winRate": "56.2%",
     "tier": "C+"
   },
   "Formidable Speaker": {
@@ -6336,7 +6336,7 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- エルフ(Elf)・ドルイド(Druid)",
     "fileName": "並外れた語り部.webp",
     "tiers": {
-      "ALL": "B-",
+      "ALL": "C+",
       "WU": "U",
       "WB": "U",
       "WR": "U",
@@ -6346,23 +6346,23 @@ const MASTER_CARD_DATA = {
       "UG": "U",
       "BR": "U",
       "BG": "B",
-      "RG": "U"
+      "RG": "C-"
     },
     "winRates": {
-      "ALL": "57.6%",
+      "ALL": "57.4%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "56.6%",
+      "WG": "56.8%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
       "BR": "-",
-      "BG": "59.2%",
-      "RG": "-"
+      "BG": "58.9%",
+      "RG": "54.3%"
     },
-    "winRate": "57.6%",
-    "tier": "B-"
+    "winRate": "57.4%",
+    "tier": "C+"
   },
   "Gilt-Leaf's Embrace": {
     "enName": "Gilt-Leaf's Embrace",
@@ -6380,11 +6380,11 @@ const MASTER_CARD_DATA = {
       "UR": "U",
       "UG": "U",
       "BR": "U",
-      "BG": "C+",
-      "RG": "U"
+      "BG": "C",
+      "RG": "C-"
     },
     "winRates": {
-      "ALL": "55.0%",
+      "ALL": "55.1%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
@@ -6393,10 +6393,10 @@ const MASTER_CARD_DATA = {
       "UR": "-",
       "UG": "-",
       "BR": "-",
-      "BG": "56.2%",
-      "RG": "-"
+      "BG": "56.0%",
+      "RG": "54.0%"
     },
-    "winRate": "55.0%",
+    "winRate": "55.1%",
     "tier": "C"
   },
   "Great Forest Druid": {
@@ -6415,23 +6415,23 @@ const MASTER_CARD_DATA = {
       "UR": "U",
       "UG": "C",
       "BR": "U",
-      "BG": "C",
-      "RG": "D+"
+      "BG": "C-",
+      "RG": "D"
     },
     "winRates": {
-      "ALL": "54.0%",
+      "ALL": "53.8%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "52.8%",
+      "WG": "52.5%",
       "UB": "-",
       "UR": "-",
-      "UG": "56.1%",
+      "UG": "55.6%",
       "BR": "-",
-      "BG": "55.3%",
-      "RG": "52.8%"
+      "BG": "54.8%",
+      "RG": "52.4%"
     },
-    "winRate": "54.0%",
+    "winRate": "53.8%",
     "tier": "C-"
   },
   "Luminollusk": {
@@ -6441,33 +6441,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- エレメンタル(Elemental)",
     "fileName": "発光軟体生物.webp",
     "tiers": {
-      "ALL": "D",
+      "ALL": "D-",
       "WU": "U",
       "WB": "U",
       "WR": "U",
-      "WG": "D",
+      "WG": "D-",
       "UB": "U",
-      "UR": "U",
-      "UG": "D",
+      "UR": "C",
+      "UG": "D-",
       "BR": "U",
-      "BG": "D-",
-      "RG": "C-"
+      "BG": "F",
+      "RG": "D"
     },
     "winRates": {
-      "ALL": "52.3%",
+      "ALL": "51.0%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "52.3%",
+      "WG": "50.0%",
       "UB": "-",
-      "UR": "-",
-      "UG": "51.6%",
+      "UR": "55.1%",
+      "UG": "50.4%",
       "BR": "-",
-      "BG": "51.1%",
-      "RG": "54.4%"
+      "BG": "49.6%",
+      "RG": "51.3%"
     },
-    "winRate": "52.3%",
-    "tier": "D"
+    "winRate": "51.0%",
+    "tier": "D-"
   },
   "Lys Alana Dignitary": {
     "enName": "Lys Alana Dignitary",
@@ -6489,19 +6489,19 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "58.1%",
+      "ALL": "57.6%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "51.5%",
+      "WG": "51.7%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
       "BR": "-",
-      "BG": "59.2%",
+      "BG": "58.8%",
       "RG": "-"
     },
-    "winRate": "58.1%",
+    "winRate": "57.6%",
     "tier": "B-"
   },
   "Lys Alana Informant": {
@@ -6518,25 +6518,25 @@ const MASTER_CARD_DATA = {
       "WG": "C",
       "UB": "U",
       "UR": "U",
-      "UG": "D-",
+      "UG": "D+",
       "BR": "U",
-      "BG": "B",
-      "RG": "C-"
+      "BG": "B-",
+      "RG": "D+"
     },
     "winRates": {
-      "ALL": "57.3%",
+      "ALL": "57.0%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
       "WG": "56.1%",
       "UB": "-",
       "UR": "-",
-      "UG": "50.5%",
+      "UG": "52.7%",
       "BR": "-",
-      "BG": "58.8%",
-      "RG": "54.3%"
+      "BG": "58.2%",
+      "RG": "53.6%"
     },
-    "winRate": "57.3%",
+    "winRate": "57.0%",
     "tier": "C+"
   },
   "Midnight Tilling": {
@@ -6550,28 +6550,28 @@ const MASTER_CARD_DATA = {
       "WU": "U",
       "WB": "U",
       "WR": "U",
-      "WG": "C+",
+      "WG": "C-",
       "UB": "U",
       "UR": "U",
-      "UG": "U",
+      "UG": "D-",
       "BR": "U",
-      "BG": "B-",
-      "RG": "U"
+      "BG": "C+",
+      "RG": "D"
     },
     "winRates": {
-      "ALL": "57.1%",
+      "ALL": "56.3%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "56.9%",
+      "WG": "54.9%",
       "UB": "-",
       "UR": "-",
-      "UG": "-",
+      "UG": "50.3%",
       "BR": "-",
-      "BG": "58.0%",
-      "RG": "-"
+      "BG": "57.2%",
+      "RG": "52.2%"
     },
-    "winRate": "57.1%",
+    "winRate": "56.3%",
     "tier": "C+"
   },
   "Mistmeadow Council": {
@@ -6588,25 +6588,25 @@ const MASTER_CARD_DATA = {
       "WG": "B-",
       "UB": "U",
       "UR": "U",
-      "UG": "C",
+      "UG": "C-",
       "BR": "U",
-      "BG": "C+",
-      "RG": "B"
+      "BG": "C-",
+      "RG": "C"
     },
     "winRates": {
-      "ALL": "57.2%",
+      "ALL": "56.6%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "58.0%",
+      "WG": "57.9%",
       "UB": "-",
       "UR": "-",
-      "UG": "55.7%",
+      "UG": "54.7%",
       "BR": "-",
-      "BG": "56.2%",
-      "RG": "59.2%"
+      "BG": "54.3%",
+      "RG": "55.1%"
     },
-    "winRate": "57.2%",
+    "winRate": "56.6%",
     "tier": "C+"
   },
   "Moon-Vigil Adherents": {
@@ -6620,28 +6620,28 @@ const MASTER_CARD_DATA = {
       "WU": "U",
       "WB": "U",
       "WR": "U",
-      "WG": "B-",
+      "WG": "C+",
       "UB": "U",
       "UR": "U",
-      "UG": "U",
+      "UG": "C",
       "BR": "U",
       "BG": "B+",
-      "RG": "U"
+      "RG": "C-"
     },
     "winRates": {
-      "ALL": "59.6%",
+      "ALL": "58.8%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "58.4%",
+      "WG": "57.1%",
       "UB": "-",
       "UR": "-",
-      "UG": "-",
+      "UG": "55.5%",
       "BR": "-",
-      "BG": "60.8%",
-      "RG": "-"
+      "BG": "60.2%",
+      "RG": "54.3%"
     },
-    "winRate": "59.6%",
+    "winRate": "58.8%",
     "tier": "B"
   },
   "Morcant's Eyes": {
@@ -6655,7 +6655,7 @@ const MASTER_CARD_DATA = {
       "WU": "U",
       "WB": "U",
       "WR": "U",
-      "WG": "U",
+      "WG": "F",
       "UB": "U",
       "UR": "U",
       "UG": "U",
@@ -6664,19 +6664,19 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "61.0%",
+      "ALL": "60.5%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "-",
+      "WG": "49.7%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
       "BR": "-",
-      "BG": "62.1%",
+      "BG": "61.6%",
       "RG": "-"
     },
-    "winRate": "61.0%",
+    "winRate": "60.5%",
     "tier": "B+"
   },
   "Mutable Explorer": {
@@ -6686,33 +6686,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- 多相の戦士(Shapeshifter)",
     "fileName": "易変の探検者.webp",
     "tiers": {
-      "ALL": "C",
+      "ALL": "C-",
       "WU": "U",
       "WB": "U",
       "WR": "U",
-      "WG": "C+",
+      "WG": "C-",
       "UB": "U",
       "UR": "U",
       "UG": "U",
       "BR": "U",
-      "BG": "B-",
-      "RG": "U"
+      "BG": "C",
+      "RG": "F"
     },
     "winRates": {
-      "ALL": "55.1%",
+      "ALL": "54.1%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "56.8%",
+      "WG": "54.8%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
       "BR": "-",
-      "BG": "57.6%",
-      "RG": "-"
+      "BG": "55.8%",
+      "RG": "49.4%"
     },
-    "winRate": "55.1%",
-    "tier": "C"
+    "winRate": "54.1%",
+    "tier": "C-"
   },
   "Pitiless Fists": {
     "enName": "Pitiless Fists",
@@ -6721,33 +6721,33 @@ const MASTER_CARD_DATA = {
     "type": "エンチャント --- オーラ(Aura)",
     "fileName": "冷酷な拳.webp",
     "tiers": {
-      "ALL": "B",
+      "ALL": "B-",
       "WU": "U",
       "WB": "U",
       "WR": "U",
       "WG": "B-",
       "UB": "U",
       "UR": "U",
-      "UG": "B-",
+      "UG": "C+",
       "BR": "U",
       "BG": "B+",
       "RG": "C"
     },
     "winRates": {
-      "ALL": "58.8%",
+      "ALL": "58.5%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "57.5%",
+      "WG": "57.6%",
       "UB": "-",
       "UR": "-",
-      "UG": "57.9%",
+      "UG": "57.2%",
       "BR": "-",
-      "BG": "61.0%",
-      "RG": "56.1%"
+      "BG": "60.2%",
+      "RG": "55.8%"
     },
-    "winRate": "58.8%",
-    "tier": "B"
+    "winRate": "58.5%",
+    "tier": "B-"
   },
   "Prismabasher": {
     "enName": "Prismabasher",
@@ -6760,28 +6760,28 @@ const MASTER_CARD_DATA = {
       "WU": "U",
       "WB": "U",
       "WR": "U",
-      "WG": "B-",
+      "WG": "C+",
       "UB": "U",
-      "UR": "U",
+      "UR": "C",
       "UG": "C",
       "BR": "U",
-      "BG": "B-",
+      "BG": "C+",
       "RG": "C"
     },
     "winRates": {
-      "ALL": "57.1%",
+      "ALL": "56.5%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "57.8%",
+      "WG": "56.9%",
       "UB": "-",
-      "UR": "-",
-      "UG": "55.5%",
+      "UR": "55.7%",
+      "UG": "55.9%",
       "BR": "-",
-      "BG": "57.9%",
-      "RG": "56.1%"
+      "BG": "57.2%",
+      "RG": "55.0%"
     },
-    "winRate": "57.1%",
+    "winRate": "56.5%",
     "tier": "C+"
   },
   "Prismatic Undercurrents": {
@@ -6795,28 +6795,28 @@ const MASTER_CARD_DATA = {
       "WU": "U",
       "WB": "U",
       "WR": "U",
-      "WG": "U",
+      "WG": "F",
       "UB": "U",
       "UR": "U",
       "UG": "U",
       "BR": "U",
-      "BG": "U",
-      "RG": "U"
+      "BG": "F",
+      "RG": "F"
     },
     "winRates": {
-      "ALL": "48.8%",
+      "ALL": "48.9%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "-",
+      "WG": "44.9%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
       "BR": "-",
-      "BG": "-",
-      "RG": "-"
+      "BG": "48.4%",
+      "RG": "45.3%"
     },
-    "winRate": "48.8%",
+    "winRate": "48.9%",
     "tier": "F"
   },
   "Pummeler for Hire": {
@@ -6826,33 +6826,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- 巨人(Giant)・傭兵(Mercenary)",
     "fileName": "雇われの打撃手.webp",
     "tiers": {
-      "ALL": "C+",
+      "ALL": "C",
       "WU": "U",
       "WB": "U",
       "WR": "U",
       "WG": "C+",
       "UB": "U",
       "UR": "U",
-      "UG": "C",
+      "UG": "C+",
       "BR": "U",
-      "BG": "B-",
+      "BG": "C",
       "RG": "C-"
     },
     "winRates": {
-      "ALL": "56.2%",
+      "ALL": "55.5%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "56.5%",
+      "WG": "56.6%",
       "UB": "-",
       "UR": "-",
-      "UG": "55.3%",
+      "UG": "56.4%",
       "BR": "-",
-      "BG": "57.6%",
-      "RG": "54.4%"
+      "BG": "55.9%",
+      "RG": "54.8%"
     },
-    "winRate": "56.2%",
-    "tier": "C+"
+    "winRate": "55.5%",
+    "tier": "C"
   },
   "Safewright Cavalry": {
     "enName": "Safewright Cavalry",
@@ -6870,11 +6870,11 @@ const MASTER_CARD_DATA = {
       "UR": "U",
       "UG": "D+",
       "BR": "U",
-      "BG": "B-",
-      "RG": "D+"
+      "BG": "C+",
+      "RG": "D"
     },
     "winRates": {
-      "ALL": "56.8%",
+      "ALL": "56.3%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
@@ -6883,10 +6883,10 @@ const MASTER_CARD_DATA = {
       "UR": "-",
       "UG": "53.3%",
       "BR": "-",
-      "BG": "58.1%",
-      "RG": "52.8%"
+      "BG": "57.4%",
+      "RG": "51.3%"
     },
-    "winRate": "56.8%",
+    "winRate": "56.3%",
     "tier": "C+"
   },
   "Sapling Nursery": {
@@ -6900,28 +6900,28 @@ const MASTER_CARD_DATA = {
       "WU": "U",
       "WB": "U",
       "WR": "U",
-      "WG": "C-",
+      "WG": "C",
       "UB": "U",
       "UR": "U",
-      "UG": "U",
+      "UG": "B-",
       "BR": "U",
-      "BG": "B",
-      "RG": "U"
+      "BG": "C+",
+      "RG": "C-"
     },
     "winRates": {
-      "ALL": "57.4%",
+      "ALL": "56.5%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "54.5%",
+      "WG": "55.2%",
       "UB": "-",
       "UR": "-",
-      "UG": "-",
+      "UG": "58.6%",
       "BR": "-",
-      "BG": "59.3%",
-      "RG": "-"
+      "BG": "57.4%",
+      "RG": "53.7%"
     },
-    "winRate": "57.4%",
+    "winRate": "56.5%",
     "tier": "C+"
   },
   "Selfless Safewright": {
@@ -6931,7 +6931,7 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- エルフ(Elf)・戦士(Warrior)",
     "fileName": "無私の守美者.webp",
     "tiers": {
-      "ALL": "B-",
+      "ALL": "C+",
       "WU": "U",
       "WB": "U",
       "WR": "U",
@@ -6940,24 +6940,24 @@ const MASTER_CARD_DATA = {
       "UR": "U",
       "UG": "U",
       "BR": "U",
-      "BG": "B",
+      "BG": "B-",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "57.5%",
+      "ALL": "56.9%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "57.1%",
+      "WG": "56.9%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
       "BR": "-",
-      "BG": "58.8%",
+      "BG": "57.7%",
       "RG": "-"
     },
-    "winRate": "57.5%",
-    "tier": "B-"
+    "winRate": "56.9%",
+    "tier": "C+"
   },
   "Shimmerwilds Growth": {
     "enName": "Shimmerwilds Growth",
@@ -6970,28 +6970,28 @@ const MASTER_CARD_DATA = {
       "WU": "U",
       "WB": "U",
       "WR": "U",
-      "WG": "D",
+      "WG": "F",
       "UB": "U",
       "UR": "U",
-      "UG": "C-",
+      "UG": "D+",
       "BR": "U",
       "BG": "F",
       "RG": "F"
     },
     "winRates": {
-      "ALL": "50.7%",
+      "ALL": "50.3%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "51.3%",
+      "WG": "49.3%",
       "UB": "-",
       "UR": "-",
-      "UG": "54.4%",
+      "UG": "53.0%",
       "BR": "-",
-      "BG": "49.3%",
+      "BG": "49.1%",
       "RG": "49.1%"
     },
-    "winRate": "50.7%",
+    "winRate": "50.3%",
     "tier": "D-"
   },
   "Spry and Mighty": {
@@ -7001,33 +7001,33 @@ const MASTER_CARD_DATA = {
     "type": "ソーサリー",
     "fileName": "意気軒高.webp",
     "tiers": {
-      "ALL": "C-",
+      "ALL": "D+",
       "WU": "U",
       "WB": "U",
       "WR": "U",
-      "WG": "C",
+      "WG": "D+",
       "UB": "U",
       "UR": "U",
       "UG": "U",
       "BR": "U",
       "BG": "C-",
-      "RG": "U"
+      "RG": "D-"
     },
     "winRates": {
-      "ALL": "54.3%",
+      "ALL": "53.6%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "55.0%",
+      "WG": "53.4%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
       "BR": "-",
       "BG": "54.7%",
-      "RG": "-"
+      "RG": "50.8%"
     },
-    "winRate": "54.3%",
-    "tier": "C-"
+    "winRate": "53.6%",
+    "tier": "D+"
   },
   "Surly Farrier": {
     "enName": "Surly Farrier",
@@ -7043,25 +7043,25 @@ const MASTER_CARD_DATA = {
       "WG": "C-",
       "UB": "U",
       "UR": "U",
-      "UG": "U",
+      "UG": "D+",
       "BR": "U",
       "BG": "D+",
-      "RG": "C+"
+      "RG": "C"
     },
     "winRates": {
-      "ALL": "53.7%",
+      "ALL": "53.8%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "54.3%",
+      "WG": "54.6%",
       "UB": "-",
       "UR": "-",
-      "UG": "-",
+      "UG": "53.2%",
       "BR": "-",
-      "BG": "52.9%",
-      "RG": "57.1%"
+      "BG": "52.8%",
+      "RG": "55.2%"
     },
-    "winRate": "53.7%",
+    "winRate": "53.8%",
     "tier": "C-"
   },
   "Tend the Sprigs": {
@@ -7075,12 +7075,12 @@ const MASTER_CARD_DATA = {
       "WU": "U",
       "WB": "U",
       "WR": "U",
-      "WG": "D-",
+      "WG": "F",
       "UB": "U",
       "UR": "U",
-      "UG": "D+",
+      "UG": "D-",
       "BR": "U",
-      "BG": "F",
+      "BG": "D-",
       "RG": "F"
     },
     "winRates": {
@@ -7088,13 +7088,13 @@ const MASTER_CARD_DATA = {
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "51.1%",
+      "WG": "49.8%",
       "UB": "-",
       "UR": "-",
-      "UG": "52.9%",
+      "UG": "50.9%",
       "BR": "-",
-      "BG": "49.3%",
-      "RG": "48.1%"
+      "BG": "50.0%",
+      "RG": "46.9%"
     },
     "winRate": "49.5%",
     "tier": "F"
@@ -7119,19 +7119,19 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "54.4%",
+      "ALL": "54.2%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "54.0%",
+      "WG": "54.2%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
       "BR": "-",
-      "BG": "55.9%",
+      "BG": "55.6%",
       "RG": "-"
     },
-    "winRate": "54.4%",
+    "winRate": "54.2%",
     "tier": "C-"
   },
   "Trystan, Callous Cultivator": {
@@ -7145,7 +7145,7 @@ const MASTER_CARD_DATA = {
       "WU": "U",
       "WB": "U",
       "WR": "U",
-      "WG": "B-",
+      "WG": "C+",
       "UB": "U",
       "UR": "U",
       "UG": "U",
@@ -7158,12 +7158,12 @@ const MASTER_CARD_DATA = {
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "58.3%",
+      "WG": "57.2%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
       "BR": "-",
-      "BG": "62.2%",
+      "BG": "62.4%",
       "RG": "-"
     },
     "winRate": "60.7%",
@@ -7223,19 +7223,19 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "51.4%",
+      "ALL": "51.3%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "50.6%",
+      "WG": "50.3%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
       "BR": "-",
-      "BG": "52.7%",
+      "BG": "52.5%",
       "RG": "-"
     },
-    "winRate": "51.4%",
+    "winRate": "51.3%",
     "tier": "D"
   },
   "Vinebred Brawler": {
@@ -7245,33 +7245,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- エルフ(Elf)・狂戦士(Berserker)",
     "fileName": "ツタ育ての喧嘩屋.webp",
     "tiers": {
-      "ALL": "C+",
+      "ALL": "C",
       "WU": "U",
       "WB": "U",
       "WR": "U",
-      "WG": "D",
+      "WG": "D-",
       "UB": "U",
       "UR": "U",
       "UG": "U",
       "BR": "U",
-      "BG": "B-",
+      "BG": "C+",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "56.6%",
+      "ALL": "56.0%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "52.1%",
+      "WG": "50.5%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
       "BR": "-",
-      "BG": "57.7%",
+      "BG": "57.0%",
       "RG": "-"
     },
-    "winRate": "56.6%",
-    "tier": "C+"
+    "winRate": "56.0%",
+    "tier": "C"
   },
   "Virulent Emissary": {
     "enName": "Virulent Emissary",
@@ -7280,33 +7280,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- エルフ(Elf)・暗殺者(Assassin)",
     "fileName": "悪性の密使.webp",
     "tiers": {
-      "ALL": "B",
+      "ALL": "B-",
       "WU": "U",
       "WB": "U",
       "WR": "U",
       "WG": "B-",
       "UB": "U",
       "UR": "U",
-      "UG": "U",
+      "UG": "C-",
       "BR": "U",
-      "BG": "B+",
+      "BG": "B",
       "RG": "C"
     },
     "winRates": {
-      "ALL": "58.8%",
+      "ALL": "58.2%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "58.5%",
+      "WG": "57.9%",
       "UB": "-",
       "UR": "-",
-      "UG": "-",
+      "UG": "53.8%",
       "BR": "-",
-      "BG": "60.4%",
-      "RG": "55.0%"
+      "BG": "59.4%",
+      "RG": "55.4%"
     },
-    "winRate": "58.8%",
-    "tier": "B"
+    "winRate": "58.2%",
+    "tier": "B-"
   },
   "Wildvine Pummeler": {
     "enName": "Wildvine Pummeler",
@@ -7315,33 +7315,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- 巨人(Giant)・狂戦士(Berserker)",
     "fileName": "野生蔦の打撃手.webp",
     "tiers": {
-      "ALL": "D+",
+      "ALL": "D",
       "WU": "U",
       "WB": "U",
       "WR": "U",
-      "WG": "D+",
+      "WG": "D",
       "UB": "U",
-      "UR": "U",
-      "UG": "C",
+      "UR": "D",
+      "UG": "D+",
       "BR": "U",
-      "BG": "D+",
-      "RG": "D"
+      "BG": "D",
+      "RG": "D+"
     },
     "winRates": {
-      "ALL": "52.8%",
+      "ALL": "52.0%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "53.3%",
+      "WG": "51.8%",
       "UB": "-",
-      "UR": "-",
-      "UG": "55.0%",
+      "UR": "52.4%",
+      "UG": "53.4%",
       "BR": "-",
-      "BG": "53.0%",
-      "RG": "52.4%"
+      "BG": "52.0%",
+      "RG": "53.2%"
     },
-    "winRate": "52.8%",
-    "tier": "D+"
+    "winRate": "52.0%",
+    "tier": "D"
   },
   "Abigale, Eloquent First-Year": {
     "enName": "Abigale, Eloquent First-Year",
@@ -7350,33 +7350,33 @@ const MASTER_CARD_DATA = {
     "type": "伝説のクリーチャー --- 鳥(Bird)・バード(Bard)",
     "fileName": "口達者な一年生、アビゲール.webp",
     "tiers": {
-      "ALL": "B",
-      "WU": "C",
-      "WB": "U",
+      "ALL": "B-",
+      "WU": "C+",
+      "WB": "C-",
       "WR": "U",
-      "WG": "A",
+      "WG": "B+",
       "UB": "U",
       "UR": "U",
       "UG": "U",
-      "BR": "B+",
-      "BG": "A",
+      "BR": "B-",
+      "BG": "A-",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "58.9%",
-      "WU": "55.8%",
-      "WB": "-",
+      "ALL": "58.4%",
+      "WU": "56.2%",
+      "WB": "53.8%",
       "WR": "-",
-      "WG": "62.7%",
+      "WG": "61.3%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
-      "BR": "60.1%",
-      "BG": "62.6%",
+      "BR": "57.8%",
+      "BG": "62.1%",
       "RG": "-"
     },
-    "winRate": "58.9%",
-    "tier": "B"
+    "winRate": "58.4%",
+    "tier": "B-"
   },
   "Ashling's Command": {
     "enName": "Ashling's Command",
@@ -7393,24 +7393,24 @@ const MASTER_CARD_DATA = {
       "UB": "U",
       "UR": "A+",
       "UG": "U",
-      "BR": "U",
+      "BR": "B+",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "66.7%",
-      "WU": "60.2%",
+      "ALL": "66.2%",
+      "WU": "61.3%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
       "UB": "-",
       "UR": "68.2%",
       "UG": "-",
-      "BR": "-",
+      "BR": "60.2%",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "66.7%",
+    "winRate": "66.2%",
     "tier": "A+"
   },
   "Boggart Cursecrafter": {
@@ -7433,7 +7433,7 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "56.9%",
+      "ALL": "57.0%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
@@ -7441,11 +7441,11 @@ const MASTER_CARD_DATA = {
       "UB": "-",
       "UR": "-",
       "UG": "-",
-      "BR": "57.1%",
+      "BR": "57.2%",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "56.9%",
+    "winRate": "57.0%",
     "tier": "C+"
   },
   "Bre of Clan Stoutarm": {
@@ -7455,33 +7455,33 @@ const MASTER_CARD_DATA = {
     "type": "伝説のクリーチャー --- 巨人(Giant)・戦士(Warrior)",
     "fileName": "豪腕族のブレ.webp",
     "tiers": {
-      "ALL": "C+",
-      "WU": "U",
+      "ALL": "C",
+      "WU": "D+",
       "WB": "U",
-      "WR": "B",
-      "WG": "B-",
+      "WR": "B-",
+      "WG": "C+",
       "UB": "U",
-      "UR": "C+",
+      "UR": "C",
       "UG": "U",
-      "BR": "U",
+      "BR": "D",
       "BG": "U",
-      "RG": "U"
+      "RG": "C+"
     },
     "winRates": {
-      "ALL": "56.4%",
-      "WU": "-",
+      "ALL": "55.6%",
+      "WU": "52.7%",
       "WB": "-",
-      "WR": "58.8%",
-      "WG": "58.6%",
+      "WR": "58.2%",
+      "WG": "57.1%",
       "UB": "-",
-      "UR": "56.6%",
+      "UR": "55.7%",
       "UG": "-",
-      "BR": "-",
+      "BR": "52.2%",
       "BG": "-",
-      "RG": "-"
+      "RG": "56.2%"
     },
-    "winRate": "56.4%",
-    "tier": "C+"
+    "winRate": "55.6%",
+    "tier": "C"
   },
   "Brigid's Command": {
     "enName": "Brigid's Command",
@@ -7503,11 +7503,11 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "60.5%",
+      "ALL": "60.1%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "62.0%",
+      "WG": "61.9%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -7515,7 +7515,7 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "60.5%",
+    "winRate": "60.1%",
     "tier": "B+"
   },
   "Catharsis": {
@@ -7525,33 +7525,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- エレメンタル(Elemental)・インカーネーション(Incarnation)",
     "fileName": "快心.webp",
     "tiers": {
-      "ALL": "C",
-      "WU": "U",
+      "ALL": "D+",
+      "WU": "D-",
       "WB": "U",
-      "WR": "U",
-      "WG": "U",
+      "WR": "C",
+      "WG": "C-",
       "UB": "U",
       "UR": "C-",
       "UG": "U",
-      "BR": "U",
+      "BR": "F",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "55.3%",
-      "WU": "-",
+      "ALL": "53.1%",
+      "WU": "50.6%",
       "WB": "-",
-      "WR": "-",
-      "WG": "-",
+      "WR": "56.0%",
+      "WG": "54.4%",
       "UB": "-",
       "UR": "54.8%",
       "UG": "-",
-      "BR": "-",
+      "BR": "46.8%",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "55.3%",
-    "tier": "C"
+    "winRate": "53.1%",
+    "tier": "D+"
   },
   "Chaos Spewer": {
     "enName": "Chaos Spewer",
@@ -7562,28 +7562,28 @@ const MASTER_CARD_DATA = {
     "tiers": {
       "ALL": "D-",
       "WU": "U",
-      "WB": "F",
-      "WR": "D-",
+      "WB": "D-",
+      "WR": "F",
       "WG": "U",
       "UB": "U",
       "UR": "D",
       "UG": "U",
       "BR": "D-",
       "BG": "F",
-      "RG": "U"
+      "RG": "D-"
     },
     "winRates": {
       "ALL": "50.7%",
       "WU": "-",
-      "WB": "49.6%",
-      "WR": "51.0%",
+      "WB": "51.0%",
+      "WR": "49.8%",
       "WG": "-",
       "UB": "-",
-      "UR": "51.3%",
+      "UR": "51.6%",
       "UG": "-",
       "BR": "50.8%",
-      "BG": "49.7%",
-      "RG": "-"
+      "BG": "48.9%",
+      "RG": "51.1%"
     },
     "winRate": "50.7%",
     "tier": "D-"
@@ -7595,33 +7595,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- 多相の戦士(Shapeshifter)",
     "fileName": "甲殻の掴み仔.webp",
     "tiers": {
-      "ALL": "D",
-      "WU": "D",
+      "ALL": "D-",
+      "WU": "D-",
       "WB": "U",
       "WR": "U",
       "WG": "D-",
       "UB": "F",
-      "UR": "C-",
-      "UG": "D",
+      "UR": "D",
+      "UG": "D-",
       "BR": "U",
       "BG": "D",
       "RG": "F"
     },
     "winRates": {
-      "ALL": "51.4%",
-      "WU": "51.3%",
+      "ALL": "50.9%",
+      "WU": "51.1%",
       "WB": "-",
       "WR": "-",
-      "WG": "50.9%",
-      "UB": "48.9%",
-      "UR": "53.7%",
-      "UG": "51.8%",
+      "WG": "50.6%",
+      "UB": "49.9%",
+      "UR": "52.2%",
+      "UG": "50.5%",
       "BR": "-",
-      "BG": "51.6%",
-      "RG": "46.5%"
+      "BG": "51.2%",
+      "RG": "48.1%"
     },
-    "winRate": "51.4%",
-    "tier": "D"
+    "winRate": "50.9%",
+    "tier": "D-"
   },
   "Deceit": {
     "enName": "Deceit",
@@ -7630,33 +7630,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- エレメンタル(Elemental)・インカーネーション(Incarnation)",
     "fileName": "欺瞞.webp",
     "tiers": {
-      "ALL": "B",
-      "WU": "C",
+      "ALL": "B-",
+      "WU": "C-",
       "WB": "U",
       "WR": "U",
       "WG": "U",
-      "UB": "U",
+      "UB": "A",
       "UR": "B+",
       "UG": "U",
-      "BR": "U",
-      "BG": "B+",
+      "BR": "B-",
+      "BG": "B-",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "59.8%",
-      "WU": "55.9%",
+      "ALL": "58.5%",
+      "WU": "54.8%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "-",
-      "UR": "60.3%",
+      "UB": "63.2%",
+      "UR": "60.2%",
       "UG": "-",
-      "BR": "-",
-      "BG": "61.4%",
+      "BR": "58.0%",
+      "BG": "58.7%",
       "RG": "-"
     },
-    "winRate": "59.8%",
-    "tier": "B"
+    "winRate": "58.5%",
+    "tier": "B-"
   },
   "Deepchannel Duelist": {
     "enName": "Deepchannel Duelist",
@@ -7666,7 +7666,7 @@ const MASTER_CARD_DATA = {
     "fileName": "深水路の決闘者.webp",
     "tiers": {
       "ALL": "A",
-      "WU": "A+",
+      "WU": "A",
       "WB": "U",
       "WR": "U",
       "WG": "U",
@@ -7678,8 +7678,8 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "63.6%",
-      "WU": "64.0%",
+      "ALL": "63.0%",
+      "WU": "63.5%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
@@ -7690,7 +7690,7 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "63.6%",
+    "winRate": "63.0%",
     "tier": "A"
   },
   "Deepway Navigator": {
@@ -7713,8 +7713,8 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "56.2%",
-      "WU": "56.7%",
+      "ALL": "56.4%",
+      "WU": "56.8%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
@@ -7725,7 +7725,7 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "56.2%",
+    "winRate": "56.4%",
     "tier": "C+"
   },
   "Doran, Besieged by Time": {
@@ -7739,28 +7739,28 @@ const MASTER_CARD_DATA = {
       "WU": "U",
       "WB": "U",
       "WR": "U",
-      "WG": "A+",
+      "WG": "B+",
       "UB": "U",
       "UR": "U",
       "UG": "U",
       "BR": "U",
-      "BG": "B-",
+      "BG": "B",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "58.4%",
+      "ALL": "58.2%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "64.7%",
+      "WG": "60.5%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
       "BR": "-",
-      "BG": "58.7%",
+      "BG": "59.1%",
       "RG": "-"
     },
-    "winRate": "58.4%",
+    "winRate": "58.2%",
     "tier": "B-"
   },
   "Dream Harvest": {
@@ -7771,31 +7771,31 @@ const MASTER_CARD_DATA = {
     "fileName": "夢の収穫.webp",
     "tiers": {
       "ALL": "D-",
-      "WU": "U",
+      "WU": "F",
       "WB": "U",
       "WR": "U",
       "WG": "U",
-      "UB": "U",
-      "UR": "D-",
+      "UB": "F",
+      "UR": "D+",
       "UG": "U",
-      "BR": "U",
+      "BR": "F",
       "BG": "D+",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "50.7%",
-      "WU": "-",
+      "ALL": "50.2%",
+      "WU": "49.0%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "-",
-      "UR": "50.8%",
+      "UB": "46.7%",
+      "UR": "53.5%",
       "UG": "-",
-      "BR": "-",
-      "BG": "52.9%",
+      "BR": "49.6%",
+      "BG": "52.5%",
       "RG": "-"
     },
-    "winRate": "50.7%",
+    "winRate": "50.2%",
     "tier": "D-"
   },
   "Eclipsed Boggart": {
@@ -7813,12 +7813,12 @@ const MASTER_CARD_DATA = {
       "UB": "U",
       "UR": "U",
       "UG": "U",
-      "BR": "B+",
+      "BR": "B",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "59.2%",
+      "ALL": "59.1%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
@@ -7826,11 +7826,11 @@ const MASTER_CARD_DATA = {
       "UB": "-",
       "UR": "-",
       "UG": "-",
-      "BR": "60.0%",
+      "BR": "59.8%",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "59.2%",
+    "winRate": "59.1%",
     "tier": "B"
   },
   "Eclipsed Elf": {
@@ -7844,7 +7844,7 @@ const MASTER_CARD_DATA = {
       "WU": "U",
       "WB": "U",
       "WR": "U",
-      "WG": "U",
+      "WG": "D+",
       "UB": "U",
       "UR": "U",
       "UG": "U",
@@ -7853,19 +7853,19 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "63.5%",
+      "ALL": "63.0%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "-",
+      "WG": "53.2%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
       "BR": "-",
-      "BG": "65.1%",
+      "BG": "64.4%",
       "RG": "-"
     },
-    "winRate": "63.5%",
+    "winRate": "63.0%",
     "tier": "A"
   },
   "Eclipsed Flamekin": {
@@ -7875,33 +7875,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- エレメンタル(Elemental)・スカウト(Scout)",
     "fileName": "蝕甚化した炎族.webp",
     "tiers": {
-      "ALL": "B+",
-      "WU": "B-",
+      "ALL": "B",
+      "WU": "C+",
       "WB": "U",
-      "WR": "U",
+      "WR": "C-",
       "WG": "U",
       "UB": "U",
-      "UR": "A-",
+      "UR": "B+",
       "UG": "U",
-      "BR": "U",
+      "BR": "D",
       "BG": "U",
-      "RG": "U"
+      "RG": "C-"
     },
     "winRates": {
-      "ALL": "60.5%",
-      "WU": "57.5%",
+      "ALL": "59.9%",
+      "WU": "56.2%",
       "WB": "-",
-      "WR": "-",
+      "WR": "54.6%",
       "WG": "-",
       "UB": "-",
-      "UR": "61.8%",
+      "UR": "61.3%",
       "UG": "-",
-      "BR": "-",
+      "BR": "52.2%",
       "BG": "-",
-      "RG": "-"
+      "RG": "54.6%"
     },
-    "winRate": "60.5%",
-    "tier": "B+"
+    "winRate": "59.9%",
+    "tier": "B"
   },
   "Eclipsed Kithkin": {
     "enName": "Eclipsed Kithkin",
@@ -7911,7 +7911,7 @@ const MASTER_CARD_DATA = {
     "fileName": "蝕甚化したキスキン.webp",
     "tiers": {
       "ALL": "A-",
-      "WU": "C+",
+      "WU": "C-",
       "WB": "U",
       "WR": "U",
       "WG": "A+",
@@ -7923,8 +7923,8 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "62.4%",
-      "WU": "57.3%",
+      "ALL": "62.3%",
+      "WU": "54.9%",
       "WB": "-",
       "WR": "-",
       "WG": "65.0%",
@@ -7935,7 +7935,7 @@ const MASTER_CARD_DATA = {
       "BG": "55.3%",
       "RG": "-"
     },
-    "winRate": "62.4%",
+    "winRate": "62.3%",
     "tier": "A-"
   },
   "Eclipsed Merrow": {
@@ -7951,26 +7951,26 @@ const MASTER_CARD_DATA = {
       "WR": "U",
       "WG": "U",
       "UB": "U",
-      "UR": "U",
+      "UR": "D",
       "UG": "U",
       "BR": "U",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "62.1%",
-      "WU": "63.2%",
+      "ALL": "61.7%",
+      "WU": "62.6%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
       "UB": "-",
-      "UR": "-",
+      "UR": "52.2%",
       "UG": "-",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "62.1%",
+    "winRate": "61.7%",
     "tier": "A-"
   },
   "Emptiness": {
@@ -7981,31 +7981,31 @@ const MASTER_CARD_DATA = {
     "fileName": "空虚.webp",
     "tiers": {
       "ALL": "C+",
-      "WU": "U",
-      "WB": "U",
+      "WU": "C",
+      "WB": "C+",
       "WR": "U",
-      "WG": "U",
+      "WG": "C-",
       "UB": "U",
       "UR": "U",
       "UG": "U",
-      "BR": "U",
-      "BG": "B",
+      "BR": "C-",
+      "BG": "B+",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "56.7%",
-      "WU": "-",
-      "WB": "-",
+      "ALL": "57.1%",
+      "WU": "56.1%",
+      "WB": "57.3%",
       "WR": "-",
-      "WG": "-",
+      "WG": "53.8%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
-      "BR": "-",
-      "BG": "59.9%",
+      "BR": "54.5%",
+      "BG": "61.2%",
       "RG": "-"
     },
-    "winRate": "56.7%",
+    "winRate": "57.1%",
     "tier": "C+"
   },
   "Feisty Spikeling": {
@@ -8016,9 +8016,9 @@ const MASTER_CARD_DATA = {
     "fileName": "活発な突き刺し仔.webp",
     "tiers": {
       "ALL": "D-",
-      "WU": "C-",
+      "WU": "D+",
       "WB": "F",
-      "WR": "D-",
+      "WR": "F",
       "WG": "D-",
       "UB": "U",
       "UR": "D",
@@ -8028,19 +8028,19 @@ const MASTER_CARD_DATA = {
       "RG": "F"
     },
     "winRates": {
-      "ALL": "51.0%",
-      "WU": "53.8%",
-      "WB": "47.5%",
-      "WR": "50.3%",
+      "ALL": "50.5%",
+      "WU": "52.5%",
+      "WB": "46.8%",
+      "WR": "49.0%",
       "WG": "50.8%",
       "UB": "-",
-      "UR": "52.4%",
+      "UR": "52.2%",
       "UG": "-",
-      "BR": "48.4%",
+      "BR": "47.3%",
       "BG": "-",
-      "RG": "49.2%"
+      "RG": "48.3%"
     },
-    "winRate": "51.0%",
+    "winRate": "50.5%",
     "tier": "D-"
   },
   "Figure of Fable": {
@@ -8051,9 +8051,9 @@ const MASTER_CARD_DATA = {
     "fileName": "寓話の大立者.webp",
     "tiers": {
       "ALL": "A",
-      "WU": "A",
+      "WU": "A-",
       "WB": "U",
-      "WR": "U",
+      "WR": "A+",
       "WG": "A+",
       "UB": "U",
       "UR": "U",
@@ -8063,19 +8063,19 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "63.9%",
-      "WU": "62.7%",
+      "ALL": "63.5%",
+      "WU": "62.3%",
       "WB": "-",
-      "WR": "-",
-      "WG": "66.1%",
+      "WR": "64.3%",
+      "WG": "65.9%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
       "BR": "-",
-      "BG": "65.7%",
+      "BG": "64.2%",
       "RG": "-"
     },
-    "winRate": "63.9%",
+    "winRate": "63.5%",
     "tier": "A"
   },
   "Flaring Cinder": {
@@ -8088,29 +8088,29 @@ const MASTER_CARD_DATA = {
       "ALL": "C",
       "WU": "D+",
       "WB": "U",
-      "WR": "U",
+      "WR": "D",
       "WG": "U",
-      "UB": "U",
-      "UR": "C+",
-      "UG": "U",
-      "BR": "U",
+      "UB": "D-",
+      "UR": "C",
+      "UG": "F",
+      "BR": "D-",
       "BG": "U",
-      "RG": "D-"
+      "RG": "D"
     },
     "winRates": {
-      "ALL": "55.3%",
-      "WU": "52.5%",
+      "ALL": "55.1%",
+      "WU": "52.6%",
       "WB": "-",
-      "WR": "-",
+      "WR": "52.1%",
       "WG": "-",
-      "UB": "-",
-      "UR": "56.6%",
-      "UG": "-",
-      "BR": "-",
+      "UB": "50.1%",
+      "UR": "56.1%",
+      "UG": "49.5%",
+      "BR": "50.2%",
       "BG": "-",
-      "RG": "50.5%"
+      "RG": "52.0%"
     },
-    "winRate": "55.3%",
+    "winRate": "55.1%",
     "tier": "C"
   },
   "Gangly Stompling": {
@@ -8124,26 +8124,26 @@ const MASTER_CARD_DATA = {
       "WU": "U",
       "WB": "U",
       "WR": "D",
-      "WG": "C-",
+      "WG": "C+",
       "UB": "U",
-      "UR": "C",
-      "UG": "D-",
-      "BR": "D-",
+      "UR": "C-",
+      "UG": "D",
+      "BR": "D",
       "BG": "C",
-      "RG": "D+"
+      "RG": "D"
     },
     "winRates": {
       "ALL": "53.7%",
       "WU": "-",
       "WB": "-",
-      "WR": "51.3%",
-      "WG": "54.8%",
+      "WR": "51.9%",
+      "WG": "56.3%",
       "UB": "-",
-      "UR": "55.5%",
-      "UG": "50.6%",
-      "BR": "51.0%",
-      "BG": "56.1%",
-      "RG": "53.4%"
+      "UR": "54.8%",
+      "UG": "52.1%",
+      "BR": "51.2%",
+      "BG": "55.0%",
+      "RG": "51.2%"
     },
     "winRate": "53.7%",
     "tier": "C-"
@@ -8156,31 +8156,31 @@ const MASTER_CARD_DATA = {
     "fileName": "輝かせの子.webp",
     "tiers": {
       "ALL": "D",
-      "WU": "D+",
+      "WU": "C",
       "WB": "U",
       "WR": "U",
-      "WG": "D-",
+      "WG": "D+",
       "UB": "U",
-      "UR": "D-",
+      "UR": "D+",
       "UG": "D-",
       "BR": "U",
-      "BG": "F",
-      "RG": "U"
+      "BG": "D",
+      "RG": "D"
     },
     "winRates": {
-      "ALL": "51.2%",
-      "WU": "53.5%",
+      "ALL": "52.1%",
+      "WU": "55.4%",
       "WB": "-",
       "WR": "-",
-      "WG": "50.4%",
+      "WG": "52.5%",
       "UB": "-",
-      "UR": "50.9%",
-      "UG": "50.5%",
+      "UR": "52.7%",
+      "UG": "50.8%",
       "BR": "-",
-      "BG": "49.1%",
-      "RG": "-"
+      "BG": "51.5%",
+      "RG": "51.7%"
     },
-    "winRate": "51.2%",
+    "winRate": "52.1%",
     "tier": "D"
   },
   "Grub's Command": {
@@ -8196,26 +8196,26 @@ const MASTER_CARD_DATA = {
       "WR": "U",
       "WG": "U",
       "UB": "U",
-      "UR": "U",
+      "UR": "B-",
       "UG": "U",
       "BR": "A+",
-      "BG": "U",
+      "BG": "C-",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "63.2%",
+      "ALL": "63.0%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
       "WG": "-",
       "UB": "-",
-      "UR": "-",
+      "UR": "58.2%",
       "UG": "-",
-      "BR": "65.3%",
-      "BG": "-",
+      "BR": "65.5%",
+      "BG": "54.4%",
       "RG": "-"
     },
-    "winRate": "63.2%",
+    "winRate": "63.0%",
     "tier": "A"
   },
   "High Perfect Morcant": {
@@ -8224,251 +8224,6 @@ const MASTER_CARD_DATA = {
     "cost": "(２)(黒)(緑)",
     "type": "伝説のクリーチャー --- エルフ(Elf)・貴族(Noble)",
     "fileName": "高位完全者、モーカント.webp",
-    "tiers": {
-      "ALL": "A",
-      "WU": "U",
-      "WB": "U",
-      "WR": "U",
-      "WG": "U",
-      "UB": "U",
-      "UR": "U",
-      "UG": "U",
-      "BR": "U",
-      "BG": "A",
-      "RG": "U"
-    },
-    "winRates": {
-      "ALL": "62.8%",
-      "WU": "-",
-      "WB": "-",
-      "WR": "-",
-      "WG": "-",
-      "UB": "-",
-      "UR": "-",
-      "UG": "-",
-      "BR": "-",
-      "BG": "63.7%",
-      "RG": "-"
-    },
-    "winRate": "62.8%",
-    "tier": "A"
-  },
-  "Hovel Hurler": {
-    "enName": "Hovel Hurler",
-    "jpName": "あばら家投げ",
-    "cost": "(３)(赤/白)(赤/白)",
-    "type": "クリーチャー --- 巨人(Giant)・戦士(Warrior)",
-    "fileName": "あばら家投げ.webp",
-    "tiers": {
-      "ALL": "C-",
-      "WU": "C-",
-      "WB": "U",
-      "WR": "D+",
-      "WG": "C+",
-      "UB": "U",
-      "UR": "C",
-      "UG": "U",
-      "BR": "D+",
-      "BG": "U",
-      "RG": "U"
-    },
-    "winRates": {
-      "ALL": "54.3%",
-      "WU": "53.9%",
-      "WB": "-",
-      "WR": "53.1%",
-      "WG": "56.9%",
-      "UB": "-",
-      "UR": "55.5%",
-      "UG": "-",
-      "BR": "53.0%",
-      "BG": "-",
-      "RG": "-"
-    },
-    "winRate": "54.3%",
-    "tier": "C-"
-  },
-  "Kirol, Attentive First-Year": {
-    "enName": "Kirol, Attentive First-Year",
-    "jpName": "注意深い一年生、キーロル",
-    "cost": "(１)(赤/白)(赤/白)",
-    "type": "伝説のクリーチャー --- 吸血鬼(Vampire)・クレリック(Cleric)",
-    "fileName": "注意深い一年生、キーロル.webp",
-    "tiers": {
-      "ALL": "D",
-      "WU": "D+",
-      "WB": "U",
-      "WR": "U",
-      "WG": "D+",
-      "UB": "U",
-      "UR": "C+",
-      "UG": "U",
-      "BR": "D-",
-      "BG": "U",
-      "RG": "U"
-    },
-    "winRates": {
-      "ALL": "52.3%",
-      "WU": "52.5%",
-      "WB": "-",
-      "WR": "-",
-      "WG": "53.4%",
-      "UB": "-",
-      "UR": "56.9%",
-      "UG": "-",
-      "BR": "50.2%",
-      "BG": "-",
-      "RG": "-"
-    },
-    "winRate": "52.3%",
-    "tier": "D"
-  },
-  "Lluwen, Imperfect Naturalist": {
-    "enName": "Lluwen, Imperfect Naturalist",
-    "jpName": "不完全な自然体、ルーウェン",
-    "cost": "(黒/緑)(黒/緑)",
-    "type": "伝説のクリーチャー --- エルフ(Elf)・ドルイド(Druid)",
-    "fileName": "不完全な自然体、ルーウェン.webp",
-    "tiers": {
-      "ALL": "B",
-      "WU": "U",
-      "WB": "U",
-      "WR": "U",
-      "WG": "U",
-      "UB": "U",
-      "UR": "U",
-      "UG": "U",
-      "BR": "U",
-      "BG": "A-",
-      "RG": "U"
-    },
-    "winRates": {
-      "ALL": "59.4%",
-      "WU": "-",
-      "WB": "-",
-      "WR": "-",
-      "WG": "-",
-      "UB": "-",
-      "UR": "-",
-      "UG": "-",
-      "BR": "-",
-      "BG": "62.2%",
-      "RG": "-"
-    },
-    "winRate": "59.4%",
-    "tier": "B"
-  },
-  "Maralen, Fae Ascendant": {
-    "enName": "Maralen, Fae Ascendant",
-    "jpName": "上位のフェイ、マラレン",
-    "cost": "(２)(黒)(緑)(青)",
-    "type": "伝説のクリーチャー --- エルフ(Elf)・フェアリー(Faerie)・貴族(Noble)",
-    "fileName": "上位のフェイ、マラレン.webp",
-    "tiers": {
-      "ALL": "B",
-      "WU": "U",
-      "WB": "U",
-      "WR": "U",
-      "WG": "U",
-      "UB": "U",
-      "UR": "U",
-      "UG": "U",
-      "BR": "U",
-      "BG": "A",
-      "RG": "U"
-    },
-    "winRates": {
-      "ALL": "59.8%",
-      "WU": "-",
-      "WB": "-",
-      "WR": "-",
-      "WG": "-",
-      "UB": "-",
-      "UR": "-",
-      "UG": "-",
-      "BR": "-",
-      "BG": "62.9%",
-      "RG": "-"
-    },
-    "winRate": "59.8%",
-    "tier": "B"
-  },
-  "Merrow Skyswimmer": {
-    "enName": "Merrow Skyswimmer",
-    "jpName": "メロウの空泳ぎ",
-    "cost": "(３)(白/青)(白/青)",
-    "type": "クリーチャー --- マーフォーク(Merfolk)・兵士(Soldier)",
-    "fileName": "メロウの空泳ぎ.webp",
-    "tiers": {
-      "ALL": "C+",
-      "WU": "B-",
-      "WB": "D",
-      "WR": "F",
-      "WG": "C",
-      "UB": "D+",
-      "UR": "C+",
-      "UG": "U",
-      "BR": "U",
-      "BG": "U",
-      "RG": "U"
-    },
-    "winRates": {
-      "ALL": "57.1%",
-      "WU": "58.3%",
-      "WB": "51.8%",
-      "WR": "47.9%",
-      "WG": "56.0%",
-      "UB": "52.5%",
-      "UR": "57.4%",
-      "UG": "-",
-      "BR": "-",
-      "BG": "-",
-      "RG": "-"
-    },
-    "winRate": "57.1%",
-    "tier": "C+"
-  },
-  "Mischievous Sneakling": {
-    "enName": "Mischievous Sneakling",
-    "jpName": "悪戯好きの忍び仔",
-    "cost": "(１)(青/黒)",
-    "type": "クリーチャー --- 多相の戦士(Shapeshifter)",
-    "fileName": "悪戯好きの忍び仔.webp",
-    "tiers": {
-      "ALL": "D+",
-      "WU": "D",
-      "WB": "F",
-      "WR": "U",
-      "WG": "U",
-      "UB": "D",
-      "UR": "C-",
-      "UG": "D-",
-      "BR": "D",
-      "BG": "C-",
-      "RG": "U"
-    },
-    "winRates": {
-      "ALL": "52.7%",
-      "WU": "52.4%",
-      "WB": "48.6%",
-      "WR": "-",
-      "WG": "-",
-      "UB": "51.7%",
-      "UR": "54.9%",
-      "UG": "51.1%",
-      "BR": "51.5%",
-      "BG": "54.4%",
-      "RG": "-"
-    },
-    "winRate": "52.7%",
-    "tier": "D+"
-  },
-  "Morcant's Loyalist": {
-    "enName": "Morcant's Loyalist",
-    "jpName": "モーカントの忠節者",
-    "cost": "(１)(黒)(緑)",
-    "type": "クリーチャー --- エルフ(Elf)・戦士(Warrior)",
-    "fileName": "モーカントの忠節者.webp",
     "tiers": {
       "ALL": "A-",
       "WU": "U",
@@ -8483,7 +8238,7 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "62.2%",
+      "ALL": "61.9%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
@@ -8492,11 +8247,256 @@ const MASTER_CARD_DATA = {
       "UR": "-",
       "UG": "-",
       "BR": "-",
-      "BG": "63.2%",
+      "BG": "63.0%",
       "RG": "-"
     },
-    "winRate": "62.2%",
+    "winRate": "61.9%",
     "tier": "A-"
+  },
+  "Hovel Hurler": {
+    "enName": "Hovel Hurler",
+    "jpName": "あばら家投げ",
+    "cost": "(３)(赤/白)(赤/白)",
+    "type": "クリーチャー --- 巨人(Giant)・戦士(Warrior)",
+    "fileName": "あばら家投げ.webp",
+    "tiers": {
+      "ALL": "D+",
+      "WU": "D+",
+      "WB": "D-",
+      "WR": "D+",
+      "WG": "C",
+      "UB": "U",
+      "UR": "C-",
+      "UG": "U",
+      "BR": "D+",
+      "BG": "U",
+      "RG": "D"
+    },
+    "winRates": {
+      "ALL": "53.3%",
+      "WU": "53.4%",
+      "WB": "50.1%",
+      "WR": "53.1%",
+      "WG": "55.2%",
+      "UB": "-",
+      "UR": "54.5%",
+      "UG": "-",
+      "BR": "52.8%",
+      "BG": "-",
+      "RG": "52.3%"
+    },
+    "winRate": "53.3%",
+    "tier": "D+"
+  },
+  "Kirol, Attentive First-Year": {
+    "enName": "Kirol, Attentive First-Year",
+    "jpName": "注意深い一年生、キーロル",
+    "cost": "(１)(赤/白)(赤/白)",
+    "type": "伝説のクリーチャー --- 吸血鬼(Vampire)・クレリック(Cleric)",
+    "fileName": "注意深い一年生、キーロル.webp",
+    "tiers": {
+      "ALL": "D+",
+      "WU": "D+",
+      "WB": "U",
+      "WR": "C-",
+      "WG": "C-",
+      "UB": "U",
+      "UR": "C",
+      "UG": "U",
+      "BR": "D-",
+      "BG": "U",
+      "RG": "U"
+    },
+    "winRates": {
+      "ALL": "52.8%",
+      "WU": "53.2%",
+      "WB": "-",
+      "WR": "54.1%",
+      "WG": "54.7%",
+      "UB": "-",
+      "UR": "55.1%",
+      "UG": "-",
+      "BR": "50.2%",
+      "BG": "-",
+      "RG": "-"
+    },
+    "winRate": "52.8%",
+    "tier": "D+"
+  },
+  "Lluwen, Imperfect Naturalist": {
+    "enName": "Lluwen, Imperfect Naturalist",
+    "jpName": "不完全な自然体、ルーウェン",
+    "cost": "(黒/緑)(黒/緑)",
+    "type": "伝説のクリーチャー --- エルフ(Elf)・ドルイド(Druid)",
+    "fileName": "不完全な自然体、ルーウェン.webp",
+    "tiers": {
+      "ALL": "B",
+      "WU": "U",
+      "WB": "U",
+      "WR": "U",
+      "WG": "C",
+      "UB": "U",
+      "UR": "U",
+      "UG": "U",
+      "BR": "D",
+      "BG": "A-",
+      "RG": "U"
+    },
+    "winRates": {
+      "ALL": "59.1%",
+      "WU": "-",
+      "WB": "-",
+      "WR": "-",
+      "WG": "55.8%",
+      "UB": "-",
+      "UR": "-",
+      "UG": "-",
+      "BR": "52.0%",
+      "BG": "61.8%",
+      "RG": "-"
+    },
+    "winRate": "59.1%",
+    "tier": "B"
+  },
+  "Maralen, Fae Ascendant": {
+    "enName": "Maralen, Fae Ascendant",
+    "jpName": "上位のフェイ、マラレン",
+    "cost": "(２)(黒)(緑)(青)",
+    "type": "伝説のクリーチャー --- エルフ(Elf)・フェアリー(Faerie)・貴族(Noble)",
+    "fileName": "上位のフェイ、マラレン.webp",
+    "tiers": {
+      "ALL": "B+",
+      "WU": "U",
+      "WB": "U",
+      "WR": "U",
+      "WG": "U",
+      "UB": "C-",
+      "UR": "U",
+      "UG": "U",
+      "BR": "U",
+      "BG": "A",
+      "RG": "U"
+    },
+    "winRates": {
+      "ALL": "60.2%",
+      "WU": "-",
+      "WB": "-",
+      "WR": "-",
+      "WG": "-",
+      "UB": "54.6%",
+      "UR": "-",
+      "UG": "-",
+      "BR": "-",
+      "BG": "63.3%",
+      "RG": "-"
+    },
+    "winRate": "60.2%",
+    "tier": "B+"
+  },
+  "Merrow Skyswimmer": {
+    "enName": "Merrow Skyswimmer",
+    "jpName": "メロウの空泳ぎ",
+    "cost": "(３)(白/青)(白/青)",
+    "type": "クリーチャー --- マーフォーク(Merfolk)・兵士(Soldier)",
+    "fileName": "メロウの空泳ぎ.webp",
+    "tiers": {
+      "ALL": "C+",
+      "WU": "B-",
+      "WB": "D-",
+      "WR": "D",
+      "WG": "C",
+      "UB": "D+",
+      "UR": "C",
+      "UG": "D+",
+      "BR": "U",
+      "BG": "U",
+      "RG": "U"
+    },
+    "winRates": {
+      "ALL": "57.0%",
+      "WU": "58.4%",
+      "WB": "50.7%",
+      "WR": "51.3%",
+      "WG": "55.6%",
+      "UB": "52.7%",
+      "UR": "56.0%",
+      "UG": "53.5%",
+      "BR": "-",
+      "BG": "-",
+      "RG": "-"
+    },
+    "winRate": "57.0%",
+    "tier": "C+"
+  },
+  "Mischievous Sneakling": {
+    "enName": "Mischievous Sneakling",
+    "jpName": "悪戯好きの忍び仔",
+    "cost": "(１)(青/黒)",
+    "type": "クリーチャー --- 多相の戦士(Shapeshifter)",
+    "fileName": "悪戯好きの忍び仔.webp",
+    "tiers": {
+      "ALL": "D",
+      "WU": "D",
+      "WB": "F",
+      "WR": "U",
+      "WG": "U",
+      "UB": "D",
+      "UR": "C-",
+      "UG": "D",
+      "BR": "D",
+      "BG": "D+",
+      "RG": "U"
+    },
+    "winRates": {
+      "ALL": "52.3%",
+      "WU": "52.2%",
+      "WB": "48.7%",
+      "WR": "-",
+      "WG": "-",
+      "UB": "51.5%",
+      "UR": "54.9%",
+      "UG": "52.2%",
+      "BR": "51.2%",
+      "BG": "53.2%",
+      "RG": "-"
+    },
+    "winRate": "52.3%",
+    "tier": "D"
+  },
+  "Morcant's Loyalist": {
+    "enName": "Morcant's Loyalist",
+    "jpName": "モーカントの忠節者",
+    "cost": "(１)(黒)(緑)",
+    "type": "クリーチャー --- エルフ(Elf)・戦士(Warrior)",
+    "fileName": "モーカントの忠節者.webp",
+    "tiers": {
+      "ALL": "B+",
+      "WU": "U",
+      "WB": "U",
+      "WR": "U",
+      "WG": "U",
+      "UB": "U",
+      "UR": "U",
+      "UG": "U",
+      "BR": "U",
+      "BG": "A-",
+      "RG": "U"
+    },
+    "winRates": {
+      "ALL": "61.3%",
+      "WU": "-",
+      "WB": "-",
+      "WR": "-",
+      "WG": "-",
+      "UB": "-",
+      "UR": "-",
+      "UG": "-",
+      "BR": "-",
+      "BG": "62.2%",
+      "RG": "-"
+    },
+    "winRate": "61.3%",
+    "tier": "B+"
   },
   "Noggle Robber": {
     "enName": "Noggle Robber",
@@ -8505,33 +8505,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- ノッグル(Noggle)・ならず者(Rogue)",
     "fileName": "ノッグルの物盗り.webp",
     "tiers": {
-      "ALL": "B-",
+      "ALL": "C+",
       "WU": "U",
       "WB": "U",
-      "WR": "U",
-      "WG": "B-",
+      "WR": "C-",
+      "WG": "C+",
       "UB": "U",
       "UR": "B-",
-      "UG": "U",
+      "UG": "C",
       "BR": "C-",
       "BG": "B-",
       "RG": "B-"
     },
     "winRates": {
-      "ALL": "57.8%",
+      "ALL": "57.4%",
       "WU": "-",
       "WB": "-",
-      "WR": "-",
-      "WG": "57.8%",
+      "WR": "54.3%",
+      "WG": "56.3%",
       "UB": "-",
-      "UR": "58.6%",
-      "UG": "-",
-      "BR": "54.7%",
-      "BG": "58.0%",
-      "RG": "58.3%"
+      "UR": "58.7%",
+      "UG": "55.2%",
+      "BR": "54.2%",
+      "BG": "58.1%",
+      "RG": "57.7%"
     },
-    "winRate": "57.8%",
-    "tier": "B-"
+    "winRate": "57.4%",
+    "tier": "C+"
   },
   "Prideful Feastling": {
     "enName": "Prideful Feastling",
@@ -8542,30 +8542,30 @@ const MASTER_CARD_DATA = {
     "tiers": {
       "ALL": "D+",
       "WU": "D+",
-      "WB": "D-",
-      "WR": "D",
-      "WG": "C",
-      "UB": "F",
+      "WB": "D",
+      "WR": "D+",
+      "WG": "C-",
+      "UB": "D-",
       "UR": "U",
       "UG": "U",
       "BR": "F",
-      "BG": "C",
+      "BG": "C-",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "53.2%",
-      "WU": "53.2%",
-      "WB": "50.6%",
-      "WR": "51.4%",
-      "WG": "55.2%",
-      "UB": "48.7%",
+      "ALL": "52.9%",
+      "WU": "53.0%",
+      "WB": "51.3%",
+      "WR": "52.7%",
+      "WG": "54.9%",
+      "UB": "50.1%",
       "UR": "-",
       "UG": "-",
-      "BR": "47.8%",
-      "BG": "55.9%",
+      "BR": "48.7%",
+      "BG": "54.4%",
       "RG": "-"
     },
-    "winRate": "53.2%",
+    "winRate": "52.9%",
     "tier": "D+"
   },
   "Raiding Schemes": {
@@ -8611,31 +8611,31 @@ const MASTER_CARD_DATA = {
     "fileName": "刈り柳.webp",
     "tiers": {
       "ALL": "C+",
-      "WU": "B-",
-      "WB": "B",
-      "WR": "U",
-      "WG": "C",
-      "UB": "U",
+      "WU": "C+",
+      "WB": "B-",
+      "WR": "C+",
+      "WG": "C+",
+      "UB": "C-",
       "UR": "U",
       "UG": "U",
       "BR": "B-",
-      "BG": "B-",
+      "BG": "C+",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "57.1%",
-      "WU": "58.3%",
-      "WB": "59.3%",
-      "WR": "-",
-      "WG": "55.2%",
-      "UB": "-",
+      "ALL": "56.8%",
+      "WU": "57.0%",
+      "WB": "58.6%",
+      "WR": "57.0%",
+      "WG": "56.7%",
+      "UB": "54.8%",
       "UR": "-",
       "UG": "-",
-      "BR": "58.0%",
-      "BG": "58.6%",
+      "BR": "57.6%",
+      "BG": "57.1%",
       "RG": "-"
     },
-    "winRate": "57.1%",
+    "winRate": "56.8%",
     "tier": "C+"
   },
   "Sanar, Innovative First-Year": {
@@ -8653,24 +8653,24 @@ const MASTER_CARD_DATA = {
       "UB": "U",
       "UR": "A-",
       "UG": "U",
-      "BR": "B",
+      "BR": "B+",
       "BG": "U",
-      "RG": "U"
+      "RG": "B-"
     },
     "winRates": {
-      "ALL": "60.6%",
-      "WU": "62.3%",
+      "ALL": "60.5%",
+      "WU": "61.6%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
       "UB": "-",
-      "UR": "61.5%",
+      "UR": "62.0%",
       "UG": "-",
-      "BR": "59.8%",
+      "BR": "60.5%",
       "BG": "-",
-      "RG": "-"
+      "RG": "58.1%"
     },
-    "winRate": "60.6%",
+    "winRate": "60.5%",
     "tier": "B+"
   },
   "Shadow Urchin": {
@@ -8688,24 +8688,24 @@ const MASTER_CARD_DATA = {
       "UB": "U",
       "UR": "C-",
       "UG": "U",
-      "BR": "D+",
+      "BR": "C",
       "BG": "D+",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "53.1%",
+      "ALL": "53.6%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
       "WG": "-",
       "UB": "-",
-      "UR": "54.5%",
+      "UR": "53.9%",
       "UG": "-",
-      "BR": "53.5%",
-      "BG": "53.1%",
+      "BR": "55.0%",
+      "BG": "52.8%",
       "RG": "-"
     },
-    "winRate": "53.1%",
+    "winRate": "53.6%",
     "tier": "D+"
   },
   "Stoic Grove-Guide": {
@@ -8719,28 +8719,28 @@ const MASTER_CARD_DATA = {
       "WU": "U",
       "WB": "U",
       "WR": "U",
-      "WG": "D-",
+      "WG": "F",
       "UB": "U",
       "UR": "U",
       "UG": "U",
-      "BR": "U",
-      "BG": "C-",
-      "RG": "U"
+      "BR": "F",
+      "BG": "D+",
+      "RG": "C-"
     },
     "winRates": {
-      "ALL": "53.5%",
+      "ALL": "52.7%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "50.0%",
+      "WG": "49.1%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
-      "BR": "-",
-      "BG": "54.6%",
-      "RG": "-"
+      "BR": "48.2%",
+      "BG": "53.5%",
+      "RG": "54.1%"
     },
-    "winRate": "53.5%",
+    "winRate": "52.7%",
     "tier": "D+"
   },
   "Sygg's Command": {
@@ -8763,8 +8763,8 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "58.2%",
-      "WU": "59.2%",
+      "ALL": "58.6%",
+      "WU": "59.6%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
@@ -8775,7 +8775,7 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "58.2%",
+    "winRate": "58.6%",
     "tier": "B-"
   },
   "Tam, Mindful First-Year": {
@@ -8786,31 +8786,31 @@ const MASTER_CARD_DATA = {
     "fileName": "用意周到な一年生、タム.webp",
     "tiers": {
       "ALL": "C-",
-      "WU": "D+",
+      "WU": "C-",
       "WB": "U",
       "WR": "U",
-      "WG": "D",
+      "WG": "D+",
       "UB": "U",
-      "UR": "B-",
-      "UG": "U",
+      "UR": "C+",
+      "UG": "D-",
       "BR": "U",
-      "BG": "B-",
+      "BG": "C-",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "54.4%",
-      "WU": "53.6%",
+      "ALL": "53.7%",
+      "WU": "54.2%",
       "WB": "-",
       "WR": "-",
-      "WG": "51.7%",
+      "WG": "52.7%",
       "UB": "-",
-      "UR": "58.5%",
-      "UG": "-",
+      "UR": "56.6%",
+      "UG": "50.1%",
       "BR": "-",
-      "BG": "58.5%",
+      "BG": "54.4%",
       "RG": "-"
     },
-    "winRate": "54.4%",
+    "winRate": "53.7%",
     "tier": "C-"
   },
   "Thoughtweft Lieutenant": {
@@ -8820,7 +8820,7 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- キスキン(Kithkin)・兵士(Soldier)",
     "fileName": "思考の糸の補佐官.webp",
     "tiers": {
-      "ALL": "B",
+      "ALL": "B-",
       "WU": "U",
       "WB": "U",
       "WR": "U",
@@ -8833,11 +8833,11 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "58.8%",
+      "ALL": "58.6%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "59.4%",
+      "WG": "59.2%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
@@ -8845,8 +8845,8 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "58.8%",
-    "tier": "B"
+    "winRate": "58.6%",
+    "tier": "B-"
   },
   "Trystan's Command": {
     "enName": "Trystan's Command",
@@ -8859,28 +8859,28 @@ const MASTER_CARD_DATA = {
       "WU": "U",
       "WB": "U",
       "WR": "U",
-      "WG": "U",
+      "WG": "C+",
       "UB": "U",
       "UR": "U",
       "UG": "U",
-      "BR": "U",
+      "BR": "B+",
       "BG": "A+",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "63.7%",
+      "ALL": "63.8%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "-",
+      "WG": "57.1%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
-      "BR": "-",
-      "BG": "65.3%",
+      "BR": "60.4%",
+      "BG": "66.0%",
       "RG": "-"
     },
-    "winRate": "63.7%",
+    "winRate": "63.8%",
     "tier": "A"
   },
   "Twinflame Travelers": {
@@ -8890,33 +8890,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- エレメンタル(Elemental)・魔術師(Sorcerer)",
     "fileName": "双子炎族の旅人.webp",
     "tiers": {
-      "ALL": "B-",
+      "ALL": "C+",
       "WU": "U",
       "WB": "U",
       "WR": "U",
       "WG": "U",
       "UB": "U",
-      "UR": "B",
+      "UR": "B-",
       "UG": "U",
       "BR": "U",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "58.0%",
+      "ALL": "57.2%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
       "WG": "-",
       "UB": "-",
-      "UR": "59.1%",
+      "UR": "58.0%",
       "UG": "-",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "58.0%",
-    "tier": "B-"
+    "winRate": "57.2%",
+    "tier": "C+"
   },
   "Vibrance": {
     "enName": "Vibrance",
@@ -8929,28 +8929,28 @@ const MASTER_CARD_DATA = {
       "WU": "U",
       "WB": "U",
       "WR": "U",
-      "WG": "U",
+      "WG": "B+",
       "UB": "U",
       "UR": "A+",
       "UG": "U",
       "BR": "B+",
-      "BG": "U",
-      "RG": "U"
+      "BG": "C+",
+      "RG": "A+"
     },
     "winRates": {
-      "ALL": "61.7%",
+      "ALL": "61.6%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "-",
+      "WG": "60.7%",
       "UB": "-",
-      "UR": "65.3%",
+      "UR": "64.8%",
       "UG": "-",
-      "BR": "60.1%",
-      "BG": "-",
-      "RG": "-"
+      "BR": "60.5%",
+      "BG": "57.2%",
+      "RG": "65.0%"
     },
-    "winRate": "61.7%",
+    "winRate": "61.6%",
     "tier": "A-"
   },
   "Voracious Tome-Skimmer": {
@@ -8961,31 +8961,31 @@ const MASTER_CARD_DATA = {
     "fileName": "貪欲な秘本掠め.webp",
     "tiers": {
       "ALL": "D+",
-      "WU": "D+",
+      "WU": "D",
       "WB": "U",
       "WR": "U",
       "WG": "U",
       "UB": "C",
-      "UR": "D+",
+      "UR": "F",
       "UG": "U",
       "BR": "U",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "53.3%",
-      "WU": "52.8%",
+      "ALL": "52.6%",
+      "WU": "52.0%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
-      "UB": "55.8%",
-      "UR": "53.1%",
+      "UB": "55.4%",
+      "UR": "49.4%",
       "UG": "-",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "53.3%",
+    "winRate": "52.6%",
     "tier": "D+"
   },
   "Wary Farmer": {
@@ -8995,33 +8995,33 @@ const MASTER_CARD_DATA = {
     "type": "クリーチャー --- キスキン(Kithkin)・市民(Citizen)",
     "fileName": "用心深い農家.webp",
     "tiers": {
-      "ALL": "C",
+      "ALL": "C-",
       "WU": "D",
-      "WB": "U",
-      "WR": "U",
+      "WB": "D",
+      "WR": "D-",
       "WG": "C+",
       "UB": "U",
       "UR": "U",
-      "UG": "U",
+      "UG": "C",
       "BR": "U",
-      "BG": "D+",
-      "RG": "U"
+      "BG": "D",
+      "RG": "D+"
     },
     "winRates": {
-      "ALL": "55.5%",
-      "WU": "51.8%",
-      "WB": "-",
-      "WR": "-",
-      "WG": "57.0%",
+      "ALL": "54.9%",
+      "WU": "51.9%",
+      "WB": "51.3%",
+      "WR": "50.9%",
+      "WG": "56.5%",
       "UB": "-",
       "UR": "-",
-      "UG": "-",
+      "UG": "55.7%",
       "BR": "-",
-      "BG": "52.7%",
-      "RG": "-"
+      "BG": "52.3%",
+      "RG": "52.8%"
     },
-    "winRate": "55.5%",
-    "tier": "C"
+    "winRate": "54.9%",
+    "tier": "C-"
   },
   "Wistfulness": {
     "enName": "Wistfulness",
@@ -9034,25 +9034,25 @@ const MASTER_CARD_DATA = {
       "WU": "B+",
       "WB": "U",
       "WR": "U",
-      "WG": "U",
+      "WG": "C+",
       "UB": "U",
-      "UR": "A-",
+      "UR": "A",
       "UG": "U",
       "BR": "U",
-      "BG": "B",
+      "BG": "B+",
       "RG": "U"
     },
     "winRates": {
       "ALL": "60.8%",
-      "WU": "61.1%",
+      "WU": "60.9%",
       "WB": "-",
       "WR": "-",
-      "WG": "-",
+      "WG": "56.7%",
       "UB": "-",
-      "UR": "62.4%",
+      "UR": "62.9%",
       "UG": "-",
       "BR": "-",
-      "BG": "59.9%",
+      "BG": "60.0%",
       "RG": "-"
     },
     "winRate": "60.8%",
@@ -9065,33 +9065,33 @@ const MASTER_CARD_DATA = {
     "type": "伝説のアーティファクト",
     "fileName": "勝利の年代記.webp",
     "tiers": {
-      "ALL": "A",
-      "WU": "B+",
+      "ALL": "A-",
+      "WU": "A",
       "WB": "U",
       "WR": "U",
-      "WG": "A+",
+      "WG": "A",
       "UB": "U",
-      "UR": "A+",
+      "UR": "A",
       "UG": "U",
-      "BR": "B-",
+      "BR": "B+",
       "BG": "A+",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "63.0%",
-      "WU": "61.2%",
+      "ALL": "62.3%",
+      "WU": "62.7%",
       "WB": "-",
       "WR": "-",
-      "WG": "65.5%",
+      "WG": "63.9%",
       "UB": "-",
-      "UR": "65.7%",
+      "UR": "63.7%",
       "UG": "-",
-      "BR": "58.6%",
-      "BG": "67.2%",
+      "BR": "60.4%",
+      "BG": "64.6%",
       "RG": "-"
     },
-    "winRate": "63.0%",
-    "tier": "A"
+    "winRate": "62.3%",
+    "tier": "A-"
   },
   "Dawn-Blessed Pennant": {
     "enName": "Dawn-Blessed Pennant",
@@ -9101,31 +9101,31 @@ const MASTER_CARD_DATA = {
     "fileName": "暁恵みの長旗.webp",
     "tiers": {
       "ALL": "C-",
-      "WU": "C-",
+      "WU": "D+",
       "WB": "U",
       "WR": "U",
-      "WG": "F",
+      "WG": "D",
       "UB": "U",
       "UR": "C-",
       "UG": "U",
-      "BR": "U",
-      "BG": "B",
+      "BR": "D-",
+      "BG": "C+",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "54.8%",
-      "WU": "54.7%",
+      "ALL": "53.7%",
+      "WU": "52.8%",
       "WB": "-",
       "WR": "-",
-      "WG": "49.6%",
+      "WG": "51.2%",
       "UB": "-",
-      "UR": "54.2%",
+      "UR": "54.3%",
       "UG": "-",
-      "BR": "-",
-      "BG": "59.2%",
+      "BR": "50.3%",
+      "BG": "56.7%",
       "RG": "-"
     },
-    "winRate": "54.8%",
+    "winRate": "53.7%",
     "tier": "C-"
   },
   "Firdoch Core": {
@@ -9136,31 +9136,31 @@ const MASTER_CARD_DATA = {
     "fileName": "石人の核.webp",
     "tiers": {
       "ALL": "D-",
-      "WU": "F",
+      "WU": "D-",
       "WB": "U",
       "WR": "U",
-      "WG": "D",
-      "UB": "U",
-      "UR": "D",
-      "UG": "U",
-      "BR": "U",
+      "WG": "D-",
+      "UB": "F",
+      "UR": "D+",
+      "UG": "D",
+      "BR": "F",
       "BG": "D",
-      "RG": "U"
+      "RG": "F"
     },
     "winRates": {
-      "ALL": "50.3%",
-      "WU": "48.4%",
+      "ALL": "50.9%",
+      "WU": "50.0%",
       "WB": "-",
       "WR": "-",
-      "WG": "51.3%",
-      "UB": "-",
-      "UR": "52.0%",
-      "UG": "-",
-      "BR": "-",
-      "BG": "51.3%",
-      "RG": "-"
+      "WG": "50.2%",
+      "UB": "48.2%",
+      "UR": "52.7%",
+      "UG": "52.2%",
+      "BR": "45.9%",
+      "BG": "52.1%",
+      "RG": "49.7%"
     },
-    "winRate": "50.3%",
+    "winRate": "50.9%",
     "tier": "D-"
   },
   "Foraging Wickermaw": {
@@ -9171,31 +9171,31 @@ const MASTER_CARD_DATA = {
     "fileName": "餌あさりの枝細工口.webp",
     "tiers": {
       "ALL": "C-",
-      "WU": "B-",
-      "WB": "D",
+      "WU": "C",
+      "WB": "C",
       "WR": "D",
       "WG": "D",
       "UB": "D",
       "UR": "C",
-      "UG": "D+",
+      "UG": "C-",
       "BR": "F",
       "BG": "D",
       "RG": "D+"
     },
     "winRates": {
-      "ALL": "53.7%",
-      "WU": "57.7%",
-      "WB": "51.8%",
-      "WR": "52.4%",
-      "WG": "52.3%",
-      "UB": "51.5%",
-      "UR": "55.1%",
-      "UG": "53.5%",
-      "BR": "48.4%",
+      "ALL": "53.8%",
+      "WU": "55.3%",
+      "WB": "55.9%",
+      "WR": "52.1%",
+      "WG": "51.8%",
+      "UB": "51.2%",
+      "UR": "55.4%",
+      "UG": "54.2%",
+      "BR": "49.7%",
       "BG": "52.4%",
-      "RG": "52.9%"
+      "RG": "53.1%"
     },
-    "winRate": "53.7%",
+    "winRate": "53.8%",
     "tier": "C-"
   },
   "Gathering Stone": {
@@ -9205,8 +9205,8 @@ const MASTER_CARD_DATA = {
     "type": "アーティファクト",
     "fileName": "集合石.webp",
     "tiers": {
-      "ALL": "B",
-      "WU": "B",
+      "ALL": "B-",
+      "WU": "B-",
       "WB": "U",
       "WR": "U",
       "WG": "C+",
@@ -9214,24 +9214,24 @@ const MASTER_CARD_DATA = {
       "UR": "B+",
       "UG": "U",
       "BR": "B-",
-      "BG": "B+",
+      "BG": "B",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "59.2%",
-      "WU": "58.9%",
+      "ALL": "58.4%",
+      "WU": "57.8%",
       "WB": "-",
       "WR": "-",
-      "WG": "57.3%",
+      "WG": "56.4%",
       "UB": "-",
-      "UR": "61.2%",
+      "UR": "60.7%",
       "UG": "-",
-      "BR": "58.0%",
-      "BG": "61.2%",
+      "BR": "58.5%",
+      "BG": "59.8%",
       "RG": "-"
     },
-    "winRate": "59.2%",
-    "tier": "B"
+    "winRate": "58.4%",
+    "tier": "B-"
   },
   "Mirrormind Crown": {
     "enName": "Mirrormind Crown",
@@ -9240,7 +9240,7 @@ const MASTER_CARD_DATA = {
     "type": "アーティファクト --- 装備品(Equipment)",
     "fileName": "鏡心の王冠.webp",
     "tiers": {
-      "ALL": "U",
+      "ALL": "F",
       "WU": "U",
       "WB": "U",
       "WR": "U",
@@ -9253,7 +9253,7 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "-",
+      "ALL": "39.4%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
@@ -9265,8 +9265,8 @@ const MASTER_CARD_DATA = {
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "-",
-    "tier": "U"
+    "winRate": "39.4%",
+    "tier": "F"
   },
   "Puca's Eye": {
     "enName": "Puca's Eye",
@@ -9281,26 +9281,26 @@ const MASTER_CARD_DATA = {
       "WR": "U",
       "WG": "U",
       "UB": "U",
-      "UR": "D+",
-      "UG": "U",
+      "UR": "C",
+      "UG": "C+",
       "BR": "U",
-      "BG": "U",
-      "RG": "U"
+      "BG": "D",
+      "RG": "C-"
     },
     "winRates": {
-      "ALL": "54.6%",
+      "ALL": "54.5%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
       "WG": "-",
       "UB": "-",
-      "UR": "53.2%",
-      "UG": "-",
+      "UR": "55.0%",
+      "UG": "56.5%",
       "BR": "-",
-      "BG": "-",
-      "RG": "-"
+      "BG": "51.6%",
+      "RG": "54.9%"
     },
-    "winRate": "54.6%",
+    "winRate": "54.5%",
     "tier": "C-"
   },
   "Springleaf Drum": {
@@ -9316,7 +9316,7 @@ const MASTER_CARD_DATA = {
       "WR": "U",
       "WG": "U",
       "UB": "U",
-      "UR": "U",
+      "UR": "D-",
       "UG": "U",
       "BR": "U",
       "BG": "U",
@@ -9324,12 +9324,12 @@ const MASTER_CARD_DATA = {
     },
     "winRates": {
       "ALL": "49.9%",
-      "WU": "53.3%",
+      "WU": "53.5%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
       "UB": "-",
-      "UR": "-",
+      "UR": "50.8%",
       "UG": "-",
       "BR": "-",
       "BG": "-",
@@ -9348,29 +9348,29 @@ const MASTER_CARD_DATA = {
       "ALL": "D",
       "WU": "D+",
       "WB": "U",
-      "WR": "U",
-      "WG": "D",
-      "UB": "U",
-      "UR": "D+",
+      "WR": "F",
+      "WG": "D+",
+      "UB": "F",
+      "UR": "D",
       "UG": "U",
-      "BR": "D-",
-      "BG": "D+",
+      "BR": "F",
+      "BG": "D",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "51.7%",
-      "WU": "53.6%",
+      "ALL": "51.3%",
+      "WU": "52.7%",
       "WB": "-",
-      "WR": "-",
-      "WG": "52.4%",
-      "UB": "-",
-      "UR": "53.3%",
+      "WR": "48.3%",
+      "WG": "52.5%",
+      "UB": "49.6%",
+      "UR": "52.4%",
       "UG": "-",
-      "BR": "50.1%",
-      "BG": "53.1%",
+      "BR": "48.7%",
+      "BG": "51.7%",
       "RG": "-"
     },
-    "winRate": "51.7%",
+    "winRate": "51.3%",
     "tier": "D"
   },
   "Blood Crypt": {
@@ -9379,33 +9379,33 @@ const MASTER_CARD_DATA = {
     "type": "土地 --- 沼(Swamp)・山(Mountain)",
     "fileName": "血の墓所.webp",
     "tiers": {
-      "ALL": "D",
+      "ALL": "D+",
       "WU": "U",
       "WB": "U",
       "WR": "U",
       "WG": "U",
       "UB": "U",
-      "UR": "U",
+      "UR": "C-",
       "UG": "U",
-      "BR": "D-",
+      "BR": "D+",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "51.2%",
+      "ALL": "52.8%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
       "WG": "-",
       "UB": "-",
-      "UR": "-",
+      "UR": "53.7%",
       "UG": "-",
-      "BR": "50.4%",
+      "BR": "52.5%",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "51.2%",
-    "tier": "D"
+    "winRate": "52.8%",
+    "tier": "D+"
   },
   "Eclipsed Realms": {
     "enName": "Eclipsed Realms",
@@ -9417,28 +9417,28 @@ const MASTER_CARD_DATA = {
       "WU": "D+",
       "WB": "U",
       "WR": "U",
-      "WG": "C",
+      "WG": "C-",
       "UB": "U",
-      "UR": "C-",
+      "UR": "C",
       "UG": "U",
-      "BR": "D-",
-      "BG": "C+",
+      "BR": "F",
+      "BG": "C",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "53.5%",
+      "ALL": "53.6%",
       "WU": "53.6%",
       "WB": "-",
       "WR": "-",
-      "WG": "55.0%",
+      "WG": "54.8%",
       "UB": "-",
-      "UR": "54.3%",
+      "UR": "55.5%",
       "UG": "-",
-      "BR": "50.7%",
-      "BG": "57.3%",
+      "BR": "49.8%",
+      "BG": "55.9%",
       "RG": "-"
     },
-    "winRate": "53.5%",
+    "winRate": "53.6%",
     "tier": "D+"
   },
   "Evolving Wilds": {
@@ -9450,27 +9450,27 @@ const MASTER_CARD_DATA = {
       "ALL": "C-",
       "WU": "C",
       "WB": "D-",
-      "WR": "D",
+      "WR": "D+",
       "WG": "C-",
-      "UB": "D",
+      "UB": "D+",
       "UR": "C",
-      "UG": "D+",
-      "BR": "D",
+      "UG": "D",
+      "BR": "D+",
       "BG": "C+",
       "RG": "D"
     },
     "winRates": {
       "ALL": "54.5%",
-      "WU": "55.3%",
-      "WB": "50.1%",
-      "WR": "52.0%",
-      "WG": "54.3%",
-      "UB": "52.4%",
-      "UR": "55.4%",
-      "UG": "53.0%",
-      "BR": "52.1%",
-      "BG": "57.1%",
-      "RG": "51.4%"
+      "WU": "55.4%",
+      "WB": "51.0%",
+      "WR": "53.0%",
+      "WG": "54.0%",
+      "UB": "52.6%",
+      "UR": "55.7%",
+      "UG": "51.5%",
+      "BR": "53.2%",
+      "BG": "56.3%",
+      "RG": "51.9%"
     },
     "winRate": "54.5%",
     "tier": "C-"
@@ -9487,26 +9487,26 @@ const MASTER_CARD_DATA = {
       "WR": "U",
       "WG": "U",
       "UB": "U",
-      "UR": "U",
+      "UR": "C",
       "UG": "U",
       "BR": "U",
       "BG": "U",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "53.0%",
-      "WU": "54.6%",
+      "ALL": "52.7%",
+      "WU": "53.7%",
       "WB": "-",
       "WR": "-",
       "WG": "-",
       "UB": "-",
-      "UR": "-",
+      "UR": "55.8%",
       "UG": "-",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "53.0%",
+    "winRate": "52.7%",
     "tier": "D+"
   },
   "Overgrown Tomb": {
@@ -9524,11 +9524,11 @@ const MASTER_CARD_DATA = {
       "UR": "U",
       "UG": "U",
       "BR": "U",
-      "BG": "C+",
+      "BG": "C",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "54.7%",
+      "ALL": "54.1%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
@@ -9537,10 +9537,10 @@ const MASTER_CARD_DATA = {
       "UR": "-",
       "UG": "-",
       "BR": "-",
-      "BG": "57.3%",
+      "BG": "55.9%",
       "RG": "-"
     },
-    "winRate": "54.7%",
+    "winRate": "54.1%",
     "tier": "C-"
   },
   "Steam Vents": {
@@ -9562,19 +9562,19 @@ const MASTER_CARD_DATA = {
       "RG": "U"
     },
     "winRates": {
-      "ALL": "53.0%",
+      "ALL": "52.7%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
       "WG": "-",
       "UB": "-",
-      "UR": "54.2%",
+      "UR": "54.1%",
       "UG": "-",
       "BR": "-",
       "BG": "-",
       "RG": "-"
     },
-    "winRate": "53.0%",
+    "winRate": "52.7%",
     "tier": "D+"
   },
   "Temple Garden": {
@@ -9592,30 +9592,30 @@ const MASTER_CARD_DATA = {
       "UR": "U",
       "UG": "U",
       "BR": "U",
-      "BG": "U",
+      "BG": "C+",
       "RG": "U"
     },
     "winRates": {
-      "ALL": "53.4%",
+      "ALL": "53.2%",
       "WU": "-",
       "WB": "-",
       "WR": "-",
-      "WG": "54.6%",
+      "WG": "54.9%",
       "UB": "-",
       "UR": "-",
       "UG": "-",
       "BR": "-",
-      "BG": "-",
+      "BG": "56.3%",
       "RG": "-"
     },
-    "winRate": "53.4%",
+    "winRate": "53.2%",
     "tier": "D+"
   },
   "Plains": {
     "enName": "Plains",
     "jpName": "平地（へいち）",
     "type": "基本土地 --- 平地(Plains)",
-    "fileName": "平地.webp",
+    "fileName": null,
     "tiers": {
       "ALL": "U",
       "WU": "U",
@@ -9649,7 +9649,7 @@ const MASTER_CARD_DATA = {
     "enName": "Island",
     "jpName": "島（しま）",
     "type": "基本土地 --- 島(Island)",
-    "fileName": "島.webp",
+    "fileName": null,
     "tiers": {
       "ALL": "U",
       "WU": "U",
@@ -9683,7 +9683,7 @@ const MASTER_CARD_DATA = {
     "enName": "Swamp",
     "jpName": "沼（ぬま）",
     "type": "基本土地 --- 沼(Swamp)",
-    "fileName": "沼.webp",
+    "fileName": null,
     "tiers": {
       "ALL": "U",
       "WU": "U",
@@ -9717,7 +9717,7 @@ const MASTER_CARD_DATA = {
     "enName": "Mountain",
     "jpName": "山（やま）",
     "type": "基本土地 --- 山(Mountain)",
-    "fileName": "山.webp",
+    "fileName": null,
     "tiers": {
       "ALL": "U",
       "WU": "U",
@@ -9751,7 +9751,7 @@ const MASTER_CARD_DATA = {
     "enName": "Forest",
     "jpName": "森（もり）",
     "type": "基本土地 --- 森(Forest)",
-    "fileName": "森.webp",
+    "fileName": null,
     "tiers": {
       "ALL": "U",
       "WU": "U",
