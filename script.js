@@ -450,12 +450,21 @@ function drawDeck(deckList) {
     cost5: [],
     cost6plus: [],
     lands: [],
+    basicLands: [], // ★追加: 基本土地専用グループ
   };
 
   deckList.forEach((card) => {
     const typeStr = card.type || ""; // undefined対策
     if (typeStr.includes("土地") || typeStr.includes("Land")) {
-      groupedCards.lands.push(card);
+      // ★追加: 基本土地の分離
+      const isBasic = BASIC_LAND_NAMES.some((n) =>
+        card.displayName.includes(n),
+      );
+      if (isBasic) {
+        groupedCards.basicLands.push(card);
+      } else {
+        groupedCards.lands.push(card);
+      }
     } else {
       const cmc = card.cmc || 0;
       const cmcKey = cmc >= 6 ? "cost6plus" : `cost${cmc}`;
@@ -488,41 +497,39 @@ function drawDeck(deckList) {
   };
 
   for (const key in groupedCards) {
-    if (key !== "lands") groupedCards[key].sort(sortInGroup);
+    if (key !== "lands" && key !== "basicLands")
+      groupedCards[key].sort(sortInGroup);
   }
 
+  // 非基本土地のソート (従来通りだが基本土地のチェックは不要に)
   groupedCards.lands.sort((a, b) => {
-    const isBasicA = BASIC_LAND_NAMES.some((n) => a.displayName.includes(n));
-    const isBasicB = BASIC_LAND_NAMES.some((n) => b.displayName.includes(n));
+    const scoreA = getTierScore(a.tier);
+    const scoreB = getTierScore(b.tier);
+    if (scoreA !== scoreB) return scoreB - scoreA;
+    return a.displayName.localeCompare(b.displayName);
+  });
 
-    if (isBasicA !== isBasicB) return isBasicA ? 1 : -1;
-
-    if (!isBasicA) {
-      const scoreA = getTierScore(a.tier);
-      const scoreB = getTierScore(b.tier);
-      if (scoreA !== scoreB) return scoreB - scoreA;
-      return a.displayName.localeCompare(b.displayName);
-    } else {
-      if (a.count !== b.count) return b.count - a.count;
-      const wubrgOrder = [
-        "Plains",
-        "平地",
-        "Island",
-        "島",
-        "Swamp",
-        "沼",
-        "Mountain",
-        "山",
-        "Forest",
-        "森",
-      ];
-      const idxA = wubrgOrder.findIndex((n) => a.displayName.includes(n));
-      const idxB = wubrgOrder.findIndex((n) => b.displayName.includes(n));
-      if (idxA !== -1 && idxB !== -1) return idxA - idxB;
-      if (idxA !== -1) return -1;
-      if (idxB !== -1) return 1;
-      return a.displayName.localeCompare(b.displayName);
-    }
+  // ★追加: 基本土地のソート
+  groupedCards.basicLands.sort((a, b) => {
+    if (a.count !== b.count) return b.count - a.count;
+    const wubrgOrder = [
+      "Plains",
+      "平地",
+      "Island",
+      "島",
+      "Swamp",
+      "沼",
+      "Mountain",
+      "山",
+      "Forest",
+      "森",
+    ];
+    const idxA = wubrgOrder.findIndex((n) => a.displayName.includes(n));
+    const idxB = wubrgOrder.findIndex((n) => b.displayName.includes(n));
+    if (idxA !== -1 && idxB !== -1) return idxA - idxB;
+    if (idxA !== -1) return -1;
+    if (idxB !== -1) return 1;
+    return a.displayName.localeCompare(b.displayName);
   });
 
   // --- Canvas描画処理 ---
@@ -548,7 +555,20 @@ function drawDeck(deckList) {
     }
   });
 
-  deckCanvas.width = (CARD_W + GAP) * currentColCount + GAP + COUNT_COL_WIDTH;
+  // ★追加: 基本土地用の高さ計算
+  let maxBasicLandsWidth = 0;
+  if (groupedCards.basicLands.length > 0) {
+    const basicLandsCount = groupedCards.basicLands.length;
+    // 基本土地は1列に並べるため、必要な幅を計算
+    maxBasicLandsWidth = basicLandsCount * (CARD_W + GAP) + GAP;
+    // 高さを1行分追加 (ラベル用スペースも少し考慮)
+    requiredHeight += CARD_H + GAP + groupSpacing;
+  }
+
+  // キャンバスの幅は、通常カードの必要幅と基本土地の必要幅の大きい方に合わせる
+  const normalColumnsWidth =
+    (CARD_W + GAP) * currentColCount + GAP + COUNT_COL_WIDTH;
+  deckCanvas.width = Math.max(normalColumnsWidth, maxBasicLandsWidth);
   deckCanvas.height = Math.max(requiredHeight, 400) + HEADER_HEIGHT + PADDING;
   deckCtx.fillStyle = "#111";
   deckCtx.fillRect(0, 0, deckCanvas.width, deckCanvas.height);
@@ -598,6 +618,49 @@ function drawDeck(deckList) {
       y += numRowsInGroup * (CARD_H + GAP) + groupSpacing;
     }
   });
+
+  // ★追加: 基本土地の描画 (一番下)
+  if (groupedCards.basicLands.length > 0) {
+    const groupStartY = y;
+    let totalCountInGroup = 0;
+
+    groupedCards.basicLands.forEach((card, i) => {
+      totalCountInGroup += card.count;
+      const x =
+        GAP +
+        +(deckCanvas.width <= normalColumnsWidth ? COUNT_COL_WIDTH : 0) +
+        i * (CARD_W + GAP);
+      // 全体幅が広がった場合は中央寄せにするなどの工夫も可能だが、シンプルに左端から並べる
+      // COUNT_COL_WIDTH を維持するかどうかはデザイン次第。今回は通常列と左端を揃える.
+      const adjustedX = GAP + COUNT_COL_WIDTH + i * (CARD_W + GAP);
+      const currentY = groupStartY;
+
+      if (card.imgObj) {
+        deckCtx.drawImage(card.imgObj, adjustedX, currentY, CARD_W, CARD_H);
+      } else {
+        drawFallbackCard(deckCtx, adjustedX, currentY, card);
+      }
+      drawBadge(deckCtx, adjustedX, currentY, card.count);
+      // 基本土地にTierは通常つけないのでアイコンは省略でも可 (既存機能通りに一応呼ぶ)
+      drawTierIcon(deckCtx, adjustedX, currentY, card.tier);
+    });
+
+    deckCtx.save();
+    deckCtx.fillStyle = "rgba(255, 255, 255, 0.8)";
+    deckCtx.font = "bold 32px Arial";
+    deckCtx.textAlign = "center";
+    deckCtx.textBaseline = "middle";
+    deckCtx.shadowColor = "rgba(0, 0, 0, 0.8)";
+    deckCtx.shadowBlur = 5;
+    deckCtx.fillText(
+      totalCountInGroup,
+      GAP + COUNT_COL_WIDTH / 2,
+      groupStartY + CARD_H / 2,
+    );
+    deckCtx.restore();
+
+    y += CARD_H + GAP + groupSpacing;
+  }
 
   deckCtx.save();
   deckCtx.fillStyle = "rgba(255, 255, 255, 0.6)";
