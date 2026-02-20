@@ -454,17 +454,16 @@ function drawDeck(deckList) {
   };
 
   deckList.forEach((card) => {
+    // ★修正: 先に基本土地かどうかを判定し、完全に分離する
+    const isBasic = BASIC_LAND_NAMES.some((n) => card.displayName.includes(n));
+    if (isBasic) {
+      groupedCards.basicLands.push(card);
+      return; // 基本土地の場合はここで終了し、マナコスト判定には進まない
+    }
+
     const typeStr = card.type || ""; // undefined対策
     if (typeStr.includes("土地") || typeStr.includes("Land")) {
-      // ★追加: 基本土地の分離
-      const isBasic = BASIC_LAND_NAMES.some((n) =>
-        card.displayName.includes(n),
-      );
-      if (isBasic) {
-        groupedCards.basicLands.push(card);
-      } else {
-        groupedCards.lands.push(card);
-      }
+      groupedCards.lands.push(card);
     } else {
       const cmc = card.cmc || 0;
       const cmcKey = cmc >= 6 ? "cost6plus" : `cost${cmc}`;
@@ -675,9 +674,12 @@ function drawDeck(deckList) {
 
 function calculateDeckStats(groupedCards) {
   const stats = { creatures: 0, spells: 0, lands: 0 };
-  Object.values(groupedCards)
-    .flat()
-    .forEach((card) => {
+
+  // 通常グループの集計
+  Object.keys(groupedCards).forEach((key) => {
+    if (key === "basicLands") return; // 基本土地は後で足す
+
+    groupedCards[key].forEach((card) => {
       const type = card.type || "";
       if (type.includes("土地") || type.includes("Land")) {
         stats.lands += card.count;
@@ -687,6 +689,15 @@ function calculateDeckStats(groupedCards) {
         stats.spells += card.count;
       }
     });
+  });
+
+  // 基本土地の集計（typeに"土地"と入っていない場合も補填するため、強制的にlandsに加算）
+  if (groupedCards.basicLands) {
+    groupedCards.basicLands.forEach((card) => {
+      stats.lands += card.count;
+    });
+  }
+
   return stats;
 }
 
