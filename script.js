@@ -320,7 +320,13 @@ function findCardData(name) {
   const searchKeyNorm = searchKey.replace(/[\s　]/g, ""); // スペース除去
   const foundJp = allCards.find((card) => {
     if (card.jpName && typeof card.jpName === "string") {
-      return card.jpName.replace(/[\s　]/g, "").toLowerCase() === searchKeyNorm;
+      // マスターデータ側のルビ（ふりがな）も剥がして比較
+      const jpNameNorm = card.jpName
+        .replace(/（.*?）/g, "")
+        .replace(/\(.*?\)/g, "")
+        .replace(/[\s　]/g, "")
+        .toLowerCase();
+      return jpNameNorm === searchKeyNorm;
     }
     return false;
   });
@@ -390,11 +396,28 @@ function parseDeck(deckText) {
 
     // カード名の正規化 (セット情報削除など)
     namePart = namePart.replace(/\s*\([A-Za-z0-9]{3,}\)(?:\s+\d+)?$/i, ""); // セット情報削除
-    const cleanedName = namePart.trim();
+
+    // ★追加: 強力な文字列正規化とクレンジング
+    namePart = namePart.normalize("NFKC");
+    // 英数字、空白、一般的な記号、日本語（漢字・ひらがな・カタカナ・記号）以外を除外（制御文字などを強制排除）
+    let cleanedName = namePart
+      .replace(
+        /[^\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9fafA-Za-z0-9\s,\-'\.]/g,
+        "",
+      )
+      .trim();
 
     if (!cleanedName) continue;
 
     const foundCard = findCardData(cleanedName);
+
+    // ★追加: ユーザー指示によるデバッグログ ("外身" か "そとみ" が含まれる場合)
+    if (lines[i].includes("外身") || lines[i].includes("そとみ")) {
+      console.log("=== デバッグ: 外身の交換 ===");
+      console.log("元の行テキスト:", lines[i]);
+      console.log("抽出・クレンジング後のカード名:", `[${cleanedName}]`);
+      console.log("マスターデータに存在するか:", !!foundCard);
+    }
     const isBasicLand = BASIC_LAND_NAMES.some((l) => cleanedName.includes(l));
 
     if (!foundCard && !isBasicLand) {
