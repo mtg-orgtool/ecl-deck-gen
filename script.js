@@ -109,25 +109,50 @@ function getTierScore(tierStr) {
 function getManaValue(costStr) {
   if (!costStr) return 0;
   let total = 0;
-  // 全角・半角カッコ, 波カッコに対応
-  const numMatch = costStr.match(/[\(（\{]([0-9０-９]+)[\)）\}]/g);
-  if (numMatch) {
-    numMatch.forEach((m) => {
-      let numStr = m
-        .replace(/[\(（\)\）\{\}]/g, "")
-        .replace(/[０-９]/g, (s) =>
-          String.fromCharCode(s.charCodeAt(0) - 0xfee0),
-        );
-      const val = parseInt(numStr, 10);
-      if (!isNaN(val)) total += val;
+
+  // カッコ { } ( ) （ ） に囲まれた要素を抽出
+  const tokens = costStr.match(/[\(（\{]([^\)）\}]+)[\)）\}]/g);
+
+  if (tokens) {
+    tokens.forEach((m) => {
+      // カッコを除去して中身を取り出す
+      let inner = m.replace(/[\(（\)\）\{\}]/g, "").trim();
+      // 全角英数字を半角に変換
+      inner = inner.replace(/[０-９Ａ-Ｚａ-ｚ]/g, (s) =>
+        String.fromCharCode(s.charCodeAt(0) - 0xfee0),
+      );
+
+      // Xマナはマナ総量として数えない
+      if (inner.toUpperCase() === "X") {
+        return;
+      }
+
+      // 先頭が数字の場合はその数字を加算 (分割マナ "2/W" 等は暫定的に 2 として扱う)
+      if (/^[0-9]+/.test(inner)) {
+        total += parseInt(inner.match(/^[0-9]+/)[0], 10);
+      }
+      // そうでない場合（色マナシンボルの場合）は 1 加算
+      else if (inner) {
+        total += 1;
+      }
     });
+  } else {
+    // 括弧なしのコスト表記へのフォールバック (例: "4WW")
+    let normalized = costStr.replace(/[０-９Ａ-Ｚａ-ｚ]/g, (s) =>
+      String.fromCharCode(s.charCodeAt(0) - 0xfee0),
+    );
+    const nums = normalized.match(/[0-9]+/g);
+    if (nums) {
+      nums.forEach((n) => (total += parseInt(n, 10)));
+    }
+    const chars = normalized.match(/[a-zA-Z白青黒赤緑]/g);
+    if (chars) {
+      chars.forEach((c) => {
+        if (c.toUpperCase() !== "X") total += 1;
+      });
+    }
   }
-  const symMatch = costStr.match(/[\(（\{]([a-zA-Z/]+)[\)）\}]/g);
-  if (symMatch) {
-    symMatch.forEach((m) => {
-      if (!m.toUpperCase().includes("X")) total += 1;
-    });
-  }
+
   return total;
 }
 
