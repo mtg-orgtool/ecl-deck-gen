@@ -14,6 +14,11 @@
       <div class="input-panel">
         <div>
           <div class="section-title">デッキリスト</div>
+          <div class="ocr-ui" style="margin-bottom: 10px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+            <input type="file" id="image-upload" accept="image/*" style="flex: 1; max-width: 200px;" />
+            <button id="read-image-btn" class="ocr-btn">画像から読み込む</button>
+            <span id="ocr-status" class="status-text ocr-status" style="display: none; margin: 0;">読み取り中...</span>
+          </div>
           <textarea
             id="deck-input"
             placeholder="カード名　(コスト)　×1&#13;&#10;（Arenaのエクスポート形式など）"

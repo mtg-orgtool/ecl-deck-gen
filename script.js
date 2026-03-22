@@ -65,6 +65,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const saveBtn = document.getElementById("saveBtn");
   if (saveBtn) saveBtn.addEventListener("click", onSaveClick);
 
+  const readImageBtn = document.getElementById("read-image-btn");
+  if (readImageBtn) readImageBtn.addEventListener("click", onReadImageClick);
+
   // 色選択プルダウンのイベントリスナー
   const colorSelect = document.getElementById("colorSelect");
   if (colorSelect) {
@@ -222,14 +225,13 @@ function drawTierIcon(ctx, x, y, tier) {
   ctx.strokeStyle = "#ffffff";
   ctx.lineWidth = 2 * scale;
   ctx.stroke();
-  ctx.restore();
-
   ctx.fillStyle = "#ffffff";
   ctx.textAlign = "center";
   ctx.textBaseline = "middle";
   ctx.font = `bold ${20 * scale}px Arial`;
   // 文字のY方向の微調整（scaleに合わせて少し下げる）
   ctx.fillText(tier, iconX, iconY + 1 * scale);
+  ctx.restore();
 }
 
 function drawBadge(ctx, x, y, cnt) {
@@ -301,7 +303,8 @@ function findCardData(name) {
 
   // 2. ダイレクト検索 (高速化)
   if (MASTER_CARD_DATA[searchKey]) {
-    return { enName: searchKey, data: MASTER_CARD_DATA[searchKey] };
+    const d = MASTER_CARD_DATA[searchKey];
+    return { enName: d.enName || searchKey, data: d };
   }
 
   // 全データ走査の準備
@@ -434,13 +437,13 @@ function parseDeck(deckText) {
       displayName: cleanedName,
       count: count,
       nameEn: nameEn,
-      jpName: cardData.jp || cleanedName,
+      jpName: cardData.jpName || cleanedName,
       fileName: cardData.fileName || null,
       cost: manualCost || cardData.cost || "", // ★修正: manualCost最優先
       type: cardData.type || "", // typeが無い場合は空文字
       tier: cardData.tier || "U",
       tiers: cardData.tiers || null, // 全色のTierデータ
-      gihwr: cardData.wr || "-",
+      gihwr: cardData.winRate || "-",
       imgObj: null,
       // 安全のため、数値計算前に型チェック
       cmc: 0,
@@ -633,7 +636,7 @@ function drawDeck(deckList) {
   if (groupedCards.lands.length > 0) {
     const landsCount = groupedCards.lands.length;
     // 土地は1列に並べるため、必要な幅を計算
-    maxLandsWidth = landsCount * (CARD_W + GAP) + GAP;
+    maxLandsWidth = COUNT_COL_WIDTH + landsCount * (CARD_W + GAP) + GAP;
     // 高さを1行分追加 (ラベル用スペースも少し考慮)
     requiredHeight += CARD_H + GAP + groupSpacing;
   }
@@ -881,5 +884,228 @@ async function onGenerateClick() {
     isGenerating = false; // 処理終了時にフラグ解除
     const genBtn = document.getElementById("generate-btn");
     if (genBtn) genBtn.disabled = false; // ボタンを再度有効化
+  }
+}
+
+// --- レーベンシュタイン距離 (Levenshtein distance) 計算関数 ---
+function levenshteinDistance(s1, s2) {
+  if (s1.length === 0) return s2.length;
+  if (s2.length === 0) return s1.length;
+
+  const matrix = [];
+
+  for (let i = 0; i <= s2.length; i++) {
+    matrix[i] = [i];
+  }
+  for (let j = 0; j <= s1.length; j++) {
+    matrix[0][j] = j;
+  }
+
+  for (let i = 1; i <= s2.length; i++) {
+    for (let j = 1; j <= s1.length; j++) {
+      if (s2.charAt(i - 1) === s1.charAt(j - 1)) {
+        matrix[i][j] = matrix[i - 1][j - 1];
+      } else {
+        matrix[i][j] = Math.min(
+          matrix[i - 1][j - 1] + 1, // 置換
+          matrix[i][j - 1] + 1,     // 挿入
+          matrix[i - 1][j] + 1      // 削除
+        );
+      }
+    }
+  }
+  return matrix[s2.length][s1.length];
+}
+
+let cachedValidNames = null;
+
+function getValidCardNames() {
+  if (cachedValidNames) return cachedValidNames;
+  const names = new Set(BASIC_LAND_NAMES);
+  if (typeof MASTER_CARD_DATA !== 'undefined') {
+    Object.values(MASTER_CARD_DATA).forEach(card => {
+      // 必要なプロパティ (jpName, enNameなど) を集める
+      if (card.jpName) names.add(card.jpName);
+      if (card.enName) names.add(card.enName);
+    });
+  }
+  cachedValidNames = Array.from(names).filter(n => n);
+  return cachedValidNames;
+}
+
+// --- OCR結果の整形・ファジーマッチング関数 ---
+function processOcrText(rawText) {
+  const lines = rawText.split('\n');
+  const processedLines = [];
+  const validNames = getValidCardNames();
+
+  for (let line of lines) {
+    line = line.trim();
+    if (!line) continue;
+    
+    // OCRによくあるゴミ文字を除去・置換
+    line = line.replace(/[・：:]/g, ' ').replace(/[（\(][^）\)]*[）\)]/g, '').replace(/枚$/, '').trim();
+    line = line.replace(/[\s　]+/g, ' '); // 連続する空白を1つに
+    
+    let count = 1;
+    let cardName = line;
+    
+    // 1. "枚数 カード名" の形式 (例: "1 傷刃の悪意", "1x 完全者の闘士")
+    let matchStartCount = line.match(/^(\d{1,4})\s*[x×]?\s+(.+)$/i);
+    // 2. "カード名 枚数" の形式 (例: "森 7", "山 x2", "完全なる闘士 2")
+    let matchEndCount = line.match(/^(.+?)\s+[x×]?\s*(\d{1,4})$/i);
+    
+    if (matchStartCount) {
+      count = parseInt(matchStartCount[1], 10);
+      cardName = matchStartCount[2];
+    } else if (matchEndCount) {
+      count = parseInt(matchEndCount[2], 10);
+      cardName = matchEndCount[1];
+    }
+    
+    cardName = cardName.trim();
+    if (!cardName) continue;
+    
+    // 完全一致確認
+    let bestMatch = cardName;
+    let isExactMatch = validNames.some(name => name === cardName);
+    
+    // 完全一致しない場合はファジーマッチング (1文字以上の文字列)
+    if (!isExactMatch && validNames.length > 0 && cardName.length > 1) {
+      let minDistance = Infinity;
+      let closestName = cardName;
+      
+      for (const validName of validNames) {
+        // 文字数の差が大きいものはスキップ（最適化と誤判定防止）
+        if (Math.abs(validName.length - cardName.length) > 3) continue;
+        
+        const dist = levenshteinDistance(cardName, validName);
+        if (dist < minDistance) {
+          minDistance = dist;
+          closestName = validName;
+        }
+      }
+      
+      // ファジーマッチングの閾値: 入力文字数の25% (最小1, 最大2) に厳格化
+      const threshold = Math.min(2, Math.max(1, Math.floor(cardName.length * 0.25)));
+      if (minDistance <= threshold) {
+        bestMatch = closestName; // 推測された正しいカード名
+      }
+    }
+    
+    // MTGアリーナ標準フォーマット
+    processedLines.push(`${count} ${bestMatch}`);
+  }
+  
+  return processedLines.join('\n');
+}
+
+let ocrStatusTimer = null;
+
+// --- OCR (画像からテキスト読み取り) ---
+async function onReadImageClick() {
+  const fileInput = document.getElementById("image-upload");
+  const ocrStatus = document.getElementById("ocr-status");
+  const readBtn = document.getElementById("read-image-btn");
+  const deckInput = document.getElementById("deck-input");
+
+  if (!fileInput.files || fileInput.files.length === 0) {
+    alert("画像ファイルを選択してください。");
+    return;
+  }
+
+  const file = fileInput.files[0];
+
+  // ファイルサイズとタイプのバリデーション
+  const maxSize = 5 * 1024 * 1024; // 5MB
+  const allowedTypes = ['image/jpeg', 'image/png', 'image/webp'];
+  
+  if (file.size > maxSize) {
+    alert("ファイルサイズが大きすぎます。5MB以下の画像を選択してください。");
+    return;
+  }
+  
+  if (!allowedTypes.includes(file.type)) {
+    alert("対応していないファイル形式です。JPEG, PNG, WebPのいずれかの画像を選択してください。");
+    return;
+  }
+
+  readBtn.disabled = true;
+  ocrStatus.style.display = "inline-block";
+  ocrStatus.textContent = "読み取り中...";
+  ocrStatus.style.color = "#9BD3AE";
+
+  try {
+    // FileReaderで画像をBase64として読み込む
+    const base64DataUrl = await new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => resolve(reader.result);
+      reader.onerror = (error) => reject(error);
+      reader.readAsDataURL(file);
+    });
+
+    // プレフィックス (data:image/jpeg;base64, 等) を除去して生のBase64文字列を取得
+    const base64String = base64DataUrl.split(",")[1];
+
+    // Cloudflare WorkerにPOSTリクエスト
+    const OCR_ENDPOINT = "https://gemini-ocr-worker.hanabino.workers.dev";
+    const response = await fetch(OCR_ENDPOINT, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ 
+        imageBase64: base64String,
+        mimeType: file.type
+      }),
+    });
+
+    const result = await response.json();
+
+    if (!response.ok) {
+      throw new Error(result.error || "読み取りサーバでエラーが発生しました。");
+    }
+
+    if (result.text) {
+      // OCR結果のフォーマット整形と誤字補正 (ファジーマッチング)
+      const processedText = processOcrText(result.text);
+
+      // 成功した場合、既存のテキストエリアに追記（または上書き）
+      const currentText = deckInput.value.trim();
+      if (currentText) {
+        deckInput.value = currentText + "\n\n" + processedText;
+      } else {
+        deckInput.value = processedText;
+      }
+      ocrStatus.textContent = "読み取り完了！";
+
+      // 自動的に「画像を生成」をトリガー (新規入力時のみ)
+      if (!currentText) {
+        const genBtn = document.getElementById("generate-btn");
+        if (genBtn && !genBtn.disabled) {
+          genBtn.click();
+        }
+      }
+    } else {
+      throw new Error("テキストの抽出に失敗しました。");
+    }
+  } catch (error) {
+    console.error("OCR Error:", error);
+    alert("画像の読み取りに失敗しました:\n" + error.message);
+    ocrStatus.textContent = "読み取り失敗";
+    ocrStatus.style.color = "#ff6b6b";
+  } finally {
+    readBtn.disabled = false;
+    fileInput.value = ""; // 選択されたファイルをリセットして同じファイルを再度選択可能にする
+    
+    // UIタイマーのクリアと再設定 (5秒後にステータスを隠す)
+    if (ocrStatusTimer) {
+      clearTimeout(ocrStatusTimer);
+    }
+    ocrStatusTimer = setTimeout(() => {
+      if (ocrStatus.textContent !== "読み取り中...") {
+        ocrStatus.style.display = "none";
+      }
+    }, 5000);
   }
 }

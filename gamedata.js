@@ -1,6 +1,6 @@
-// 自動生成されたデータ (2026/2/20 15:38:43)
+// 自動生成されたデータ (2026/3/22 17:34:58)
 const MASTER_CARD_DATA = {
-  "Changeling Wayfinder": {
+  "changeling wayfinder": {
     "enName": "Changeling Wayfinder",
     "jpName": "変わり身の道探し",
     "cost": "(３)",
@@ -35,7 +35,7 @@ const MASTER_CARD_DATA = {
     "winRate": "53.7%",
     "tier": "C-"
   },
-  "Rooftop Percher": {
+  "rooftop percher": {
     "enName": "Rooftop Percher",
     "jpName": "屋根の上の止まり獣",
     "cost": "(５)",
@@ -70,7 +70,7 @@ const MASTER_CARD_DATA = {
     "winRate": "55.2%",
     "tier": "C"
   },
-  "Adept Watershaper": {
+  "adept watershaper": {
     "enName": "Adept Watershaper",
     "jpName": "熟練の整水家",
     "cost": "(２)(白)",
@@ -105,7 +105,7 @@ const MASTER_CARD_DATA = {
     "winRate": "57.8%",
     "tier": "B-"
   },
-  "Ajani, Outland Chaperone": {
+  "ajani, outland chaperone": {
     "enName": "Ajani, Outland Chaperone",
     "jpName": "辺境地の御目付役、アジャニ",
     "cost": "(１)(白)(白)",
@@ -140,7 +140,7 @@ const MASTER_CARD_DATA = {
     "winRate": "60.6%",
     "tier": "B+"
   },
-  "Appeal to Eirdu": {
+  "appeal to eirdu": {
     "enName": "Appeal to Eirdu",
     "jpName": "エイルドゥへの嘆願",
     "cost": "(３)(白)",
@@ -175,7 +175,7 @@ const MASTER_CARD_DATA = {
     "winRate": "50.0%",
     "tier": "D-"
   },
-  "Bark of Doran": {
+  "bark of doran": {
     "enName": "Bark of Doran",
     "jpName": "ドランの樹皮",
     "cost": "(１)(白)",
@@ -210,7 +210,7 @@ const MASTER_CARD_DATA = {
     "winRate": "49.4%",
     "tier": "F"
   },
-  "Brigid, Clachan's Heart": {
+  "brigid, clachan's heart": {
     "enName": "Brigid, Clachan's Heart",
     "jpName": "小村の心、ブリジッド",
     "cost": "(２)(白)",
@@ -245,7 +245,7 @@ const MASTER_CARD_DATA = {
     "winRate": "60.9%",
     "tier": "B+"
   },
-  "Brigid, Doun's Mind": {
+  "brigid, doun's mind": {
     "enName": "Brigid, Doun's Mind",
     "jpName": "矮村の理性、ブリジッド",
     "type": "〔緑〕 伝説のクリーチャー --- キスキン(Kithkin)・兵士(Soldier)",
@@ -279,7 +279,7 @@ const MASTER_CARD_DATA = {
     "winRate": "-",
     "tier": "U"
   },
-  "Burdened Stoneback": {
+  "burdened stoneback": {
     "enName": "Burdened Stoneback",
     "jpName": "積みすぎな石背負い",
     "cost": "(１)(白)",
@@ -314,7 +314,7 @@ const MASTER_CARD_DATA = {
     "winRate": "52.9%",
     "tier": "D+"
   },
-  "Champion of the Clachan": {
+  "champion of the clachan": {
     "enName": "Champion of the Clachan",
     "jpName": "小村の闘士",
     "cost": "(３)(白)",
@@ -349,7 +349,7 @@ const MASTER_CARD_DATA = {
     "winRate": "55.4%",
     "tier": "C"
   },
-  "Clachan Festival": {
+  "clachan festival": {
     "enName": "Clachan Festival",
     "jpName": "小村の祝祭",
     "cost": "(２)(白)",
@@ -384,7 +384,7 @@ const MASTER_CARD_DATA = {
     "winRate": "56.4%",
     "tier": "C+"
   },
-  "Crib Swap": {
+  "crib swap": {
     "enName": "Crib Swap",
     "jpName": "外身の交換（そとみのこうかん）",
     "cost": "(２)(白)",
@@ -419,7 +419,7 @@ const MASTER_CARD_DATA = {
     "winRate": "49.9%",
     "tier": "F"
   },
-  "Curious Colossus": {
+  "curious colossus": {
     "enName": "Curious Colossus",
     "jpName": "興味津々の巨人",
     "cost": "(５)(白)(白)",
@@ -454,7 +454,7 @@ const MASTER_CARD_DATA = {
     "winRate": "63.2%",
     "tier": "A"
   },
-  "Eirdu, Carrier of Dawn": {
+  "eirdu, carrier of dawn": {
     "enName": "Eirdu, Carrier of Dawn",
     "jpName": "払暁をもたらすもの、エイルドゥ",
     "cost": "(３)(白)(白)",
@@ -489,7 +489,7 @@ const MASTER_CARD_DATA = {
     "winRate": "61.1%",
     "tier": "B+"
   },
-  "Isilu, Carrier of Twilight": {
+  "isilu, carrier of twilight": {
     "enName": "Isilu, Carrier of Twilight",
     "jpName": "黄昏をもたらすもの、イシルー",
     "type": "〔黒〕 伝説のクリーチャー --- エレメンタル(Elemental)・神(God)",
@@ -523,7 +523,7 @@ const MASTER_CARD_DATA = {
     "winRate": "-",
     "tier": "U"
   },
-  "Encumbered Reejerey": {
+  "encumbered reejerey": {
     "enName": "Encumbered Reejerey",
     "jpName": "動きにくい騎兵",
     "cost": "(１)(白)",
@@ -558,7 +558,7 @@ const MASTER_CARD_DATA = {
     "winRate": "56.5%",
     "tier": "C+"
   },
-  "Evershrike's Gift": {
+  "evershrike's gift": {
     "enName": "Evershrike's Gift",
     "jpName": "永久モズの贈り物",
     "cost": "(白)",
@@ -593,7 +593,7 @@ const MASTER_CARD_DATA = {
     "winRate": "53.1%",
     "tier": "D+"
   },
-  "Flock Impostor": {
+  "flock impostor": {
     "enName": "Flock Impostor",
     "jpName": "鳥群のなりすまし",
     "cost": "(２)(白)",
@@ -628,7 +628,7 @@ const MASTER_CARD_DATA = {
     "winRate": "55.0%",
     "tier": "C"
   },
-  "Gallant Fowlknight": {
+  "gallant fowlknight": {
     "enName": "Gallant Fowlknight",
     "jpName": "勇敢な鶏騎士",
     "cost": "(３)(白)",
@@ -663,7 +663,7 @@ const MASTER_CARD_DATA = {
     "winRate": "54.2%",
     "tier": "C-"
   },
-  "Goldmeadow Nomad": {
+  "goldmeadow nomad": {
     "enName": "Goldmeadow Nomad",
     "jpName": "ゴールドメドウの遊牧民",
     "cost": "(白)",
@@ -698,7 +698,7 @@ const MASTER_CARD_DATA = {
     "winRate": "52.4%",
     "tier": "D"
   },
-  "Keep Out": {
+  "keep out": {
     "enName": "Keep Out",
     "jpName": "締め出し",
     "cost": "(１)(白)",
@@ -733,7 +733,7 @@ const MASTER_CARD_DATA = {
     "winRate": "52.7%",
     "tier": "D+"
   },
-  "Kinbinding": {
+  "kinbinding": {
     "enName": "Kinbinding",
     "jpName": "一族団結",
     "cost": "(３)(白)(白)",
@@ -768,7 +768,7 @@ const MASTER_CARD_DATA = {
     "winRate": "64.1%",
     "tier": "A+"
   },
-  "Kinsbaile Aspirant": {
+  "kinsbaile aspirant": {
     "enName": "Kinsbaile Aspirant",
     "jpName": "キンズベイルの野心家",
     "cost": "(白)",
@@ -803,7 +803,7 @@ const MASTER_CARD_DATA = {
     "winRate": "57.9%",
     "tier": "B-"
   },
-  "Kinscaer Sentry": {
+  "kinscaer sentry": {
     "enName": "Kinscaer Sentry",
     "jpName": "キンザーの歩哨",
     "cost": "(１)(白)",
@@ -838,7 +838,7 @@ const MASTER_CARD_DATA = {
     "winRate": "59.2%",
     "tier": "B"
   },
-  "Kithkeeper": {
+  "kithkeeper": {
     "enName": "Kithkeeper",
     "jpName": "キスキーパー",
     "cost": "(６)(白)",
@@ -873,7 +873,7 @@ const MASTER_CARD_DATA = {
     "winRate": "53.7%",
     "tier": "C-"
   },
-  "Liminal Hold": {
+  "liminal hold": {
     "enName": "Liminal Hold",
     "jpName": "境界の支配",
     "cost": "(３)(白)",
@@ -908,7 +908,7 @@ const MASTER_CARD_DATA = {
     "winRate": "55.8%",
     "tier": "C"
   },
-  "Meanders Guide": {
+  "meanders guide": {
     "enName": "Meanders Guide",
     "jpName": "闇うねりの導き手",
     "cost": "(２)(白)",
@@ -943,7 +943,7 @@ const MASTER_CARD_DATA = {
     "winRate": "54.0%",
     "tier": "C-"
   },
-  "Moonlit Lamenter": {
+  "moonlit lamenter": {
     "enName": "Moonlit Lamenter",
     "jpName": "月明かりの哀悼者",
     "cost": "(２)(白)",
@@ -978,7 +978,7 @@ const MASTER_CARD_DATA = {
     "winRate": "55.3%",
     "tier": "C"
   },
-  "Morningtide's Light": {
+  "morningtide's light": {
     "enName": "Morningtide's Light",
     "jpName": "モーニングタイドの光",
     "cost": "(３)(白)",
@@ -1013,7 +1013,7 @@ const MASTER_CARD_DATA = {
     "winRate": "54.1%",
     "tier": "C-"
   },
-  "Personify": {
+  "personify": {
     "enName": "Personify",
     "jpName": "成りきり",
     "cost": "(１)(白)",
@@ -1048,7 +1048,7 @@ const MASTER_CARD_DATA = {
     "winRate": "55.1%",
     "tier": "C"
   },
-  "Protective Response": {
+  "protective response": {
     "enName": "Protective Response",
     "jpName": "防衛反応",
     "cost": "(２)(白)",
@@ -1083,7 +1083,7 @@ const MASTER_CARD_DATA = {
     "winRate": "57.1%",
     "tier": "C+"
   },
-  "Pyrrhic Strike": {
+  "pyrrhic strike": {
     "enName": "Pyrrhic Strike",
     "jpName": "割に合わない一撃",
     "cost": "(２)(白)",
@@ -1118,7 +1118,7 @@ const MASTER_CARD_DATA = {
     "winRate": "58.3%",
     "tier": "B-"
   },
-  "Reluctant Dounguard": {
+  "reluctant dounguard": {
     "enName": "Reluctant Dounguard",
     "jpName": "不承不承の矮村護衛",
     "cost": "(２)(白)",
@@ -1153,7 +1153,7 @@ const MASTER_CARD_DATA = {
     "winRate": "51.3%",
     "tier": "D"
   },
-  "Rhys, the Evermore": {
+  "rhys, the evermore": {
     "enName": "Rhys, the Evermore",
     "jpName": "不朽不変、ライズ",
     "cost": "(１)(白)",
@@ -1188,7 +1188,7 @@ const MASTER_CARD_DATA = {
     "winRate": "52.5%",
     "tier": "D+"
   },
-  "Riverguard's Reflexes": {
+  "riverguard's reflexes": {
     "enName": "Riverguard's Reflexes",
     "jpName": "川護衛の即応",
     "cost": "(１)(白)",
@@ -1223,7 +1223,7 @@ const MASTER_CARD_DATA = {
     "winRate": "52.6%",
     "tier": "D+"
   },
-  "Shore Lurker": {
+  "shore lurker": {
     "enName": "Shore Lurker",
     "jpName": "海辺潜み",
     "cost": "(３)(白)",
@@ -1258,7 +1258,7 @@ const MASTER_CARD_DATA = {
     "winRate": "53.6%",
     "tier": "D+"
   },
-  "Slumbering Walker": {
+  "slumbering walker": {
     "enName": "Slumbering Walker",
     "jpName": "まどろむ散歩者",
     "cost": "(３)(白)(白)",
@@ -1293,7 +1293,7 @@ const MASTER_CARD_DATA = {
     "winRate": "59.4%",
     "tier": "B"
   },
-  "Spiral into Solitude": {
+  "spiral into solitude": {
     "enName": "Spiral into Solitude",
     "jpName": "孤立への悪循環",
     "cost": "(１)(白)",
@@ -1328,7 +1328,7 @@ const MASTER_CARD_DATA = {
     "winRate": "54.3%",
     "tier": "C-"
   },
-  "Sun-Dappled Celebrant": {
+  "sun-dappled celebrant": {
     "enName": "Sun-Dappled Celebrant",
     "jpName": "太陽まだらの祝賀者",
     "cost": "(４)(白)(白)",
@@ -1363,7 +1363,7 @@ const MASTER_CARD_DATA = {
     "winRate": "52.8%",
     "tier": "D+"
   },
-  "Thoughtweft Imbuer": {
+  "thoughtweft imbuer": {
     "enName": "Thoughtweft Imbuer",
     "jpName": "思考の糸の浸潤家",
     "cost": "(３)(白)",
@@ -1398,7 +1398,7 @@ const MASTER_CARD_DATA = {
     "winRate": "58.3%",
     "tier": "B-"
   },
-  "Timid Shieldbearer": {
+  "timid shieldbearer": {
     "enName": "Timid Shieldbearer",
     "jpName": "臆病な盾持ち",
     "cost": "(１)(白)",
@@ -1433,7 +1433,7 @@ const MASTER_CARD_DATA = {
     "winRate": "54.9%",
     "tier": "C-"
   },
-  "Tributary Vaulter": {
+  "tributary vaulter": {
     "enName": "Tributary Vaulter",
     "jpName": "支流の跳躍者",
     "cost": "(２)(白)",
@@ -1468,7 +1468,7 @@ const MASTER_CARD_DATA = {
     "winRate": "55.2%",
     "tier": "C"
   },
-  "Wanderbrine Preacher": {
+  "wanderbrine preacher": {
     "enName": "Wanderbrine Preacher",
     "jpName": "ワンダーブラインの説教者",
     "cost": "(１)(白)",
@@ -1503,7 +1503,7 @@ const MASTER_CARD_DATA = {
     "winRate": "55.5%",
     "tier": "C"
   },
-  "Wanderbrine Trapper": {
+  "wanderbrine trapper": {
     "enName": "Wanderbrine Trapper",
     "jpName": "ワンダーブラインの罠師",
     "cost": "(白)",
@@ -1538,7 +1538,7 @@ const MASTER_CARD_DATA = {
     "winRate": "59.4%",
     "tier": "B"
   },
-  "Winnowing": {
+  "winnowing": {
     "enName": "Winnowing",
     "jpName": "篩い飛ばし",
     "cost": "(４)(白)(白)",
@@ -1573,7 +1573,7 @@ const MASTER_CARD_DATA = {
     "winRate": "52.8%",
     "tier": "D+"
   },
-  "Aquitect's Defenses": {
+  "aquitect's defenses": {
     "enName": "Aquitect's Defenses",
     "jpName": "水大工の防衛",
     "cost": "(１)(青)",
@@ -1608,7 +1608,7 @@ const MASTER_CARD_DATA = {
     "winRate": "52.9%",
     "tier": "D+"
   },
-  "Blossombind": {
+  "blossombind": {
     "enName": "Blossombind",
     "jpName": "花弁縛り",
     "cost": "(１)(青)",
@@ -1643,7 +1643,7 @@ const MASTER_CARD_DATA = {
     "winRate": "55.0%",
     "tier": "C"
   },
-  "Champions of the Shoal": {
+  "champions of the shoal": {
     "enName": "Champions of the Shoal",
     "jpName": "浅瀬の闘士",
     "cost": "(３)(青)",
@@ -1678,7 +1678,7 @@ const MASTER_CARD_DATA = {
     "winRate": "62.2%",
     "tier": "A-"
   },
-  "Disruptor of Currents": {
+  "disruptor of currents": {
     "enName": "Disruptor of Currents",
     "jpName": "水流乱し",
     "cost": "(３)(青)(青)",
@@ -1713,7 +1713,7 @@ const MASTER_CARD_DATA = {
     "winRate": "61.2%",
     "tier": "B+"
   },
-  "Flitterwing Nuisance": {
+  "flitterwing nuisance": {
     "enName": "Flitterwing Nuisance",
     "jpName": "閃翼の嫌がらせ屋",
     "cost": "(青)",
@@ -1748,7 +1748,7 @@ const MASTER_CARD_DATA = {
     "winRate": "59.9%",
     "tier": "B"
   },
-  "Glamer Gifter": {
+  "glamer gifter": {
     "enName": "Glamer Gifter",
     "jpName": "幻触を授ける者",
     "cost": "(１)(青)",
@@ -1783,7 +1783,7 @@ const MASTER_CARD_DATA = {
     "winRate": "56.6%",
     "tier": "C+"
   },
-  "Glamermite": {
+  "glamermite": {
     "enName": "Glamermite",
     "jpName": "幻触児",
     "cost": "(２)(青)",
@@ -1818,7 +1818,7 @@ const MASTER_CARD_DATA = {
     "winRate": "53.2%",
     "tier": "D+"
   },
-  "Glen Elendra Guardian": {
+  "glen elendra guardian": {
     "enName": "Glen Elendra Guardian",
     "jpName": "エレンドラ谷の守護者",
     "cost": "(２)(青)",
@@ -1853,7 +1853,7 @@ const MASTER_CARD_DATA = {
     "winRate": "56.3%",
     "tier": "C+"
   },
-  "Glen Elendra's Answer": {
+  "glen elendra's answer": {
     "enName": "Glen Elendra's Answer",
     "jpName": "エレンドラ谷の応答",
     "cost": "(２)(青)(青)",
@@ -1888,7 +1888,7 @@ const MASTER_CARD_DATA = {
     "winRate": "59.3%",
     "tier": "B"
   },
-  "Gravelgill Scoundrel": {
+  "gravelgill scoundrel": {
     "enName": "Gravelgill Scoundrel",
     "jpName": "砂利エラの悪漢",
     "cost": "(１)(青)",
@@ -1923,7 +1923,7 @@ const MASTER_CARD_DATA = {
     "winRate": "55.8%",
     "tier": "C"
   },
-  "Harmonized Crescendo": {
+  "harmonized crescendo": {
     "enName": "Harmonized Crescendo",
     "jpName": "調和した大合唱",
     "cost": "(４)(青)(青)",
@@ -1958,7 +1958,7 @@ const MASTER_CARD_DATA = {
     "winRate": "53.2%",
     "tier": "D+"
   },
-  "Illusion Spinners": {
+  "illusion spinners": {
     "enName": "Illusion Spinners",
     "jpName": "幻影の紡ぎ手",
     "cost": "(４)(青)",
@@ -1993,7 +1993,7 @@ const MASTER_CARD_DATA = {
     "winRate": "51.1%",
     "tier": "D-"
   },
-  "Kulrath Mystic": {
+  "kulrath mystic": {
     "enName": "Kulrath Mystic",
     "jpName": "クルラスの神秘家",
     "cost": "(２)(青)",
@@ -2028,7 +2028,7 @@ const MASTER_CARD_DATA = {
     "winRate": "53.9%",
     "tier": "C-"
   },
-  "Loch Mare": {
+  "loch mare": {
     "enName": "Loch Mare",
     "jpName": "湖棲馬",
     "cost": "(１)(青)",
@@ -2063,7 +2063,7 @@ const MASTER_CARD_DATA = {
     "winRate": "62.0%",
     "tier": "A-"
   },
-  "Lofty Dreams": {
+  "lofty dreams": {
     "enName": "Lofty Dreams",
     "jpName": "高邁な夢",
     "cost": "(３)(青)(青)",
@@ -2098,7 +2098,7 @@ const MASTER_CARD_DATA = {
     "winRate": "55.4%",
     "tier": "C"
   },
-  "Mirrorform": {
+  "mirrorform": {
     "enName": "Mirrorform",
     "jpName": "鏡変化",
     "cost": "(４)(青)(青)",
@@ -2133,7 +2133,7 @@ const MASTER_CARD_DATA = {
     "winRate": "55.4%",
     "tier": "C"
   },
-  "Noggle the Mind": {
+  "noggle the mind": {
     "enName": "Noggle the Mind",
     "jpName": "ノッグル的心理",
     "cost": "(１)(青)",
@@ -2168,7 +2168,7 @@ const MASTER_CARD_DATA = {
     "winRate": "55.2%",
     "tier": "C"
   },
-  "Oko, Lorwyn Liege": {
+  "oko, lorwyn liege": {
     "enName": "Oko, Lorwyn Liege",
     "jpName": "ローウィンの主、オーコ",
     "cost": "(２)(青)",
@@ -2203,7 +2203,7 @@ const MASTER_CARD_DATA = {
     "winRate": "56.6%",
     "tier": "C+"
   },
-  "Oko, Shadowmoor Scion": {
+  "oko, shadowmoor scion": {
     "enName": "Oko, Shadowmoor Scion",
     "jpName": "シャドウムーアの末裔、オーコ",
     "type": "〔緑〕 伝説のプレインズウォーカー --- オーコ(Oko)",
@@ -2237,7 +2237,7 @@ const MASTER_CARD_DATA = {
     "winRate": "-",
     "tier": "U"
   },
-  "Omni-Changeling": {
+  "omni-changeling": {
     "enName": "Omni-Changeling",
     "jpName": "全変する変わり身",
     "cost": "(３)(青)(青)",
@@ -2272,7 +2272,7 @@ const MASTER_CARD_DATA = {
     "winRate": "56.0%",
     "tier": "C"
   },
-  "Pestered Wellguard": {
+  "pestered wellguard": {
     "enName": "Pestered Wellguard",
     "jpName": "悩ましき井戸守り",
     "cost": "(３)(青)",
@@ -2307,7 +2307,7 @@ const MASTER_CARD_DATA = {
     "winRate": "54.4%",
     "tier": "C-"
   },
-  "Rime Chill": {
+  "rime chill": {
     "enName": "Rime Chill",
     "jpName": "凍炎の冷気",
     "cost": "(６)(青)",
@@ -2342,7 +2342,7 @@ const MASTER_CARD_DATA = {
     "winRate": "52.2%",
     "tier": "D"
   },
-  "Rimefire Torque": {
+  "rimefire torque": {
     "enName": "Rimefire Torque",
     "jpName": "凍炎の首飾り",
     "cost": "(１)(青)",
@@ -2377,7 +2377,7 @@ const MASTER_CARD_DATA = {
     "winRate": "39.9%",
     "tier": "F"
   },
-  "Rimekin Recluse": {
+  "rimekin recluse": {
     "enName": "Rimekin Recluse",
     "jpName": "凍炎族の世捨て",
     "cost": "(２)(青)",
@@ -2412,7 +2412,7 @@ const MASTER_CARD_DATA = {
     "winRate": "60.0%",
     "tier": "B+"
   },
-  "Run Away Together": {
+  "run away together": {
     "enName": "Run Away Together",
     "jpName": "共に逃走（ともにとうそう）",
     "cost": "(１)(青)",
@@ -2447,7 +2447,7 @@ const MASTER_CARD_DATA = {
     "winRate": "51.0%",
     "tier": "D-"
   },
-  "Shinestriker": {
+  "shinestriker": {
     "enName": "Shinestriker",
     "jpName": "光撃獣",
     "cost": "(４)(青)(青)",
@@ -2482,7 +2482,7 @@ const MASTER_CARD_DATA = {
     "winRate": "58.3%",
     "tier": "B-"
   },
-  "Silvergill Mentor": {
+  "silvergill mentor": {
     "enName": "Silvergill Mentor",
     "jpName": "銀エラの導師",
     "cost": "(１)(青)",
@@ -2517,7 +2517,7 @@ const MASTER_CARD_DATA = {
     "winRate": "60.1%",
     "tier": "B+"
   },
-  "Silvergill Peddler": {
+  "silvergill peddler": {
     "enName": "Silvergill Peddler",
     "jpName": "銀エラの行商人",
     "cost": "(２)(青)",
@@ -2552,7 +2552,7 @@ const MASTER_CARD_DATA = {
     "winRate": "54.9%",
     "tier": "C-"
   },
-  "Spell Snare": {
+  "spell snare": {
     "enName": "Spell Snare",
     "jpName": "呪文嵌め（じゅもんはめ）",
     "cost": "(青)",
@@ -2587,7 +2587,7 @@ const MASTER_CARD_DATA = {
     "winRate": "48.9%",
     "tier": "F"
   },
-  "Stratosoarer": {
+  "stratosoarer": {
     "enName": "Stratosoarer",
     "jpName": "飛雲鳥",
     "cost": "(４)(青)",
@@ -2622,7 +2622,7 @@ const MASTER_CARD_DATA = {
     "winRate": "54.7%",
     "tier": "C-"
   },
-  "Summit Sentinel": {
+  "summit sentinel": {
     "enName": "Summit Sentinel",
     "jpName": "山頂の歩哨",
     "cost": "(１)(青)",
@@ -2657,7 +2657,7 @@ const MASTER_CARD_DATA = {
     "winRate": "53.8%",
     "tier": "C-"
   },
-  "Sunderflock": {
+  "sunderflock": {
     "enName": "Sunderflock",
     "jpName": "刻み群れ",
     "cost": "(７)(青)(青)",
@@ -2692,7 +2692,7 @@ const MASTER_CARD_DATA = {
     "winRate": "63.9%",
     "tier": "A"
   },
-  "Swat Away": {
+  "swat away": {
     "enName": "Swat Away",
     "jpName": "振り払い",
     "cost": "(２)(青)(青)",
@@ -2727,7 +2727,7 @@ const MASTER_CARD_DATA = {
     "winRate": "54.6%",
     "tier": "C-"
   },
-  "Sygg, Wanderwine Wisdom": {
+  "sygg, wanderwine wisdom": {
     "enName": "Sygg, Wanderwine Wisdom",
     "jpName": "ワンダーワインの知恵者、シグ",
     "cost": "(１)(青)",
@@ -2762,7 +2762,7 @@ const MASTER_CARD_DATA = {
     "winRate": "60.5%",
     "tier": "B+"
   },
-  "Sygg, Wanderbrine Shield": {
+  "sygg, wanderbrine shield": {
     "enName": "Sygg, Wanderbrine Shield",
     "jpName": "ワンダーブラインの盾、シグ",
     "type": "〔白〕 伝説のクリーチャー --- マーフォーク(Merfolk)・ならず者(Rogue)",
@@ -2796,7 +2796,7 @@ const MASTER_CARD_DATA = {
     "winRate": "-",
     "tier": "U"
   },
-  "Tanufel Rimespeaker": {
+  "tanufel rimespeaker": {
     "enName": "Tanufel Rimespeaker",
     "jpName": "タヌフェルの凍炎語り",
     "cost": "(３)(青)",
@@ -2831,7 +2831,7 @@ const MASTER_CARD_DATA = {
     "winRate": "56.5%",
     "tier": "C+"
   },
-  "Temporal Cleansing": {
+  "temporal cleansing": {
     "enName": "Temporal Cleansing",
     "jpName": "経時的浄化（けいじてきじょうか）",
     "cost": "(３)(青)",
@@ -2866,7 +2866,7 @@ const MASTER_CARD_DATA = {
     "winRate": "55.9%",
     "tier": "C"
   },
-  "Thirst for Identity": {
+  "thirst for identity": {
     "enName": "Thirst for Identity",
     "jpName": "個性の渇望",
     "cost": "(２)(青)",
@@ -2901,7 +2901,7 @@ const MASTER_CARD_DATA = {
     "winRate": "53.2%",
     "tier": "D+"
   },
-  "Unexpected Assistance": {
+  "unexpected assistance": {
     "enName": "Unexpected Assistance",
     "jpName": "予期せぬ助太刀",
     "cost": "(３)(青)(青)",
@@ -2936,7 +2936,7 @@ const MASTER_CARD_DATA = {
     "winRate": "55.7%",
     "tier": "C"
   },
-  "Unwelcome Sprite": {
+  "unwelcome sprite": {
     "enName": "Unwelcome Sprite",
     "jpName": "招かれざるスプライト",
     "cost": "(１)(青)",
@@ -2971,7 +2971,7 @@ const MASTER_CARD_DATA = {
     "winRate": "56.2%",
     "tier": "C+"
   },
-  "Wanderwine Distracter": {
+  "wanderwine distracter": {
     "enName": "Wanderwine Distracter",
     "jpName": "ワンダーワインの錯乱術士",
     "cost": "(３)(青)",
@@ -3006,7 +3006,7 @@ const MASTER_CARD_DATA = {
     "winRate": "50.7%",
     "tier": "D-"
   },
-  "Wanderwine Farewell": {
+  "wanderwine farewell": {
     "enName": "Wanderwine Farewell",
     "jpName": "ワンダーワインの別れ",
     "cost": "(５)(青)(青)",
@@ -3041,7 +3041,7 @@ const MASTER_CARD_DATA = {
     "winRate": "56.7%",
     "tier": "C+"
   },
-  "Wild Unraveling": {
+  "wild unraveling": {
     "enName": "Wild Unraveling",
     "jpName": "野生のほころび",
     "cost": "(青)(青)",
@@ -3076,7 +3076,7 @@ const MASTER_CARD_DATA = {
     "winRate": "53.5%",
     "tier": "D+"
   },
-  "Auntie's Sentence": {
+  "auntie's sentence": {
     "enName": "Auntie's Sentence",
     "jpName": "婆の宣告",
     "cost": "(１)(黒)",
@@ -3111,7 +3111,7 @@ const MASTER_CARD_DATA = {
     "winRate": "53.3%",
     "tier": "D+"
   },
-  "Barbed Bloodletter": {
+  "barbed bloodletter": {
     "enName": "Barbed Bloodletter",
     "jpName": "逆刺の瀉血器",
     "cost": "(１)(黒)",
@@ -3146,7 +3146,7 @@ const MASTER_CARD_DATA = {
     "winRate": "53.5%",
     "tier": "D+"
   },
-  "Bile-Vial Boggart": {
+  "bile-vial boggart": {
     "enName": "Bile-Vial Boggart",
     "jpName": "胆汁瓶のボガート",
     "cost": "(黒)",
@@ -3181,7 +3181,7 @@ const MASTER_CARD_DATA = {
     "winRate": "52.0%",
     "tier": "D"
   },
-  "Bitterbloom Bearer": {
+  "bitterbloom bearer": {
     "enName": "Bitterbloom Bearer",
     "jpName": "苦花を携える者",
     "cost": "(黒)(黒)",
@@ -3216,7 +3216,7 @@ const MASTER_CARD_DATA = {
     "winRate": "58.4%",
     "tier": "B-"
   },
-  "Blight Rot": {
+  "blight rot": {
     "enName": "Blight Rot",
     "jpName": "枯れ腐り",
     "cost": "(２)(黒)",
@@ -3251,7 +3251,7 @@ const MASTER_CARD_DATA = {
     "winRate": "55.4%",
     "tier": "C"
   },
-  "Blighted Blackthorn": {
+  "blighted blackthorn": {
     "enName": "Blighted Blackthorn",
     "jpName": "立ち枯れた黒茨",
     "cost": "(４)(黒)",
@@ -3286,7 +3286,7 @@ const MASTER_CARD_DATA = {
     "winRate": "50.5%",
     "tier": "D-"
   },
-  "Bloodline Bidding": {
+  "bloodline bidding": {
     "enName": "Bloodline Bidding",
     "jpName": "血統の召集",
     "cost": "(６)(黒)(黒)",
@@ -3321,7 +3321,7 @@ const MASTER_CARD_DATA = {
     "winRate": "58.7%",
     "tier": "B-"
   },
-  "Boggart Mischief": {
+  "boggart mischief": {
     "enName": "Boggart Mischief",
     "jpName": "ボガートの悪戯",
     "cost": "(２)(黒)",
@@ -3356,7 +3356,7 @@ const MASTER_CARD_DATA = {
     "winRate": "57.1%",
     "tier": "C+"
   },
-  "Boggart Prankster": {
+  "boggart prankster": {
     "enName": "Boggart Prankster",
     "jpName": "ボガートのいたずら者",
     "cost": "(１)(黒)",
@@ -3391,7 +3391,7 @@ const MASTER_CARD_DATA = {
     "winRate": "52.6%",
     "tier": "D+"
   },
-  "Bogslither's Embrace": {
+  "bogslither's embrace": {
     "enName": "Bogslither's Embrace",
     "jpName": "沼這いの抱擁",
     "cost": "(１)(黒)",
@@ -3426,7 +3426,7 @@ const MASTER_CARD_DATA = {
     "winRate": "56.1%",
     "tier": "C"
   },
-  "Champion of the Weird": {
+  "champion of the weird": {
     "enName": "Champion of the Weird",
     "jpName": "怪異の闘士",
     "cost": "(３)(黒)",
@@ -3461,7 +3461,7 @@ const MASTER_CARD_DATA = {
     "winRate": "59.7%",
     "tier": "B"
   },
-  "Creakwood Safewright": {
+  "creakwood safewright": {
     "enName": "Creakwood Safewright",
     "jpName": "軋み森の守美者",
     "cost": "(１)(黒)",
@@ -3496,7 +3496,7 @@ const MASTER_CARD_DATA = {
     "winRate": "57.4%",
     "tier": "C+"
   },
-  "Darkness Descends": {
+  "darkness descends": {
     "enName": "Darkness Descends",
     "jpName": "闇の帳",
     "cost": "(２)(黒)(黒)",
@@ -3531,7 +3531,7 @@ const MASTER_CARD_DATA = {
     "winRate": "48.6%",
     "tier": "F"
   },
-  "Dawnhand Dissident": {
+  "dawnhand dissident": {
     "enName": "Dawnhand Dissident",
     "jpName": "アケノテブクロ使いの造反者",
     "cost": "(黒)",
@@ -3566,7 +3566,7 @@ const MASTER_CARD_DATA = {
     "winRate": "59.1%",
     "tier": "B"
   },
-  "Dawnhand Eulogist": {
+  "dawnhand eulogist": {
     "enName": "Dawnhand Eulogist",
     "jpName": "アケノテブクロ使いの賛美者",
     "cost": "(３)(黒)",
@@ -3601,7 +3601,7 @@ const MASTER_CARD_DATA = {
     "winRate": "57.9%",
     "tier": "B-"
   },
-  "Dose of Dawnglow": {
+  "dose of dawnglow": {
     "enName": "Dose of Dawnglow",
     "jpName": "アケノヒカリの投薬",
     "cost": "(４)(黒)",
@@ -3636,7 +3636,7 @@ const MASTER_CARD_DATA = {
     "winRate": "50.9%",
     "tier": "D-"
   },
-  "Dream Seizer": {
+  "dream seizer": {
     "enName": "Dream Seizer",
     "jpName": "夢捕え",
     "cost": "(３)(黒)",
@@ -3671,7 +3671,7 @@ const MASTER_CARD_DATA = {
     "winRate": "51.3%",
     "tier": "D"
   },
-  "Gloom Ripper": {
+  "gloom ripper": {
     "enName": "Gloom Ripper",
     "jpName": "憂鬱の切り裂き魔",
     "cost": "(３)(黒)(黒)",
@@ -3706,7 +3706,7 @@ const MASTER_CARD_DATA = {
     "winRate": "66.1%",
     "tier": "A+"
   },
-  "Gnarlbark Elm": {
+  "gnarlbark elm": {
     "enName": "Gnarlbark Elm",
     "jpName": "節くれ皮の楡",
     "cost": "(２)(黒)",
@@ -3741,7 +3741,7 @@ const MASTER_CARD_DATA = {
     "winRate": "54.0%",
     "tier": "C-"
   },
-  "Graveshifter": {
+  "graveshifter": {
     "enName": "Graveshifter",
     "jpName": "墓変わり（はかがわり）",
     "cost": "(３)(黒)",
@@ -3776,7 +3776,7 @@ const MASTER_CARD_DATA = {
     "winRate": "54.0%",
     "tier": "C-"
   },
-  "Grub, Storied Matriarch": {
+  "grub, storied matriarch": {
     "enName": "Grub, Storied Matriarch",
     "jpName": "名高き女族長、グラブ",
     "cost": "(２)(黒)",
@@ -3811,7 +3811,7 @@ const MASTER_CARD_DATA = {
     "winRate": "57.5%",
     "tier": "B-"
   },
-  "Grub, Notorious Auntie": {
+  "grub, notorious auntie": {
     "enName": "Grub, Notorious Auntie",
     "jpName": "悪名高き婆、グラブ",
     "type": "伝説のクリーチャー --- ゴブリン(Goblin)・戦士(Warrior)",
@@ -3845,7 +3845,7 @@ const MASTER_CARD_DATA = {
     "winRate": "-",
     "tier": "U"
   },
-  "Gutsplitter Gang": {
+  "gutsplitter gang": {
     "enName": "Gutsplitter Gang",
     "jpName": "腸裂きの一団",
     "cost": "(３)(黒)",
@@ -3880,7 +3880,7 @@ const MASTER_CARD_DATA = {
     "winRate": "51.9%",
     "tier": "D"
   },
-  "Heirloom Auntie": {
+  "heirloom auntie": {
     "enName": "Heirloom Auntie",
     "jpName": "先祖伝来の婆",
     "cost": "(２)(黒)",
@@ -3915,7 +3915,7 @@ const MASTER_CARD_DATA = {
     "winRate": "48.5%",
     "tier": "F"
   },
-  "Iron-Shield Elf": {
+  "iron-shield elf": {
     "enName": "Iron-Shield Elf",
     "jpName": "鉄盾のエルフ",
     "cost": "(１)(黒)",
@@ -3950,7 +3950,7 @@ const MASTER_CARD_DATA = {
     "winRate": "57.7%",
     "tier": "B-"
   },
-  "Moonglove Extractor": {
+  "moonglove extractor": {
     "enName": "Moonglove Extractor",
     "jpName": "ツキノテブクロの抽出者",
     "cost": "(２)(黒)",
@@ -3985,7 +3985,7 @@ const MASTER_CARD_DATA = {
     "winRate": "52.0%",
     "tier": "D"
   },
-  "Moonshadow": {
+  "moonshadow": {
     "enName": "Moonshadow",
     "jpName": "月影",
     "cost": "(黒)",
@@ -4020,7 +4020,7 @@ const MASTER_CARD_DATA = {
     "winRate": "57.3%",
     "tier": "C+"
   },
-  "Mornsong Aria": {
+  "mornsong aria": {
     "enName": "Mornsong Aria",
     "jpName": "朝の歌のアリア",
     "cost": "(１)(黒)(黒)",
@@ -4055,7 +4055,7 @@ const MASTER_CARD_DATA = {
     "winRate": "-",
     "tier": "U"
   },
-  "Mudbutton Cursetosser": {
+  "mudbutton cursetosser": {
     "enName": "Mudbutton Cursetosser",
     "jpName": "泥デコの呪い投げ",
     "cost": "(黒)",
@@ -4090,7 +4090,7 @@ const MASTER_CARD_DATA = {
     "winRate": "57.7%",
     "tier": "B-"
   },
-  "Nameless Inversion": {
+  "nameless inversion": {
     "enName": "Nameless Inversion",
     "jpName": "名も無き転置（なもなきてんち）",
     "cost": "(１)(黒)",
@@ -4125,7 +4125,7 @@ const MASTER_CARD_DATA = {
     "winRate": "56.2%",
     "tier": "C+"
   },
-  "Nightmare Sower": {
+  "nightmare sower": {
     "enName": "Nightmare Sower",
     "jpName": "悪夢蒔き",
     "cost": "(３)(黒)",
@@ -4160,7 +4160,7 @@ const MASTER_CARD_DATA = {
     "winRate": "51.2%",
     "tier": "D"
   },
-  "Perfect Intimidation": {
+  "perfect intimidation": {
     "enName": "Perfect Intimidation",
     "jpName": "完璧な威嚇",
     "cost": "(３)(黒)",
@@ -4195,7 +4195,7 @@ const MASTER_CARD_DATA = {
     "winRate": "47.3%",
     "tier": "F"
   },
-  "Requiting Hex": {
+  "requiting hex": {
     "enName": "Requiting Hex",
     "jpName": "報いの呪詛",
     "cost": "(黒)",
@@ -4230,7 +4230,7 @@ const MASTER_CARD_DATA = {
     "winRate": "52.6%",
     "tier": "D+"
   },
-  "Retched Wretch": {
+  "retched wretch": {
     "enName": "Retched Wretch",
     "jpName": "下劣な卑劣漢",
     "cost": "(２)(黒)",
@@ -4265,7 +4265,7 @@ const MASTER_CARD_DATA = {
     "winRate": "53.2%",
     "tier": "D+"
   },
-  "Scarblade Scout": {
+  "scarblade scout": {
     "enName": "Scarblade Scout",
     "jpName": "傷刃の斥候",
     "cost": "(１)(黒)",
@@ -4300,7 +4300,7 @@ const MASTER_CARD_DATA = {
     "winRate": "57.5%",
     "tier": "B-"
   },
-  "Scarblade's Malice": {
+  "scarblade's malice": {
     "enName": "Scarblade's Malice",
     "jpName": "傷刃の悪意",
     "cost": "(黒)",
@@ -4335,7 +4335,7 @@ const MASTER_CARD_DATA = {
     "winRate": "54.1%",
     "tier": "C-"
   },
-  "Shimmercreep": {
+  "shimmercreep": {
     "enName": "Shimmercreep",
     "jpName": "ゆらめき絡み",
     "cost": "(４)(黒)",
@@ -4370,7 +4370,7 @@ const MASTER_CARD_DATA = {
     "winRate": "54.4%",
     "tier": "C-"
   },
-  "Taster of Wares": {
+  "taster of wares": {
     "enName": "Taster of Wares",
     "jpName": "売り物のつまみ食い",
     "cost": "(２)(黒)",
@@ -4405,7 +4405,7 @@ const MASTER_CARD_DATA = {
     "winRate": "60.6%",
     "tier": "B+"
   },
-  "Twilight Diviner": {
+  "twilight diviner": {
     "enName": "Twilight Diviner",
     "jpName": "黄昏の占者",
     "cost": "(２)(黒)",
@@ -4440,7 +4440,7 @@ const MASTER_CARD_DATA = {
     "winRate": "56.0%",
     "tier": "C"
   },
-  "Unbury": {
+  "unbury": {
     "enName": "Unbury",
     "jpName": "掘り出し",
     "cost": "(１)(黒)",
@@ -4475,7 +4475,7 @@ const MASTER_CARD_DATA = {
     "winRate": "55.1%",
     "tier": "C"
   },
-  "Ashling, Rekindled": {
+  "ashling, rekindled": {
     "enName": "Ashling, Rekindled",
     "jpName": "再点火、アシュリング",
     "cost": "(１)(赤)",
@@ -4510,7 +4510,7 @@ const MASTER_CARD_DATA = {
     "winRate": "60.5%",
     "tier": "B+"
   },
-  "Ashling, Rimebound": {
+  "ashling, rimebound": {
     "enName": "Ashling, Rimebound",
     "jpName": "凍炎縛り、アシュリング",
     "type": "〔青〕 伝説のクリーチャー --- エレメンタル(Elemental)・ウィザード(Wizard)",
@@ -4544,7 +4544,7 @@ const MASTER_CARD_DATA = {
     "winRate": "-",
     "tier": "U"
   },
-  "Boldwyr Aggressor": {
+  "boldwyr aggressor": {
     "enName": "Boldwyr Aggressor",
     "jpName": "ボールドウィアの攻め手",
     "cost": "(３)(赤)(赤)",
@@ -4579,7 +4579,7 @@ const MASTER_CARD_DATA = {
     "winRate": "51.0%",
     "tier": "D-"
   },
-  "Boneclub Berserker": {
+  "boneclub berserker": {
     "enName": "Boneclub Berserker",
     "jpName": "骨棍棒の狂戦士",
     "cost": "(３)(赤)",
@@ -4614,7 +4614,7 @@ const MASTER_CARD_DATA = {
     "winRate": "50.4%",
     "tier": "D-"
   },
-  "Boulder Dash": {
+  "boulder dash": {
     "enName": "Boulder Dash",
     "jpName": "巨石くだり",
     "cost": "(１)(赤)",
@@ -4649,7 +4649,7 @@ const MASTER_CARD_DATA = {
     "winRate": "55.5%",
     "tier": "C"
   },
-  "Brambleback Brute": {
+  "brambleback brute": {
     "enName": "Brambleback Brute",
     "jpName": "茨棘背の粗暴者",
     "cost": "(２)(赤)",
@@ -4684,7 +4684,7 @@ const MASTER_CARD_DATA = {
     "winRate": "52.1%",
     "tier": "D"
   },
-  "Burning Curiosity": {
+  "burning curiosity": {
     "enName": "Burning Curiosity",
     "jpName": "燃え盛る好奇心",
     "cost": "(２)(赤)",
@@ -4719,7 +4719,7 @@ const MASTER_CARD_DATA = {
     "winRate": "51.6%",
     "tier": "D"
   },
-  "Champion of the Path": {
+  "champion of the path": {
     "enName": "Champion of the Path",
     "jpName": "隘路の闘士",
     "cost": "(３)(赤)",
@@ -4754,7 +4754,7 @@ const MASTER_CARD_DATA = {
     "winRate": "54.5%",
     "tier": "C-"
   },
-  "Cinder Strike": {
+  "cinder strike": {
     "enName": "Cinder Strike",
     "jpName": "燃えがらの一撃",
     "cost": "(赤)",
@@ -4789,7 +4789,7 @@ const MASTER_CARD_DATA = {
     "winRate": "55.5%",
     "tier": "C"
   },
-  "Collective Inferno": {
+  "collective inferno": {
     "enName": "Collective Inferno",
     "jpName": "集団業火",
     "cost": "(３)(赤)(赤)",
@@ -4824,7 +4824,7 @@ const MASTER_CARD_DATA = {
     "winRate": "48.5%",
     "tier": "F"
   },
-  "Elder Auntie": {
+  "elder auntie": {
     "enName": "Elder Auntie",
     "jpName": "上座婆",
     "cost": "(２)(赤)",
@@ -4859,7 +4859,7 @@ const MASTER_CARD_DATA = {
     "winRate": "52.0%",
     "tier": "D"
   },
-  "End-Blaze Epiphany": {
+  "end-blaze epiphany": {
     "enName": "End-Blaze Epiphany",
     "jpName": "終炎の天啓",
     "cost": "(Ｘ)(赤)",
@@ -4894,7 +4894,7 @@ const MASTER_CARD_DATA = {
     "winRate": "60.2%",
     "tier": "B+"
   },
-  "Enraged Flamecaster": {
+  "enraged flamecaster": {
     "enName": "Enraged Flamecaster",
     "jpName": "怒れる炎術士",
     "cost": "(２)(赤)",
@@ -4929,7 +4929,7 @@ const MASTER_CARD_DATA = {
     "winRate": "52.8%",
     "tier": "D+"
   },
-  "Explosive Prodigy": {
+  "explosive prodigy": {
     "enName": "Explosive Prodigy",
     "jpName": "爆発的神童",
     "cost": "(１)(赤)",
@@ -4964,7 +4964,7 @@ const MASTER_CARD_DATA = {
     "winRate": "58.1%",
     "tier": "B-"
   },
-  "Feed the Flames": {
+  "feed the flames": {
     "enName": "Feed the Flames",
     "jpName": "焚き焼べり",
     "cost": "(３)(赤)",
@@ -4999,7 +4999,7 @@ const MASTER_CARD_DATA = {
     "winRate": "54.4%",
     "tier": "C-"
   },
-  "Flame-Chain Mauler": {
+  "flame-chain mauler": {
     "enName": "Flame-Chain Mauler",
     "jpName": "炎鎖の厄介者",
     "cost": "(１)(赤)",
@@ -5034,7 +5034,7 @@ const MASTER_CARD_DATA = {
     "winRate": "53.3%",
     "tier": "D+"
   },
-  "Flamebraider": {
+  "flamebraider": {
     "enName": "Flamebraider",
     "jpName": "炎束ね",
     "cost": "(１)(赤)",
@@ -5069,7 +5069,7 @@ const MASTER_CARD_DATA = {
     "winRate": "58.6%",
     "tier": "B-"
   },
-  "Flamekin Gildweaver": {
+  "flamekin gildweaver": {
     "enName": "Flamekin Gildweaver",
     "jpName": "炎族の金糸紡ぎ",
     "cost": "(３)(赤)",
@@ -5104,7 +5104,7 @@ const MASTER_CARD_DATA = {
     "winRate": "56.4%",
     "tier": "C+"
   },
-  "Giantfall": {
+  "giantfall": {
     "enName": "Giantfall",
     "jpName": "巨人倒し",
     "cost": "(１)(赤)",
@@ -5139,7 +5139,7 @@ const MASTER_CARD_DATA = {
     "winRate": "53.1%",
     "tier": "D+"
   },
-  "Goatnap": {
+  "goatnap": {
     "enName": "Goatnap",
     "jpName": "山羊盗り（やぎとり）",
     "cost": "(２)(赤)",
@@ -5174,7 +5174,7 @@ const MASTER_CARD_DATA = {
     "winRate": "48.6%",
     "tier": "F"
   },
-  "Goliath Daydreamer": {
+  "goliath daydreamer": {
     "enName": "Goliath Daydreamer",
     "jpName": "大巨人の夢想家",
     "cost": "(２)(赤)(赤)",
@@ -5209,7 +5209,7 @@ const MASTER_CARD_DATA = {
     "winRate": "54.9%",
     "tier": "C-"
   },
-  "Gristle Glutton": {
+  "gristle glutton": {
     "enName": "Gristle Glutton",
     "jpName": "肉筋の大食漢",
     "cost": "(１)(赤)",
@@ -5244,7 +5244,7 @@ const MASTER_CARD_DATA = {
     "winRate": "53.8%",
     "tier": "C-"
   },
-  "Hexing Squelcher": {
+  "hexing squelcher": {
     "enName": "Hexing Squelcher",
     "jpName": "呪詛の壊し屋",
     "cost": "(１)(赤)",
@@ -5279,7 +5279,7 @@ const MASTER_CARD_DATA = {
     "winRate": "51.1%",
     "tier": "D-"
   },
-  "Impolite Entrance": {
+  "impolite entrance": {
     "enName": "Impolite Entrance",
     "jpName": "無礼な突入",
     "cost": "(赤)",
@@ -5314,7 +5314,7 @@ const MASTER_CARD_DATA = {
     "winRate": "43.8%",
     "tier": "F"
   },
-  "Kindle the Inner Flame": {
+  "kindle the inner flame": {
     "enName": "Kindle the Inner Flame",
     "jpName": "内なる炎の点火",
     "cost": "(３)(赤)",
@@ -5349,7 +5349,7 @@ const MASTER_CARD_DATA = {
     "winRate": "54.8%",
     "tier": "C-"
   },
-  "Kulrath Zealot": {
+  "kulrath zealot": {
     "enName": "Kulrath Zealot",
     "jpName": "クルラスの妄信者",
     "cost": "(５)(赤)",
@@ -5384,7 +5384,7 @@ const MASTER_CARD_DATA = {
     "winRate": "56.8%",
     "tier": "C+"
   },
-  "Lasting Tarfire": {
+  "lasting tarfire": {
     "enName": "Lasting Tarfire",
     "jpName": "燃え尽きぬタール火",
     "cost": "(１)(赤)",
@@ -5419,7 +5419,7 @@ const MASTER_CARD_DATA = {
     "winRate": "47.2%",
     "tier": "F"
   },
-  "Lavaleaper": {
+  "lavaleaper": {
     "enName": "Lavaleaper",
     "jpName": "溶岩跳び",
     "cost": "(３)(赤)",
@@ -5454,7 +5454,7 @@ const MASTER_CARD_DATA = {
     "winRate": "48.0%",
     "tier": "F"
   },
-  "Meek Attack": {
+  "meek attack": {
     "enName": "Meek Attack",
     "jpName": "怠け討ち",
     "cost": "(２)(赤)",
@@ -5489,7 +5489,7 @@ const MASTER_CARD_DATA = {
     "winRate": "-",
     "tier": "U"
   },
-  "Reckless Ransacking": {
+  "reckless ransacking": {
     "enName": "Reckless Ransacking",
     "jpName": "無謀な略奪",
     "cost": "(１)(赤)",
@@ -5524,7 +5524,7 @@ const MASTER_CARD_DATA = {
     "winRate": "50.1%",
     "tier": "D-"
   },
-  "Scuzzback Scrounger": {
+  "scuzzback scrounger": {
     "enName": "Scuzzback Scrounger",
     "jpName": "汚れ背のたかり屋",
     "cost": "(１)(赤)",
@@ -5559,7 +5559,7 @@ const MASTER_CARD_DATA = {
     "winRate": "55.0%",
     "tier": "C"
   },
-  "Sear": {
+  "sear": {
     "enName": "Sear",
     "jpName": "焼きつけ",
     "cost": "(１)(赤)",
@@ -5594,7 +5594,7 @@ const MASTER_CARD_DATA = {
     "winRate": "56.6%",
     "tier": "C+"
   },
-  "Sizzling Changeling": {
+  "sizzling changeling": {
     "enName": "Sizzling Changeling",
     "jpName": "猛炎の変わり身",
     "cost": "(２)(赤)",
@@ -5629,7 +5629,7 @@ const MASTER_CARD_DATA = {
     "winRate": "54.0%",
     "tier": "C-"
   },
-  "Soul Immolation": {
+  "soul immolation": {
     "enName": "Soul Immolation",
     "jpName": "魂の焼身",
     "cost": "(３)(赤)(赤)",
@@ -5664,7 +5664,7 @@ const MASTER_CARD_DATA = {
     "winRate": "63.0%",
     "tier": "A"
   },
-  "Soulbright Seeker": {
+  "soulbright seeker": {
     "enName": "Soulbright Seeker",
     "jpName": "魂光りの求道者",
     "cost": "(赤)",
@@ -5699,7 +5699,7 @@ const MASTER_CARD_DATA = {
     "winRate": "55.0%",
     "tier": "C"
   },
-  "Sourbread Auntie": {
+  "sourbread auntie": {
     "enName": "Sourbread Auntie",
     "jpName": "サワーブレッドの婆",
     "cost": "(２)(赤)(赤)",
@@ -5734,7 +5734,7 @@ const MASTER_CARD_DATA = {
     "winRate": "55.4%",
     "tier": "C"
   },
-  "Spinerock Tyrant": {
+  "spinerock tyrant": {
     "enName": "Spinerock Tyrant",
     "jpName": "背骨岩の暴君",
     "cost": "(３)(赤)(赤)",
@@ -5769,7 +5769,7 @@ const MASTER_CARD_DATA = {
     "winRate": "62.2%",
     "tier": "A-"
   },
-  "Squawkroaster": {
+  "squawkroaster": {
     "enName": "Squawkroaster",
     "jpName": "肉あぶり鳴き",
     "cost": "(３)(赤)",
@@ -5804,7 +5804,7 @@ const MASTER_CARD_DATA = {
     "winRate": "51.8%",
     "tier": "D"
   },
-  "Sting-Slinger": {
+  "sting-slinger": {
     "enName": "Sting-Slinger",
     "jpName": "投針手",
     "cost": "(２)(赤)",
@@ -5839,7 +5839,7 @@ const MASTER_CARD_DATA = {
     "winRate": "52.0%",
     "tier": "D"
   },
-  "Tweeze": {
+  "tweeze": {
     "enName": "Tweeze",
     "jpName": "毛抜き",
     "cost": "(２)(赤)",
@@ -5874,7 +5874,7 @@ const MASTER_CARD_DATA = {
     "winRate": "54.6%",
     "tier": "C-"
   },
-  "Warren Torchmaster": {
+  "warren torchmaster": {
     "enName": "Warren Torchmaster",
     "jpName": "巣穴の松明持ち",
     "cost": "(１)(赤)",
@@ -5909,7 +5909,7 @@ const MASTER_CARD_DATA = {
     "winRate": "51.2%",
     "tier": "D"
   },
-  "Assert Perfection": {
+  "assert perfection": {
     "enName": "Assert Perfection",
     "jpName": "完全の確立",
     "cost": "(１)(緑)",
@@ -5944,7 +5944,7 @@ const MASTER_CARD_DATA = {
     "winRate": "57.9%",
     "tier": "B-"
   },
-  "Aurora Awakener": {
+  "aurora awakener": {
     "enName": "Aurora Awakener",
     "jpName": "オーロラの呼び起こす者",
     "cost": "(６)(緑)",
@@ -5979,7 +5979,7 @@ const MASTER_CARD_DATA = {
     "winRate": "60.6%",
     "tier": "B+"
   },
-  "Bloom Tender": {
+  "bloom tender": {
     "enName": "Bloom Tender",
     "jpName": "花を手入れする者（はなをていれするもの）",
     "cost": "(１)(緑)",
@@ -6014,7 +6014,7 @@ const MASTER_CARD_DATA = {
     "winRate": "54.6%",
     "tier": "C-"
   },
-  "Blossoming Defense": {
+  "blossoming defense": {
     "enName": "Blossoming Defense",
     "jpName": "顕在的防御（けんざいてきぼうぎょ）",
     "cost": "(緑)",
@@ -6049,7 +6049,7 @@ const MASTER_CARD_DATA = {
     "winRate": "55.4%",
     "tier": "C"
   },
-  "Bristlebane Battler": {
+  "bristlebane battler": {
     "enName": "Bristlebane Battler",
     "jpName": "鋸折りの戦闘員",
     "cost": "(１)(緑)",
@@ -6084,7 +6084,7 @@ const MASTER_CARD_DATA = {
     "winRate": "59.7%",
     "tier": "B"
   },
-  "Bristlebane Outrider": {
+  "bristlebane outrider": {
     "enName": "Bristlebane Outrider",
     "jpName": "鋸折りの先導",
     "cost": "(３)(緑)",
@@ -6119,7 +6119,7 @@ const MASTER_CARD_DATA = {
     "winRate": "56.2%",
     "tier": "C+"
   },
-  "Celestial Reunion": {
+  "celestial reunion": {
     "enName": "Celestial Reunion",
     "jpName": "神々しき再会",
     "cost": "(Ｘ)(緑)",
@@ -6154,7 +6154,7 @@ const MASTER_CARD_DATA = {
     "winRate": "53.8%",
     "tier": "C-"
   },
-  "Champions of the Perfect": {
+  "champions of the perfect": {
     "enName": "Champions of the Perfect",
     "jpName": "完全者の闘士",
     "cost": "(３)(緑)",
@@ -6189,7 +6189,7 @@ const MASTER_CARD_DATA = {
     "winRate": "61.2%",
     "tier": "B+"
   },
-  "Chomping Changeling": {
+  "chomping changeling": {
     "enName": "Chomping Changeling",
     "jpName": "食らいつく変わり身",
     "cost": "(２)(緑)",
@@ -6224,7 +6224,7 @@ const MASTER_CARD_DATA = {
     "winRate": "49.3%",
     "tier": "F"
   },
-  "Crossroads Watcher": {
+  "crossroads watcher": {
     "enName": "Crossroads Watcher",
     "jpName": "岐路の監視者",
     "cost": "(２)(緑)",
@@ -6259,7 +6259,7 @@ const MASTER_CARD_DATA = {
     "winRate": "55.2%",
     "tier": "C"
   },
-  "Dawn's Light Archer": {
+  "dawn's light archer": {
     "enName": "Dawn's Light Archer",
     "jpName": "曙光の射手",
     "cost": "(２)(緑)",
@@ -6294,7 +6294,7 @@ const MASTER_CARD_DATA = {
     "winRate": "55.0%",
     "tier": "C"
   },
-  "Dundoolin Weaver": {
+  "dundoolin weaver": {
     "enName": "Dundoolin Weaver",
     "jpName": "ダンドゥーリンの織り手",
     "cost": "(１)(緑)",
@@ -6329,7 +6329,7 @@ const MASTER_CARD_DATA = {
     "winRate": "56.2%",
     "tier": "C+"
   },
-  "Formidable Speaker": {
+  "formidable speaker": {
     "enName": "Formidable Speaker",
     "jpName": "並外れた語り部",
     "cost": "(２)(緑)",
@@ -6364,7 +6364,7 @@ const MASTER_CARD_DATA = {
     "winRate": "57.4%",
     "tier": "C+"
   },
-  "Gilt-Leaf's Embrace": {
+  "gilt-leaf's embrace": {
     "enName": "Gilt-Leaf's Embrace",
     "jpName": "光り葉の抱擁",
     "cost": "(２)(緑)",
@@ -6399,7 +6399,7 @@ const MASTER_CARD_DATA = {
     "winRate": "55.1%",
     "tier": "C"
   },
-  "Great Forest Druid": {
+  "great forest druid": {
     "enName": "Great Forest Druid",
     "jpName": "偉大なる森ドルイド",
     "cost": "(１)(緑)",
@@ -6434,7 +6434,7 @@ const MASTER_CARD_DATA = {
     "winRate": "53.8%",
     "tier": "C-"
   },
-  "Luminollusk": {
+  "luminollusk": {
     "enName": "Luminollusk",
     "jpName": "発光軟体生物",
     "cost": "(３)(緑)",
@@ -6469,7 +6469,7 @@ const MASTER_CARD_DATA = {
     "winRate": "51.0%",
     "tier": "D-"
   },
-  "Lys Alana Dignitary": {
+  "lys alana dignitary": {
     "enName": "Lys Alana Dignitary",
     "jpName": "リス・アラナの高官",
     "cost": "(１)(緑)",
@@ -6504,7 +6504,7 @@ const MASTER_CARD_DATA = {
     "winRate": "57.6%",
     "tier": "B-"
   },
-  "Lys Alana Informant": {
+  "lys alana informant": {
     "enName": "Lys Alana Informant",
     "jpName": "リス・アラナの密通者",
     "cost": "(１)(緑)",
@@ -6539,7 +6539,7 @@ const MASTER_CARD_DATA = {
     "winRate": "57.0%",
     "tier": "C+"
   },
-  "Midnight Tilling": {
+  "midnight tilling": {
     "enName": "Midnight Tilling",
     "jpName": "真夜中の耕作",
     "cost": "(１)(緑)",
@@ -6574,7 +6574,7 @@ const MASTER_CARD_DATA = {
     "winRate": "56.3%",
     "tier": "C+"
   },
-  "Mistmeadow Council": {
+  "mistmeadow council": {
     "enName": "Mistmeadow Council",
     "jpName": "ミストメドウ議員",
     "cost": "(４)(緑)",
@@ -6609,7 +6609,7 @@ const MASTER_CARD_DATA = {
     "winRate": "56.6%",
     "tier": "C+"
   },
-  "Moon-Vigil Adherents": {
+  "moon-vigil adherents": {
     "enName": "Moon-Vigil Adherents",
     "jpName": "月夜祈りの支持者",
     "cost": "(２)(緑)(緑)",
@@ -6644,7 +6644,7 @@ const MASTER_CARD_DATA = {
     "winRate": "58.8%",
     "tier": "B"
   },
-  "Morcant's Eyes": {
+  "morcant's eyes": {
     "enName": "Morcant's Eyes",
     "jpName": "モーカントの眼",
     "cost": "(１)(緑)",
@@ -6679,7 +6679,7 @@ const MASTER_CARD_DATA = {
     "winRate": "60.5%",
     "tier": "B+"
   },
-  "Mutable Explorer": {
+  "mutable explorer": {
     "enName": "Mutable Explorer",
     "jpName": "易変の探検者",
     "cost": "(２)(緑)",
@@ -6714,7 +6714,7 @@ const MASTER_CARD_DATA = {
     "winRate": "54.1%",
     "tier": "C-"
   },
-  "Pitiless Fists": {
+  "pitiless fists": {
     "enName": "Pitiless Fists",
     "jpName": "冷酷な拳",
     "cost": "(３)(緑)",
@@ -6749,7 +6749,7 @@ const MASTER_CARD_DATA = {
     "winRate": "58.5%",
     "tier": "B-"
   },
-  "Prismabasher": {
+  "prismabasher": {
     "enName": "Prismabasher",
     "jpName": "虹色の突進獣",
     "cost": "(４)(緑)(緑)",
@@ -6784,7 +6784,7 @@ const MASTER_CARD_DATA = {
     "winRate": "56.5%",
     "tier": "C+"
   },
-  "Prismatic Undercurrents": {
+  "prismatic undercurrents": {
     "enName": "Prismatic Undercurrents",
     "jpName": "虹色の下層流",
     "cost": "(３)(緑)",
@@ -6819,7 +6819,7 @@ const MASTER_CARD_DATA = {
     "winRate": "48.9%",
     "tier": "F"
   },
-  "Pummeler for Hire": {
+  "pummeler for hire": {
     "enName": "Pummeler for Hire",
     "jpName": "雇われの打撃手",
     "cost": "(４)(緑)",
@@ -6854,7 +6854,7 @@ const MASTER_CARD_DATA = {
     "winRate": "55.5%",
     "tier": "C"
   },
-  "Safewright Cavalry": {
+  "safewright cavalry": {
     "enName": "Safewright Cavalry",
     "jpName": "守美者の騎兵",
     "cost": "(３)(緑)",
@@ -6889,7 +6889,7 @@ const MASTER_CARD_DATA = {
     "winRate": "56.3%",
     "tier": "C+"
   },
-  "Sapling Nursery": {
+  "sapling nursery": {
     "enName": "Sapling Nursery",
     "jpName": "若木の生育場",
     "cost": "(６)(緑)(緑)",
@@ -6924,7 +6924,7 @@ const MASTER_CARD_DATA = {
     "winRate": "56.5%",
     "tier": "C+"
   },
-  "Selfless Safewright": {
+  "selfless safewright": {
     "enName": "Selfless Safewright",
     "jpName": "無私の守美者",
     "cost": "(３)(緑)(緑)",
@@ -6959,7 +6959,7 @@ const MASTER_CARD_DATA = {
     "winRate": "56.9%",
     "tier": "C+"
   },
-  "Shimmerwilds Growth": {
+  "shimmerwilds growth": {
     "enName": "Shimmerwilds Growth",
     "jpName": "煌野の成長",
     "cost": "(１)(緑)",
@@ -6994,7 +6994,7 @@ const MASTER_CARD_DATA = {
     "winRate": "50.3%",
     "tier": "D-"
   },
-  "Spry and Mighty": {
+  "spry and mighty": {
     "enName": "Spry and Mighty",
     "jpName": "意気軒高",
     "cost": "(４)(緑)",
@@ -7029,7 +7029,7 @@ const MASTER_CARD_DATA = {
     "winRate": "53.6%",
     "tier": "D+"
   },
-  "Surly Farrier": {
+  "surly farrier": {
     "enName": "Surly Farrier",
     "jpName": "無愛想な蹄鉄工",
     "cost": "(１)(緑)",
@@ -7064,7 +7064,7 @@ const MASTER_CARD_DATA = {
     "winRate": "53.8%",
     "tier": "C-"
   },
-  "Tend the Sprigs": {
+  "tend the sprigs": {
     "enName": "Tend the Sprigs",
     "jpName": "若芽の世話",
     "cost": "(２)(緑)",
@@ -7099,7 +7099,7 @@ const MASTER_CARD_DATA = {
     "winRate": "49.5%",
     "tier": "F"
   },
-  "Thoughtweft Charge": {
+  "thoughtweft charge": {
     "enName": "Thoughtweft Charge",
     "jpName": "思考の糸の突撃",
     "cost": "(１)(緑)",
@@ -7134,7 +7134,7 @@ const MASTER_CARD_DATA = {
     "winRate": "54.2%",
     "tier": "C-"
   },
-  "Trystan, Callous Cultivator": {
+  "trystan, callous cultivator": {
     "enName": "Trystan, Callous Cultivator",
     "jpName": "無感情の栽培者、トリスタン",
     "cost": "(２)(緑)",
@@ -7169,7 +7169,7 @@ const MASTER_CARD_DATA = {
     "winRate": "60.7%",
     "tier": "B+"
   },
-  "Trystan, Penitent Culler": {
+  "trystan, penitent culler": {
     "enName": "Trystan, Penitent Culler",
     "jpName": "改悛の淘汰者、トリスタン",
     "type": "〔黒〕 伝説のクリーチャー --- エルフ(Elf)・邪術師(Warlock)",
@@ -7203,7 +7203,7 @@ const MASTER_CARD_DATA = {
     "winRate": "-",
     "tier": "U"
   },
-  "Unforgiving Aim": {
+  "unforgiving aim": {
     "enName": "Unforgiving Aim",
     "jpName": "容赦なき狙い",
     "cost": "(２)(緑)",
@@ -7238,7 +7238,7 @@ const MASTER_CARD_DATA = {
     "winRate": "51.3%",
     "tier": "D"
   },
-  "Vinebred Brawler": {
+  "vinebred brawler": {
     "enName": "Vinebred Brawler",
     "jpName": "ツタ育ての喧嘩屋",
     "cost": "(２)(緑)",
@@ -7273,7 +7273,7 @@ const MASTER_CARD_DATA = {
     "winRate": "56.0%",
     "tier": "C"
   },
-  "Virulent Emissary": {
+  "virulent emissary": {
     "enName": "Virulent Emissary",
     "jpName": "悪性の密使",
     "cost": "(緑)",
@@ -7308,7 +7308,7 @@ const MASTER_CARD_DATA = {
     "winRate": "58.2%",
     "tier": "B-"
   },
-  "Wildvine Pummeler": {
+  "wildvine pummeler": {
     "enName": "Wildvine Pummeler",
     "jpName": "野生蔦の打撃手",
     "cost": "(６)(緑)",
@@ -7343,7 +7343,7 @@ const MASTER_CARD_DATA = {
     "winRate": "52.0%",
     "tier": "D"
   },
-  "Abigale, Eloquent First-Year": {
+  "abigale, eloquent first-year": {
     "enName": "Abigale, Eloquent First-Year",
     "jpName": "口達者な一年生、アビゲール",
     "cost": "(白/黒)(白/黒)",
@@ -7378,7 +7378,7 @@ const MASTER_CARD_DATA = {
     "winRate": "58.4%",
     "tier": "B-"
   },
-  "Ashling's Command": {
+  "ashling's command": {
     "enName": "Ashling's Command",
     "jpName": "アシュリングの命令",
     "cost": "(３)(青)(赤)",
@@ -7413,7 +7413,7 @@ const MASTER_CARD_DATA = {
     "winRate": "66.2%",
     "tier": "A+"
   },
-  "Boggart Cursecrafter": {
+  "boggart cursecrafter": {
     "enName": "Boggart Cursecrafter",
     "jpName": "ボガートの造呪師",
     "cost": "(黒)(赤)",
@@ -7448,7 +7448,7 @@ const MASTER_CARD_DATA = {
     "winRate": "57.0%",
     "tier": "C+"
   },
-  "Bre of Clan Stoutarm": {
+  "bre of clan stoutarm": {
     "enName": "Bre of Clan Stoutarm",
     "jpName": "豪腕族のブレ",
     "cost": "(２)(赤)(白)",
@@ -7483,7 +7483,7 @@ const MASTER_CARD_DATA = {
     "winRate": "55.6%",
     "tier": "C"
   },
-  "Brigid's Command": {
+  "brigid's command": {
     "enName": "Brigid's Command",
     "jpName": "ブリジッドの命令",
     "cost": "(１)(緑)(白)",
@@ -7518,7 +7518,7 @@ const MASTER_CARD_DATA = {
     "winRate": "60.1%",
     "tier": "B+"
   },
-  "Catharsis": {
+  "catharsis": {
     "enName": "Catharsis",
     "jpName": "快心",
     "cost": "(４)(赤/白)(赤/白)",
@@ -7553,7 +7553,7 @@ const MASTER_CARD_DATA = {
     "winRate": "53.1%",
     "tier": "D+"
   },
-  "Chaos Spewer": {
+  "chaos spewer": {
     "enName": "Chaos Spewer",
     "jpName": "混沌吐き",
     "cost": "(２)(黒/赤)",
@@ -7588,7 +7588,7 @@ const MASTER_CARD_DATA = {
     "winRate": "50.7%",
     "tier": "D-"
   },
-  "Chitinous Graspling": {
+  "chitinous graspling": {
     "enName": "Chitinous Graspling",
     "jpName": "甲殻の掴み仔",
     "cost": "(３)(緑/青)",
@@ -7623,7 +7623,7 @@ const MASTER_CARD_DATA = {
     "winRate": "50.9%",
     "tier": "D-"
   },
-  "Deceit": {
+  "deceit": {
     "enName": "Deceit",
     "jpName": "欺瞞",
     "cost": "(４)(青/黒)(青/黒)",
@@ -7658,7 +7658,7 @@ const MASTER_CARD_DATA = {
     "winRate": "58.5%",
     "tier": "B-"
   },
-  "Deepchannel Duelist": {
+  "deepchannel duelist": {
     "enName": "Deepchannel Duelist",
     "jpName": "深水路の決闘者",
     "cost": "(白)(青)",
@@ -7693,7 +7693,7 @@ const MASTER_CARD_DATA = {
     "winRate": "63.0%",
     "tier": "A"
   },
-  "Deepway Navigator": {
+  "deepway navigator": {
     "enName": "Deepway Navigator",
     "jpName": "深路の航行者",
     "cost": "(白)(青)",
@@ -7728,7 +7728,7 @@ const MASTER_CARD_DATA = {
     "winRate": "56.4%",
     "tier": "C+"
   },
-  "Doran, Besieged by Time": {
+  "doran, besieged by time": {
     "enName": "Doran, Besieged by Time",
     "jpName": "時に囲まれしドラン",
     "cost": "(１)(白)(黒)(緑)",
@@ -7763,7 +7763,7 @@ const MASTER_CARD_DATA = {
     "winRate": "58.2%",
     "tier": "B-"
   },
-  "Dream Harvest": {
+  "dream harvest": {
     "enName": "Dream Harvest",
     "jpName": "夢の収穫",
     "cost": "(５)(青/黒)(青/黒)",
@@ -7798,7 +7798,7 @@ const MASTER_CARD_DATA = {
     "winRate": "50.2%",
     "tier": "D-"
   },
-  "Eclipsed Boggart": {
+  "eclipsed boggart": {
     "enName": "Eclipsed Boggart",
     "jpName": "蝕甚化したボガート",
     "cost": "(黒/赤)(黒/赤)(黒/赤)",
@@ -7833,7 +7833,7 @@ const MASTER_CARD_DATA = {
     "winRate": "59.1%",
     "tier": "B"
   },
-  "Eclipsed Elf": {
+  "eclipsed elf": {
     "enName": "Eclipsed Elf",
     "jpName": "蝕甚化したエルフ",
     "cost": "(黒/緑)(黒/緑)(黒/緑)",
@@ -7868,7 +7868,7 @@ const MASTER_CARD_DATA = {
     "winRate": "63.0%",
     "tier": "A"
   },
-  "Eclipsed Flamekin": {
+  "eclipsed flamekin": {
     "enName": "Eclipsed Flamekin",
     "jpName": "蝕甚化した炎族",
     "cost": "(１)(青/赤)(青/赤)",
@@ -7903,7 +7903,7 @@ const MASTER_CARD_DATA = {
     "winRate": "59.9%",
     "tier": "B"
   },
-  "Eclipsed Kithkin": {
+  "eclipsed kithkin": {
     "enName": "Eclipsed Kithkin",
     "jpName": "蝕甚化したキスキン",
     "cost": "(緑/白)(緑/白)",
@@ -7938,7 +7938,7 @@ const MASTER_CARD_DATA = {
     "winRate": "62.3%",
     "tier": "A-"
   },
-  "Eclipsed Merrow": {
+  "eclipsed merrow": {
     "enName": "Eclipsed Merrow",
     "jpName": "蝕甚化したメロウ",
     "cost": "(白/青)(白/青)(白/青)",
@@ -7973,7 +7973,7 @@ const MASTER_CARD_DATA = {
     "winRate": "61.7%",
     "tier": "A-"
   },
-  "Emptiness": {
+  "emptiness": {
     "enName": "Emptiness",
     "jpName": "空虚",
     "cost": "(４)(白/黒)(白/黒)",
@@ -8008,7 +8008,7 @@ const MASTER_CARD_DATA = {
     "winRate": "57.1%",
     "tier": "C+"
   },
-  "Feisty Spikeling": {
+  "feisty spikeling": {
     "enName": "Feisty Spikeling",
     "jpName": "活発な突き刺し仔",
     "cost": "(１)(赤/白)",
@@ -8043,7 +8043,7 @@ const MASTER_CARD_DATA = {
     "winRate": "50.5%",
     "tier": "D-"
   },
-  "Figure of Fable": {
+  "figure of fable": {
     "enName": "Figure of Fable",
     "jpName": "寓話の大立者",
     "cost": "(緑/白)",
@@ -8078,7 +8078,7 @@ const MASTER_CARD_DATA = {
     "winRate": "63.5%",
     "tier": "A"
   },
-  "Flaring Cinder": {
+  "flaring cinder": {
     "enName": "Flaring Cinder",
     "jpName": "燃えたぎる燃えがら",
     "cost": "(１)(青/赤)(青/赤)",
@@ -8113,7 +8113,7 @@ const MASTER_CARD_DATA = {
     "winRate": "55.1%",
     "tier": "C"
   },
-  "Gangly Stompling": {
+  "gangly stompling": {
     "enName": "Gangly Stompling",
     "jpName": "ひょろ長の踏みつけ仔",
     "cost": "(２)(赤/緑)",
@@ -8148,7 +8148,7 @@ const MASTER_CARD_DATA = {
     "winRate": "53.7%",
     "tier": "C-"
   },
-  "Glister Bairn": {
+  "glister bairn": {
     "enName": "Glister Bairn",
     "jpName": "輝かせの子",
     "cost": "(２)(緑/青)(緑/青)(緑/青)",
@@ -8183,7 +8183,7 @@ const MASTER_CARD_DATA = {
     "winRate": "52.1%",
     "tier": "D"
   },
-  "Grub's Command": {
+  "grub's command": {
     "enName": "Grub's Command",
     "jpName": "グラブの命令",
     "cost": "(３)(黒)(赤)",
@@ -8218,7 +8218,7 @@ const MASTER_CARD_DATA = {
     "winRate": "63.0%",
     "tier": "A"
   },
-  "High Perfect Morcant": {
+  "high perfect morcant": {
     "enName": "High Perfect Morcant",
     "jpName": "高位完全者、モーカント",
     "cost": "(２)(黒)(緑)",
@@ -8253,7 +8253,7 @@ const MASTER_CARD_DATA = {
     "winRate": "61.9%",
     "tier": "A-"
   },
-  "Hovel Hurler": {
+  "hovel hurler": {
     "enName": "Hovel Hurler",
     "jpName": "あばら家投げ",
     "cost": "(３)(赤/白)(赤/白)",
@@ -8288,7 +8288,7 @@ const MASTER_CARD_DATA = {
     "winRate": "53.3%",
     "tier": "D+"
   },
-  "Kirol, Attentive First-Year": {
+  "kirol, attentive first-year": {
     "enName": "Kirol, Attentive First-Year",
     "jpName": "注意深い一年生、キーロル",
     "cost": "(１)(赤/白)(赤/白)",
@@ -8323,7 +8323,7 @@ const MASTER_CARD_DATA = {
     "winRate": "52.8%",
     "tier": "D+"
   },
-  "Lluwen, Imperfect Naturalist": {
+  "lluwen, imperfect naturalist": {
     "enName": "Lluwen, Imperfect Naturalist",
     "jpName": "不完全な自然体、ルーウェン",
     "cost": "(黒/緑)(黒/緑)",
@@ -8358,7 +8358,7 @@ const MASTER_CARD_DATA = {
     "winRate": "59.1%",
     "tier": "B"
   },
-  "Maralen, Fae Ascendant": {
+  "maralen, fae ascendant": {
     "enName": "Maralen, Fae Ascendant",
     "jpName": "上位のフェイ、マラレン",
     "cost": "(２)(黒)(緑)(青)",
@@ -8393,7 +8393,7 @@ const MASTER_CARD_DATA = {
     "winRate": "60.2%",
     "tier": "B+"
   },
-  "Merrow Skyswimmer": {
+  "merrow skyswimmer": {
     "enName": "Merrow Skyswimmer",
     "jpName": "メロウの空泳ぎ",
     "cost": "(３)(白/青)(白/青)",
@@ -8428,7 +8428,7 @@ const MASTER_CARD_DATA = {
     "winRate": "57.0%",
     "tier": "C+"
   },
-  "Mischievous Sneakling": {
+  "mischievous sneakling": {
     "enName": "Mischievous Sneakling",
     "jpName": "悪戯好きの忍び仔",
     "cost": "(１)(青/黒)",
@@ -8463,7 +8463,7 @@ const MASTER_CARD_DATA = {
     "winRate": "52.3%",
     "tier": "D"
   },
-  "Morcant's Loyalist": {
+  "morcant's loyalist": {
     "enName": "Morcant's Loyalist",
     "jpName": "モーカントの忠節者",
     "cost": "(１)(黒)(緑)",
@@ -8498,7 +8498,7 @@ const MASTER_CARD_DATA = {
     "winRate": "61.3%",
     "tier": "B+"
   },
-  "Noggle Robber": {
+  "noggle robber": {
     "enName": "Noggle Robber",
     "jpName": "ノッグルの物盗り",
     "cost": "(１)(赤/緑)(赤/緑)",
@@ -8533,7 +8533,7 @@ const MASTER_CARD_DATA = {
     "winRate": "57.4%",
     "tier": "C+"
   },
-  "Prideful Feastling": {
+  "prideful feastling": {
     "enName": "Prideful Feastling",
     "jpName": "誇り高き貪婪仔",
     "cost": "(２)(白/黒)",
@@ -8568,7 +8568,7 @@ const MASTER_CARD_DATA = {
     "winRate": "52.9%",
     "tier": "D+"
   },
-  "Raiding Schemes": {
+  "raiding schemes": {
     "enName": "Raiding Schemes",
     "jpName": "略奪の企て",
     "cost": "(３)(赤)(緑)",
@@ -8603,7 +8603,7 @@ const MASTER_CARD_DATA = {
     "winRate": "-",
     "tier": "U"
   },
-  "Reaping Willow": {
+  "reaping willow": {
     "enName": "Reaping Willow",
     "jpName": "刈り柳",
     "cost": "(１)(白/黒)(白/黒)(白/黒)",
@@ -8638,7 +8638,7 @@ const MASTER_CARD_DATA = {
     "winRate": "56.8%",
     "tier": "C+"
   },
-  "Sanar, Innovative First-Year": {
+  "sanar, innovative first-year": {
     "enName": "Sanar, Innovative First-Year",
     "jpName": "創意に富んだ一年生、サナール",
     "cost": "(２)(青/赤)(青/赤)",
@@ -8673,7 +8673,7 @@ const MASTER_CARD_DATA = {
     "winRate": "60.5%",
     "tier": "B+"
   },
-  "Shadow Urchin": {
+  "shadow urchin": {
     "enName": "Shadow Urchin",
     "jpName": "影小僧",
     "cost": "(２)(黒/赤)",
@@ -8708,7 +8708,7 @@ const MASTER_CARD_DATA = {
     "winRate": "53.6%",
     "tier": "D+"
   },
-  "Stoic Grove-Guide": {
+  "stoic grove-guide": {
     "enName": "Stoic Grove-Guide",
     "jpName": "冷静な樹林案内人",
     "cost": "(４)(黒/緑)",
@@ -8743,7 +8743,7 @@ const MASTER_CARD_DATA = {
     "winRate": "52.7%",
     "tier": "D+"
   },
-  "Sygg's Command": {
+  "sygg's command": {
     "enName": "Sygg's Command",
     "jpName": "シグの命令",
     "cost": "(１)(白)(青)",
@@ -8778,7 +8778,7 @@ const MASTER_CARD_DATA = {
     "winRate": "58.6%",
     "tier": "B-"
   },
-  "Tam, Mindful First-Year": {
+  "tam, mindful first-year": {
     "enName": "Tam, Mindful First-Year",
     "jpName": "用意周到な一年生、タム",
     "cost": "(１)(緑/青)",
@@ -8813,7 +8813,7 @@ const MASTER_CARD_DATA = {
     "winRate": "53.7%",
     "tier": "C-"
   },
-  "Thoughtweft Lieutenant": {
+  "thoughtweft lieutenant": {
     "enName": "Thoughtweft Lieutenant",
     "jpName": "思考の糸の補佐官",
     "cost": "(緑)(白)",
@@ -8848,7 +8848,7 @@ const MASTER_CARD_DATA = {
     "winRate": "58.6%",
     "tier": "B-"
   },
-  "Trystan's Command": {
+  "trystan's command": {
     "enName": "Trystan's Command",
     "jpName": "トリスタンの命令",
     "cost": "(４)(黒)(緑)",
@@ -8883,7 +8883,7 @@ const MASTER_CARD_DATA = {
     "winRate": "63.8%",
     "tier": "A"
   },
-  "Twinflame Travelers": {
+  "twinflame travelers": {
     "enName": "Twinflame Travelers",
     "jpName": "双子炎族の旅人",
     "cost": "(２)(青)(赤)",
@@ -8918,7 +8918,7 @@ const MASTER_CARD_DATA = {
     "winRate": "57.2%",
     "tier": "C+"
   },
-  "Vibrance": {
+  "vibrance": {
     "enName": "Vibrance",
     "jpName": "鮮麗",
     "cost": "(３)(赤/緑)(赤/緑)",
@@ -8953,7 +8953,7 @@ const MASTER_CARD_DATA = {
     "winRate": "61.6%",
     "tier": "A-"
   },
-  "Voracious Tome-Skimmer": {
+  "voracious tome-skimmer": {
     "enName": "Voracious Tome-Skimmer",
     "jpName": "貪欲な秘本掠め",
     "cost": "(青/黒)(青/黒)(青/黒)",
@@ -8988,7 +8988,7 @@ const MASTER_CARD_DATA = {
     "winRate": "52.6%",
     "tier": "D+"
   },
-  "Wary Farmer": {
+  "wary farmer": {
     "enName": "Wary Farmer",
     "jpName": "用心深い農家",
     "cost": "(１)(緑/白)(緑/白)",
@@ -9023,7 +9023,7 @@ const MASTER_CARD_DATA = {
     "winRate": "54.9%",
     "tier": "C-"
   },
-  "Wistfulness": {
+  "wistfulness": {
     "enName": "Wistfulness",
     "jpName": "幽愁",
     "cost": "(３)(緑/青)(緑/青)",
@@ -9058,7 +9058,7 @@ const MASTER_CARD_DATA = {
     "winRate": "60.8%",
     "tier": "B+"
   },
-  "Chronicle of Victory": {
+  "chronicle of victory": {
     "enName": "Chronicle of Victory",
     "jpName": "勝利の年代記",
     "cost": "(６)",
@@ -9093,7 +9093,7 @@ const MASTER_CARD_DATA = {
     "winRate": "62.3%",
     "tier": "A-"
   },
-  "Dawn-Blessed Pennant": {
+  "dawn-blessed pennant": {
     "enName": "Dawn-Blessed Pennant",
     "jpName": "暁恵みの長旗",
     "cost": "(１)",
@@ -9128,7 +9128,7 @@ const MASTER_CARD_DATA = {
     "winRate": "53.7%",
     "tier": "C-"
   },
-  "Firdoch Core": {
+  "firdoch core": {
     "enName": "Firdoch Core",
     "jpName": "石人の核",
     "cost": "(３)",
@@ -9163,7 +9163,7 @@ const MASTER_CARD_DATA = {
     "winRate": "50.9%",
     "tier": "D-"
   },
-  "Foraging Wickermaw": {
+  "foraging wickermaw": {
     "enName": "Foraging Wickermaw",
     "jpName": "餌あさりの枝細工口",
     "cost": "(２)",
@@ -9198,7 +9198,7 @@ const MASTER_CARD_DATA = {
     "winRate": "53.8%",
     "tier": "C-"
   },
-  "Gathering Stone": {
+  "gathering stone": {
     "enName": "Gathering Stone",
     "jpName": "集合石",
     "cost": "(４)",
@@ -9233,7 +9233,7 @@ const MASTER_CARD_DATA = {
     "winRate": "58.4%",
     "tier": "B-"
   },
-  "Mirrormind Crown": {
+  "mirrormind crown": {
     "enName": "Mirrormind Crown",
     "jpName": "鏡心の王冠",
     "cost": "(４)",
@@ -9268,7 +9268,7 @@ const MASTER_CARD_DATA = {
     "winRate": "39.4%",
     "tier": "F"
   },
-  "Puca's Eye": {
+  "puca's eye": {
     "enName": "Puca's Eye",
     "jpName": "プーカの眼",
     "cost": "(２)",
@@ -9303,7 +9303,7 @@ const MASTER_CARD_DATA = {
     "winRate": "54.5%",
     "tier": "C-"
   },
-  "Springleaf Drum": {
+  "springleaf drum": {
     "enName": "Springleaf Drum",
     "jpName": "バネ葉の太鼓（ばねはのたいこ）",
     "cost": "(１)",
@@ -9338,7 +9338,7 @@ const MASTER_CARD_DATA = {
     "winRate": "49.9%",
     "tier": "F"
   },
-  "Stalactite Dagger": {
+  "stalactite dagger": {
     "enName": "Stalactite Dagger",
     "jpName": "鍾乳石の短剣",
     "cost": "(２)",
@@ -9373,7 +9373,7 @@ const MASTER_CARD_DATA = {
     "winRate": "51.3%",
     "tier": "D"
   },
-  "Blood Crypt": {
+  "blood crypt": {
     "enName": "Blood Crypt",
     "jpName": "血の墓所（ちのぼしょ）",
     "type": "土地 --- 沼(Swamp)・山(Mountain)",
@@ -9407,7 +9407,7 @@ const MASTER_CARD_DATA = {
     "winRate": "52.8%",
     "tier": "D+"
   },
-  "Eclipsed Realms": {
+  "eclipsed realms": {
     "enName": "Eclipsed Realms",
     "jpName": "蝕界",
     "type": "土地",
@@ -9441,7 +9441,7 @@ const MASTER_CARD_DATA = {
     "winRate": "53.6%",
     "tier": "D+"
   },
-  "Evolving Wilds": {
+  "evolving wilds": {
     "enName": "Evolving Wilds",
     "jpName": "進化する未開地（しんかするみかいち）",
     "type": "土地",
@@ -9475,7 +9475,7 @@ const MASTER_CARD_DATA = {
     "winRate": "54.5%",
     "tier": "C-"
   },
-  "Hallowed Fountain": {
+  "hallowed fountain": {
     "enName": "Hallowed Fountain",
     "jpName": "神聖なる泉（しんせいなるいずみ）",
     "type": "土地 --- 平地(Plains)・島(Island)",
@@ -9509,7 +9509,7 @@ const MASTER_CARD_DATA = {
     "winRate": "52.7%",
     "tier": "D+"
   },
-  "Overgrown Tomb": {
+  "overgrown tomb": {
     "enName": "Overgrown Tomb",
     "jpName": "草むした墓（くさむしたはか）",
     "type": "土地 --- 沼(Swamp)・森(Forest)",
@@ -9543,7 +9543,7 @@ const MASTER_CARD_DATA = {
     "winRate": "54.1%",
     "tier": "C-"
   },
-  "Steam Vents": {
+  "steam vents": {
     "enName": "Steam Vents",
     "jpName": "蒸気孔（じょうきこう）",
     "type": "土地 --- 島(Island)・山(Mountain)",
@@ -9577,7 +9577,7 @@ const MASTER_CARD_DATA = {
     "winRate": "52.7%",
     "tier": "D+"
   },
-  "Temple Garden": {
+  "temple garden": {
     "enName": "Temple Garden",
     "jpName": "寺院の庭（じいんのにわ）",
     "type": "土地 --- 森(Forest)・平地(Plains)",
@@ -9611,7 +9611,7 @@ const MASTER_CARD_DATA = {
     "winRate": "53.2%",
     "tier": "D+"
   },
-  "Plains": {
+  "plains": {
     "enName": "Plains",
     "jpName": "平地（へいち）",
     "type": "基本土地 --- 平地(Plains)",
@@ -9645,7 +9645,7 @@ const MASTER_CARD_DATA = {
     "winRate": "-",
     "tier": "U"
   },
-  "Island": {
+  "island": {
     "enName": "Island",
     "jpName": "島（しま）",
     "type": "基本土地 --- 島(Island)",
@@ -9679,7 +9679,7 @@ const MASTER_CARD_DATA = {
     "winRate": "-",
     "tier": "U"
   },
-  "Swamp": {
+  "swamp": {
     "enName": "Swamp",
     "jpName": "沼（ぬま）",
     "type": "基本土地 --- 沼(Swamp)",
@@ -9713,7 +9713,7 @@ const MASTER_CARD_DATA = {
     "winRate": "-",
     "tier": "U"
   },
-  "Mountain": {
+  "mountain": {
     "enName": "Mountain",
     "jpName": "山（やま）",
     "type": "基本土地 --- 山(Mountain)",
@@ -9747,7 +9747,7 @@ const MASTER_CARD_DATA = {
     "winRate": "-",
     "tier": "U"
   },
-  "Forest": {
+  "forest": {
     "enName": "Forest",
     "jpName": "森（もり）",
     "type": "基本土地 --- 森(Forest)",

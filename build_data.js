@@ -61,7 +61,7 @@ async function build() {
 
   const saveCurrentCard = () => {
     if (currentCard.enName) {
-      masterData[currentCard.enName] = { ...currentCard, fileName: null };
+      masterData[currentCard.enName.toLowerCase()] = { ...currentCard, fileName: null };
     }
   };
 
